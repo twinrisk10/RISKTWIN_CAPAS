@@ -1,0 +1,6863 @@
+{
+  "type": "FeatureCollection",
+  "generator": "overpass-turbo",
+  "copyright": "The data included in this document is from www.openstreetmap.org. The data is made available under ODbL.",
+  "timestamp": "2026-11-09T01:18:06Z",
+  "features": [
+    {
+      "type": "Feature",
+      "id": "way/28786783",
+      "properties": {
+        "@id": "way/28786783",
+        "alt_name": "3º Puente Perimetral",
+        "bridge": "yes",
+        "bridge:name": "3º Puente Perimetral",
+        "foot": "no",
+        "highway": "trunk",
+        "lanes": "3",
+        "layer": "1",
+        "maxspeed": "90",
+        "name": "Vía Perimetral",
+        "oneway": "yes",
+        "ref": "E40",
+        "surface": "asphalt"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -79.9455279,
+            -2.232293
+          ],
+          [
+            -79.948593,
+            -2.2314612
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "way/28786789",
+      "properties": {
+        "@id": "way/28786789",
+        "alt_name": "3º Puente Perimetral",
+        "bridge": "yes",
+        "bridge:name": "3º Puente Perimetral",
+        "foot": "no",
+        "highway": "trunk",
+        "lanes": "3",
+        "layer": "1",
+        "maxspeed": "90",
+        "maxweight:signed": "no",
+        "name": "Vía Perimetral",
+        "oneway": "yes",
+        "ref": "E40",
+        "surface": "asphalt"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -79.9486396,
+            -2.2316127
+          ],
+          [
+            -79.9455733,
+            -2.2324527
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "way/28786790",
+      "properties": {
+        "@id": "way/28786790",
+        "highway": "trunk",
+        "lanes": "3",
+        "maxspeed": "90",
+        "name": "Vía Perimetral",
+        "oneway": "yes",
+        "ref": "E40",
+        "surface": "asphalt"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -79.9455733,
+            -2.2324527
+          ],
+          [
+            -79.9448662,
+            -2.2326453
+          ],
+          [
+            -79.9443385,
+            -2.2327814
+          ],
+          [
+            -79.9441498,
+            -2.232827
+          ],
+          [
+            -79.9433833,
+            -2.2330291
+          ],
+          [
+            -79.9432202,
+            -2.2330689
+          ],
+          [
+            -79.9431791,
+            -2.2330778
+          ],
+          [
+            -79.9430881,
+            -2.2331017
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "way/28786799",
+      "properties": {
+        "@id": "way/28786799",
+        "highway": "trunk",
+        "lanes": "4",
+        "maxspeed": "90",
+        "name": "Vía Perimetral",
+        "oneway": "yes",
+        "ref": "E40",
+        "sidewalk:both": "yes",
+        "surface": "asphalt"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -79.9399078,
+            -2.2338152
+          ],
+          [
+            -79.9400824,
+            -2.2337656
+          ],
+          [
+            -79.9402454,
+            -2.2337193
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "way/28786801",
+      "properties": {
+        "@id": "way/28786801",
+        "alt_name": "Segundo Puente Perimetral",
+        "bridge": "yes",
+        "bridge:name": "2º Puente Perimetral",
+        "highway": "trunk",
+        "lanes": "3",
+        "layer": "1",
+        "maxspeed": "90",
+        "maxweight:signed": "no",
+        "name": "Vía Perimetral",
+        "oneway": "yes",
+        "ref": "E40",
+        "sidewalk:left": "no",
+        "sidewalk:right": "yes",
+        "surface": "asphalt"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -79.9377498,
+            -2.2343922
+          ],
+          [
+            -79.9399078,
+            -2.2338152
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "way/28786802",
+      "properties": {
+        "@id": "way/28786802",
+        "highway": "tertiary",
+        "lane_markings": "yes",
+        "lanes": "1",
+        "name": "Vía Perimetral",
+        "oneway": "yes",
+        "ref": "E40",
+        "surface": "asphalt"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -79.9362207,
+            -2.2349926
+          ],
+          [
+            -79.9357655,
+            -2.2351892
+          ],
+          [
+            -79.9352566,
+            -2.2353967
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "way/28786803",
+      "properties": {
+        "@id": "way/28786803",
+        "alt_name": "Segundo Puente Perimetral",
+        "bridge": "yes",
+        "bridge:name": "2º Puente Perimetral",
+        "highway": "trunk",
+        "lanes": "3",
+        "layer": "1",
+        "maxspeed": "90",
+        "maxweight:signed": "no",
+        "name": "Vía Perimetral",
+        "oneway": "yes",
+        "ref": "E40",
+        "sidewalk:both": "yes",
+        "surface": "asphalt"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -79.9399236,
+            -2.2339666
+          ],
+          [
+            -79.9377654,
+            -2.2345387
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "way/28786814",
+      "properties": {
+        "@id": "way/28786814",
+        "highway": "trunk",
+        "lanes": "3",
+        "maxspeed": "90",
+        "name": "Vía Perimetral",
+        "oneway": "yes",
+        "ref": "E40",
+        "surface": "asphalt"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -79.9142866,
+            -2.2394031
+          ],
+          [
+            -79.9151507,
+            -2.2395157
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "way/30527889",
+      "properties": {
+        "@id": "way/30527889",
+        "foot": "no",
+        "highway": "trunk",
+        "lanes": "4",
+        "maxspeed": "90",
+        "name": "Vía Perimetral",
+        "oneway": "yes",
+        "ref": "E40",
+        "road_shield_color": "blue",
+        "surface": "asphalt"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -79.955262,
+            -2.1873542
+          ],
+          [
+            -79.9548019,
+            -2.187042
+          ],
+          [
+            -79.9544295,
+            -2.1868137
+          ],
+          [
+            -79.9540572,
+            -2.1866069
+          ],
+          [
+            -79.9537045,
+            -2.1864398
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "way/30527891",
+      "properties": {
+        "@id": "way/30527891",
+        "highway": "trunk",
+        "lanes": "3",
+        "maxspeed": "90",
+        "name": "Vía Perimetral",
+        "oneway": "yes",
+        "ref": "E40",
+        "surface": "asphalt"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -79.9555222,
+            -2.1873091
+          ],
+          [
+            -79.955554,
+            -2.1873362
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "way/36818202",
+      "properties": {
+        "@id": "way/36818202",
+        "highway": "trunk",
+        "lanes": "3",
+        "maxspeed": "90",
+        "name": "Vía Perimetral",
+        "oneway": "yes",
+        "surface": "concrete"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -79.9232913,
+            -2.0779542
+          ],
+          [
+            -79.9214213,
+            -2.0762578
+          ],
+          [
+            -79.9199644,
+            -2.0749335
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "way/36818203",
+      "properties": {
+        "@id": "way/36818203",
+        "highway": "trunk",
+        "lanes": "3",
+        "maxspeed": "90",
+        "name": "Vía Perimetral",
+        "oneway": "yes",
+        "surface": "concrete"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -79.9200607,
+            -2.0748298
+          ],
+          [
+            -79.9215681,
+            -2.0761599
+          ],
+          [
+            -79.9227577,
+            -2.0772494
+          ],
+          [
+            -79.9234894,
+            -2.0778467
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "way/40278963",
+      "properties": {
+        "@id": "way/40278963",
+        "highway": "primary",
+        "lanes": "2",
+        "maxspeed": "40",
+        "name": "Vía Perimetral",
+        "oneway": "yes",
+        "ref": "E40",
+        "surface": "concrete"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -79.9232913,
+            -2.0779542
+          ],
+          [
+            -79.9230909,
+            -2.077854
+          ],
+          [
+            -79.9222003,
+            -2.0770957
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "way/45545519",
+      "properties": {
+        "@id": "way/45545519",
+        "bridge": "yes",
+        "highway": "trunk",
+        "lanes": "3",
+        "layer": "1",
+        "maxspeed": "90",
+        "name": "Vía Perimetral",
+        "oneway": "yes",
+        "ref": "E40",
+        "road_shield_color": "blue",
+        "surface": "asphalt"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -79.9480434,
+            -2.1562491
+          ],
+          [
+            -79.9478897,
+            -2.1558111
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "way/45545520",
+      "properties": {
+        "@id": "way/45545520",
+        "hgv": "no",
+        "highway": "trunk",
+        "lanes": "3",
+        "maxspeed": "90",
+        "name": "Vía Perimetral",
+        "oneway": "yes",
+        "ref": "E40",
+        "road_shield_color": "blue",
+        "surface": "asphalt"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -79.946888,
+            -2.1531483
+          ],
+          [
+            -79.946484,
+            -2.151843
+          ],
+          [
+            -79.9462753,
+            -2.1511031
+          ],
+          [
+            -79.9461261,
+            -2.1505395
+          ],
+          [
+            -79.945917,
+            -2.1495565
+          ],
+          [
+            -79.9458796,
+            -2.1492324
+          ],
+          [
+            -79.9457968,
+            -2.1485625
+          ],
+          [
+            -79.9457494,
+            -2.148072
+          ],
+          [
+            -79.9457139,
+            -2.147524
+          ],
+          [
+            -79.945702,
+            -2.1471822
+          ],
+          [
+            -79.9456492,
+            -2.1434603
+          ],
+          [
+            -79.9456483,
+            -2.1426216
+          ],
+          [
+            -79.9456443,
+            -2.1421861
+          ],
+          [
+            -79.945651,
+            -2.1417452
+          ],
+          [
+            -79.9456711,
+            -2.141445
+          ],
+          [
+            -79.945701,
+            -2.1411581
+          ],
+          [
+            -79.9457122,
+            -2.1408285
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "way/45545521",
+      "properties": {
+        "@id": "way/45545521",
+        "bridge": "yes",
+        "highway": "trunk",
+        "lanes": "3",
+        "layer": "1",
+        "maxspeed": "90",
+        "name": "Vía Perimetral",
+        "oneway": "yes",
+        "ref": "E40",
+        "road_shield_color": "blue",
+        "surface": "asphalt"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -79.9480794,
+            -2.1557706
+          ],
+          [
+            -79.9481885,
+            -2.1561124
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "way/45545522",
+      "properties": {
+        "@id": "way/45545522",
+        "foot": "no",
+        "highway": "trunk",
+        "lanes": "3",
+        "maxspeed": "90",
+        "name": "Vía Perimetral",
+        "oneway": "yes",
+        "ref": "E40",
+        "road_shield_color": "blue",
+        "surface": "asphalt"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -79.9481885,
+            -2.1561124
+          ],
+          [
+            -79.9483043,
+            -2.1564735
+          ],
+          [
+            -79.9488413,
+            -2.158093
+          ],
+          [
+            -79.9489529,
+            -2.1586334
+          ],
+          [
+            -79.9490302,
+            -2.1594653
+          ],
+          [
+            -79.9490333,
+            -2.1599433
+          ],
+          [
+            -79.9489958,
+            -2.160486
+          ],
+          [
+            -79.9489404,
+            -2.1608244
+          ],
+          [
+            -79.9488225,
+            -2.1615433
+          ],
+          [
+            -79.9485924,
+            -2.1629476
+          ],
+          [
+            -79.9483016,
+            -2.1645675
+          ],
+          [
+            -79.9480758,
+            -2.1656356
+          ],
+          [
+            -79.9479315,
+            -2.1661553
+          ],
+          [
+            -79.9476721,
+            -2.166803
+          ],
+          [
+            -79.9473564,
+            -2.1674811
+          ],
+          [
+            -79.9459883,
+            -2.1700542
+          ],
+          [
+            -79.9456523,
+            -2.1706858
+          ],
+          [
+            -79.9454311,
+            -2.1712192
+          ],
+          [
+            -79.9452138,
+            -2.1719027
+          ],
+          [
+            -79.945077,
+            -2.1725191
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "way/45895397",
+      "properties": {
+        "@id": "way/45895397",
+        "foot": "yes",
+        "highway": "trunk",
+        "lanes": "3",
+        "maxspeed": "90",
+        "name": "Vía Perimetral",
+        "oneway": "yes",
+        "ref": "E40",
+        "road_shield_color": "blue",
+        "surface": "asphalt"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -79.9423955,
+            -2.0837961
+          ],
+          [
+            -79.942735,
+            -2.0839513
+          ],
+          [
+            -79.9430834,
+            -2.0841269
+          ],
+          [
+            -79.9439061,
+            -2.0845742
+          ],
+          [
+            -79.9446368,
+            -2.0849852
+          ],
+          [
+            -79.9448674,
+            -2.0851269
+          ],
+          [
+            -79.9452547,
+            -2.085395
+          ],
+          [
+            -79.9455543,
+            -2.0856398
+          ],
+          [
+            -79.9459489,
+            -2.0859761
+          ],
+          [
+            -79.9464209,
+            -2.0865079
+          ],
+          [
+            -79.9466728,
+            -2.0868568
+          ],
+          [
+            -79.9467151,
+            -2.0869112
+          ],
+          [
+            -79.9469617,
+            -2.0872627
+          ],
+          [
+            -79.9471709,
+            -2.0876167
+          ],
+          [
+            -79.9474251,
+            -2.0881032
+          ],
+          [
+            -79.947784,
+            -2.089125
+          ],
+          [
+            -79.9479487,
+            -2.0897758
+          ],
+          [
+            -79.948026,
+            -2.0904706
+          ],
+          [
+            -79.9480603,
+            -2.0913884
+          ],
+          [
+            -79.9480648,
+            -2.0915541
+          ],
+          [
+            -79.9480444,
+            -2.0923225
+          ],
+          [
+            -79.9480371,
+            -2.0930041
+          ],
+          [
+            -79.9480142,
+            -2.0938477
+          ],
+          [
+            -79.9480141,
+            -2.0938809
+          ],
+          [
+            -79.9480146,
+            -2.0941841
+          ],
+          [
+            -79.9480095,
+            -2.0945813
+          ],
+          [
+            -79.9480029,
+            -2.0950959
+          ],
+          [
+            -79.9479927,
+            -2.0958885
+          ],
+          [
+            -79.9479913,
+            -2.0959764
+          ],
+          [
+            -79.9479809,
+            -2.0965845
+          ],
+          [
+            -79.9479814,
+            -2.0966066
+          ],
+          [
+            -79.9479775,
+            -2.096807
+          ],
+          [
+            -79.9479696,
+            -2.0977885
+          ],
+          [
+            -79.947969,
+            -2.0978592
+          ],
+          [
+            -79.9479654,
+            -2.0986592
+          ],
+          [
+            -79.9479384,
+            -2.100419
+          ],
+          [
+            -79.9479061,
+            -2.1029139
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "way/45895402",
+      "properties": {
+        "@id": "way/45895402",
+        "bridge": "yes",
+        "highway": "trunk",
+        "lanes": "4",
+        "layer": "1",
+        "maxaxleload": "3",
+        "maxspeed": "90",
+        "name": "Vía Perimetral",
+        "oneway": "yes",
+        "ref": "E40",
+        "road_shield_color": "blue",
+        "surface": "asphalt",
+        "turn:lanes": "through|through|through;right|right"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -79.9394094,
+            -2.0824711
+          ],
+          [
+            -79.9388464,
+            -2.0821779
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "way/45895403",
+      "properties": {
+        "@id": "way/45895403",
+        "bridge": "yes",
+        "highway": "trunk",
+        "lanes": "4",
+        "layer": "1",
+        "maxbogieweight": "5",
+        "maxspeed": "90",
+        "name": "Vía Perimetral",
+        "oneway": "yes",
+        "ref": "E40",
+        "road_shield_color": "blue",
+        "surface": "asphalt"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -79.9387496,
+            -2.0819344
+          ],
+          [
+            -79.9394192,
+            -2.0822749
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "way/46331088",
+      "properties": {
+        "@id": "way/46331088",
+        "highway": "secondary",
+        "name": "Vía Perimetral",
+        "source": "yahoo"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -79.9482379,
+            -2.1145558
+          ],
+          [
+            -79.9483166,
+            -2.1153896
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "way/121162604",
+      "properties": {
+        "@id": "way/121162604",
+        "foot": "no",
+        "highway": "trunk",
+        "lanes": "3",
+        "maxspeed": "90",
+        "name": "Vía Perimetral",
+        "oneway": "yes",
+        "ref": "E40",
+        "road_shield_color": "blue",
+        "surface": "asphalt"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -79.9538038,
+            -2.1862568
+          ],
+          [
+            -79.9541945,
+            -2.1864652
+          ],
+          [
+            -79.954681,
+            -2.1867277
+          ],
+          [
+            -79.9551441,
+            -2.1870361
+          ],
+          [
+            -79.9555222,
+            -2.1873091
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "way/150203186",
+      "properties": {
+        "@id": "way/150203186",
+        "foot": "yes",
+        "highway": "trunk",
+        "lanes": "3",
+        "maxheight": "30",
+        "maxheight:signed": "no",
+        "maxspeed": "90",
+        "name": "Vía Perimetral",
+        "oneway": "yes",
+        "ref": "E40",
+        "road_shield_color": "blue",
+        "sidewalk:both": "yes",
+        "surface": "asphalt"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -79.9337952,
+            -2.0796631
+          ],
+          [
+            -79.9330523,
+            -2.0794371
+          ],
+          [
+            -79.9324211,
+            -2.0792985
+          ],
+          [
+            -79.931848,
+            -2.0791929
+          ],
+          [
+            -79.9312767,
+            -2.0791489
+          ],
+          [
+            -79.9306658,
+            -2.079133
+          ],
+          [
+            -79.9295466,
+            -2.0791227
+          ],
+          [
+            -79.9283018,
+            -2.0791022
+          ],
+          [
+            -79.9269459,
+            -2.0790798
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "way/150203187",
+      "properties": {
+        "@id": "way/150203187",
+        "foot": "yes",
+        "highway": "trunk",
+        "lanes": "3",
+        "maxspeed": "90",
+        "name": "Vía Perimetral",
+        "oneway": "yes",
+        "ref": "E40",
+        "road_shield_color": "blue",
+        "surface": "asphalt"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -79.9237525,
+            -2.0780266
+          ],
+          [
+            -79.9239162,
+            -2.0781419
+          ],
+          [
+            -79.9240508,
+            -2.0782278
+          ],
+          [
+            -79.9246858,
+            -2.0785311
+          ],
+          [
+            -79.9247573,
+            -2.0785652
+          ],
+          [
+            -79.9254937,
+            -2.0787671
+          ],
+          [
+            -79.9259664,
+            -2.0788497
+          ],
+          [
+            -79.9264949,
+            -2.0788833
+          ],
+          [
+            -79.9269889,
+            -2.0789169
+          ],
+          [
+            -79.927219,
+            -2.0789206
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "way/150204998",
+      "properties": {
+        "@id": "way/150204998",
+        "highway": "secondary",
+        "lane_markings": "no",
+        "maxspeed": "60",
+        "name": "Vía Perimetral",
+        "oneway": "yes",
+        "sidewalk:both": "yes",
+        "surface": "asphalt"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -79.948341,
+            -2.1190721
+          ],
+          [
+            -79.9483054,
+            -2.1188505
+          ],
+          [
+            -79.9482772,
+            -2.1186972
+          ],
+          [
+            -79.9482268,
+            -2.1184229
+          ],
+          [
+            -79.9481661,
+            -2.1180926
+          ],
+          [
+            -79.9480442,
+            -2.117429
+          ],
+          [
+            -79.9479428,
+            -2.1165794
+          ],
+          [
+            -79.9478712,
+            -2.1159802
+          ],
+          [
+            -79.947868,
+            -2.1158512
+          ],
+          [
+            -79.9478635,
+            -2.1156692
+          ],
+          [
+            -79.9478483,
+            -2.115052
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "way/150205001",
+      "properties": {
+        "@id": "way/150205001",
+        "highway": "trunk",
+        "lanes": "3",
+        "maxspeed": "90",
+        "name": "Vía Perimetral",
+        "oneway": "yes",
+        "ref": "E40",
+        "road_shield_color": "blue",
+        "surface": "asphalt"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -79.9477042,
+            -2.1136987
+          ],
+          [
+            -79.9477018,
+            -2.1134714
+          ],
+          [
+            -79.9476984,
+            -2.1131582
+          ],
+          [
+            -79.9476941,
+            -2.1127638
+          ],
+          [
+            -79.9477145,
+            -2.1100474
+          ],
+          [
+            -79.9477234,
+            -2.1088685
+          ],
+          [
+            -79.9477268,
+            -2.108112
+          ],
+          [
+            -79.9477309,
+            -2.1077719
+          ],
+          [
+            -79.9477413,
+            -2.1070181
+          ],
+          [
+            -79.9477728,
+            -2.1032315
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "way/170123645",
+      "properties": {
+        "@id": "way/170123645",
+        "highway": "primary",
+        "lanes": "2",
+        "maxspeed": "80",
+        "name": "Vía Perimetral",
+        "oneway": "yes",
+        "source": "Bing",
+        "surface": "concrete"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -79.9201217,
+            -2.0747534
+          ],
+          [
+            -79.9203255,
+            -2.0749215
+          ],
+          [
+            -79.9204917,
+            -2.0750526
+          ],
+          [
+            -79.921621,
+            -2.0760929
+          ],
+          [
+            -79.9222594,
+            -2.0766826
+          ],
+          [
+            -79.9226544,
+            -2.077047
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "way/170262347",
+      "properties": {
+        "@id": "way/170262347",
+        "highway": "tertiary",
+        "lanes": "1",
+        "name": "Vía Perimetral",
+        "oneway": "yes",
+        "ref": "E40",
+        "surface": "asphalt"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -79.915896,
+            -2.2399575
+          ],
+          [
+            -79.9156946,
+            -2.2398767
+          ],
+          [
+            -79.9151214,
+            -2.2396728
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "way/170262349",
+      "properties": {
+        "@id": "way/170262349",
+        "highway": "residential",
+        "name": "Vía Perimetral",
+        "oneway": "no",
+        "surface": "concrete"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -79.9146589,
+            -2.2397587
+          ],
+          [
+            -79.9138415,
+            -2.2396361
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "way/170332013",
+      "properties": {
+        "@id": "way/170332013",
+        "highway": "residential",
+        "name": "Vía Perimetral",
+        "oneway": "yes",
+        "surface": "concrete"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -79.9138991,
+            -2.2391805
+          ],
+          [
+            -79.9140898,
+            -2.2392125
+          ],
+          [
+            -79.9147318,
+            -2.239315
+          ],
+          [
+            -79.9151111,
+            -2.2393756
+          ],
+          [
+            -79.9158738,
+            -2.2394974
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "way/170332019",
+      "properties": {
+        "@id": "way/170332019",
+        "highway": "tertiary",
+        "lanes": "1",
+        "maxspeed": "30",
+        "name": "Vía Perimetral",
+        "oneway": "yes",
+        "ref": "E40",
+        "surface": "asphalt"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -79.9151507,
+            -2.2395157
+          ],
+          [
+            -79.9155136,
+            -2.2394973
+          ],
+          [
+            -79.9158738,
+            -2.2394974
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "way/170332020",
+      "properties": {
+        "@id": "way/170332020",
+        "highway": "tertiary",
+        "lane_markings": "yes",
+        "lanes": "1",
+        "maxspeed": "30",
+        "name": "Vía Perimetral",
+        "oneway": "yes",
+        "ref": "E40",
+        "sidewalk:both": "yes",
+        "surface": "asphalt"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -79.9354013,
+            -2.2348668
+          ],
+          [
+            -79.9361687,
+            -2.2348336
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "way/170337023",
+      "properties": {
+        "@id": "way/170337023",
+        "bridge": "yes",
+        "highway": "trunk",
+        "lanes": "3",
+        "layer": "1",
+        "maxspeed": "90",
+        "name": "Vía Perimetral",
+        "oneway": "yes",
+        "ref": "E40",
+        "surface": "asphalt"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -79.95854,
+            -2.1959935
+          ],
+          [
+            -79.9584576,
+            -2.1962985
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "way/170337024",
+      "properties": {
+        "@id": "way/170337024",
+        "highway": "trunk",
+        "lanes": "3",
+        "lit": "yes",
+        "maxspeed": "90",
+        "name": "Vía Perimetral",
+        "oneway": "yes",
+        "ref": "E40",
+        "surface": "asphalt"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -79.9583757,
+            -2.1959539
+          ],
+          [
+            -79.9584222,
+            -2.1957348
+          ],
+          [
+            -79.9585843,
+            -2.1949486
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "way/170337025",
+      "properties": {
+        "@id": "way/170337025",
+        "bridge": "yes",
+        "highway": "trunk",
+        "lanes": "3",
+        "layer": "1",
+        "maxspeed": "90",
+        "name": "Vía Perimetral",
+        "oneway": "yes",
+        "ref": "E40",
+        "surface": "asphalt"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -79.9582899,
+            -2.1962521
+          ],
+          [
+            -79.9583757,
+            -2.1959539
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "way/170337026",
+      "properties": {
+        "@id": "way/170337026",
+        "highway": "trunk",
+        "lanes": "3",
+        "lit": "yes",
+        "maxspeed": "90",
+        "name": "Vía Perimetral",
+        "oneway": "yes",
+        "ref": "E40",
+        "surface": "asphalt"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -79.9563976,
+            -2.22562
+          ],
+          [
+            -79.9563171,
+            -2.2257821
+          ],
+          [
+            -79.9561047,
+            -2.2262
+          ],
+          [
+            -79.955712,
+            -2.2268555
+          ],
+          [
+            -79.9553902,
+            -2.2273334
+          ],
+          [
+            -79.9548581,
+            -2.2280109
+          ],
+          [
+            -79.9540255,
+            -2.2289029
+          ],
+          [
+            -79.9534097,
+            -2.2294416
+          ],
+          [
+            -79.9527981,
+            -2.2299064
+          ],
+          [
+            -79.9521287,
+            -2.2303009
+          ],
+          [
+            -79.9512446,
+            -2.230764
+          ],
+          [
+            -79.9505322,
+            -2.2310642
+          ],
+          [
+            -79.9500579,
+            -2.2312161
+          ],
+          [
+            -79.9495661,
+            -2.2313574
+          ],
+          [
+            -79.9486396,
+            -2.2316127
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "way/186301321",
+      "properties": {
+        "@id": "way/186301321",
+        "highway": "trunk",
+        "lanes": "3",
+        "maxspeed": "90",
+        "name": "Vía Perimetral",
+        "oneway": "yes",
+        "ref": "E40",
+        "road_shield_color": "blue",
+        "surface": "asphalt"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -79.9486974,
+            -2.1301148
+          ],
+          [
+            -79.9489681,
+            -2.1292417
+          ],
+          [
+            -79.949044,
+            -2.1289667
+          ],
+          [
+            -79.9492298,
+            -2.128298
+          ],
+          [
+            -79.9492964,
+            -2.1280126
+          ],
+          [
+            -79.9493866,
+            -2.1275337
+          ],
+          [
+            -79.9494714,
+            -2.127005
+          ],
+          [
+            -79.9495154,
+            -2.1265695
+          ],
+          [
+            -79.9495282,
+            -2.12616
+          ],
+          [
+            -79.9495301,
+            -2.1254304
+          ],
+          [
+            -79.9495194,
+            -2.1251848
+          ],
+          [
+            -79.9494438,
+            -2.1244153
+          ],
+          [
+            -79.9492984,
+            -2.1235709
+          ],
+          [
+            -79.9489436,
+            -2.1213898
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "way/266780653",
+      "properties": {
+        "@id": "way/266780653",
+        "highway": "trunk",
+        "lanes": "3",
+        "maxspeed": "90",
+        "name": "Vía Perimetral",
+        "oneway": "yes",
+        "ref": "E40",
+        "surface": "asphalt"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -79.9151214,
+            -2.2396728
+          ],
+          [
+            -79.91426,
+            -2.2395289
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "way/266780660",
+      "properties": {
+        "@id": "way/266780660",
+        "highway": "trunk",
+        "lanes": "3",
+        "maxspeed": "90",
+        "name": "Vía Perimetral",
+        "oneway": "yes",
+        "ref": "E40",
+        "surface": "asphalt"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -79.9151507,
+            -2.2395157
+          ],
+          [
+            -79.9167078,
+            -2.2397663
+          ],
+          [
+            -79.917084,
+            -2.2398208
+          ],
+          [
+            -79.9178253,
+            -2.2399057
+          ],
+          [
+            -79.918349,
+            -2.2399311
+          ],
+          [
+            -79.9187834,
+            -2.2399323
+          ],
+          [
+            -79.9190707,
+            -2.2399365
+          ],
+          [
+            -79.9194864,
+            -2.2399249
+          ],
+          [
+            -79.9199121,
+            -2.2398916
+          ],
+          [
+            -79.9203276,
+            -2.2398354
+          ],
+          [
+            -79.9206631,
+            -2.2397951
+          ],
+          [
+            -79.9209662,
+            -2.2397526
+          ],
+          [
+            -79.9213426,
+            -2.2396758
+          ],
+          [
+            -79.9220639,
+            -2.2394841
+          ],
+          [
+            -79.9229198,
+            -2.2392032
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "way/266780662",
+      "properties": {
+        "@id": "way/266780662",
+        "highway": "tertiary",
+        "maxspeed": "30",
+        "name": "Vía Perimetral",
+        "oneway": "yes",
+        "ref": "E40",
+        "surface": "asphalt"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -79.9212152,
+            -2.2395264
+          ],
+          [
+            -79.9217173,
+            -2.2393889
+          ],
+          [
+            -79.9226187,
+            -2.2391287
+          ],
+          [
+            -79.9231664,
+            -2.2389389
+          ],
+          [
+            -79.9235255,
+            -2.2388145
+          ],
+          [
+            -79.9235722,
+            -2.2387974
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "way/266780664",
+      "properties": {
+        "@id": "way/266780664",
+        "highway": "tertiary",
+        "lanes": "2",
+        "maxheight": "2",
+        "name": "Vía Perimetral",
+        "oneway": "yes",
+        "ref": "E40",
+        "surface": "asphalt"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -79.9246925,
+            -2.2389311
+          ],
+          [
+            -79.924576,
+            -2.2389707
+          ],
+          [
+            -79.9243431,
+            -2.2390566
+          ],
+          [
+            -79.9241654,
+            -2.2391222
+          ],
+          [
+            -79.9240524,
+            -2.2391585
+          ],
+          [
+            -79.9238761,
+            -2.2392151
+          ],
+          [
+            -79.9235741,
+            -2.2393256
+          ],
+          [
+            -79.9231224,
+            -2.2394779
+          ],
+          [
+            -79.9222097,
+            -2.2397689
+          ],
+          [
+            -79.922109,
+            -2.2397975
+          ],
+          [
+            -79.9215445,
+            -2.2399545
+          ],
+          [
+            -79.92098,
+            -2.2400642
+          ],
+          [
+            -79.9203267,
+            -2.2401742
+          ],
+          [
+            -79.9202186,
+            -2.2401852
+          ],
+          [
+            -79.919773,
+            -2.2402305
+          ],
+          [
+            -79.9188281,
+            -2.240268
+          ],
+          [
+            -79.918043,
+            -2.2402363
+          ],
+          [
+            -79.9169603,
+            -2.2401582
+          ],
+          [
+            -79.915896,
+            -2.2399575
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "way/266780665",
+      "properties": {
+        "@id": "way/266780665",
+        "highway": "residential",
+        "name": "Vía Perimetral",
+        "oneway": "yes",
+        "surface": "asphalt"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -79.915896,
+            -2.2399575
+          ],
+          [
+            -79.9146589,
+            -2.2397587
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "way/266782498",
+      "properties": {
+        "@id": "way/266782498",
+        "highway": "tertiary",
+        "lanes": "2",
+        "maxspeed": "30",
+        "name": "Vía Perimetral",
+        "oneway": "yes",
+        "ref": "E40",
+        "surface": "asphalt"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -79.9194894,
+            -2.2397869
+          ],
+          [
+            -79.9201542,
+            -2.2396865
+          ],
+          [
+            -79.9206953,
+            -2.2396048
+          ],
+          [
+            -79.9212152,
+            -2.2395264
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "way/266782501",
+      "properties": {
+        "@id": "way/266782501",
+        "highway": "tertiary",
+        "lanes": "1",
+        "maxspeed": "30",
+        "name": "Vía Perimetral",
+        "oneway": "yes",
+        "ref": "E40",
+        "surface": "asphalt"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -79.9179724,
+            -2.2397918
+          ],
+          [
+            -79.9184594,
+            -2.2398194
+          ],
+          [
+            -79.9189202,
+            -2.2398157
+          ],
+          [
+            -79.9194064,
+            -2.2397897
+          ],
+          [
+            -79.9194894,
+            -2.2397869
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "way/266782502",
+      "properties": {
+        "@id": "way/266782502",
+        "highway": "trunk",
+        "lanes": "3",
+        "maxspeed": "90",
+        "name": "Vía Perimetral",
+        "oneway": "yes",
+        "ref": "E40",
+        "surface": "asphalt"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -79.9408117,
+            -2.2335644
+          ],
+          [
+            -79.9428026,
+            -2.2330348
+          ],
+          [
+            -79.9428335,
+            -2.2330265
+          ],
+          [
+            -79.9430427,
+            -2.2329724
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "way/266782503",
+      "properties": {
+        "@id": "way/266782503",
+        "highway": "trunk",
+        "lanes": "3",
+        "maxspeed": "90",
+        "name": "Vía Perimetral",
+        "oneway": "yes",
+        "ref": "E40",
+        "surface": "asphalt"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -79.9422213,
+            -2.2333454
+          ],
+          [
+            -79.9402718,
+            -2.2338711
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "way/266782504",
+      "properties": {
+        "@id": "way/266782504",
+        "highway": "tertiary",
+        "lane_markings": "yes",
+        "lanes": "2",
+        "name": "Vía Perimetral",
+        "oneway": "yes",
+        "ref": "E40",
+        "surface": "asphalt"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -79.9352566,
+            -2.2353967
+          ],
+          [
+            -79.9344778,
+            -2.2356362
+          ],
+          [
+            -79.9342771,
+            -2.2356979
+          ],
+          [
+            -79.9332738,
+            -2.2360154
+          ],
+          [
+            -79.9322152,
+            -2.2363815
+          ],
+          [
+            -79.9313893,
+            -2.2366642
+          ],
+          [
+            -79.9302549,
+            -2.2370441
+          ],
+          [
+            -79.9301746,
+            -2.237071
+          ],
+          [
+            -79.9301509,
+            -2.2370789
+          ],
+          [
+            -79.9295657,
+            -2.2372743
+          ],
+          [
+            -79.9293218,
+            -2.2373558
+          ],
+          [
+            -79.9292489,
+            -2.2373869
+          ],
+          [
+            -79.9288838,
+            -2.2375072
+          ],
+          [
+            -79.928358,
+            -2.237689
+          ],
+          [
+            -79.9277186,
+            -2.2378951
+          ],
+          [
+            -79.9275611,
+            -2.2379487
+          ],
+          [
+            -79.9268167,
+            -2.2382039
+          ],
+          [
+            -79.9260645,
+            -2.2384726
+          ],
+          [
+            -79.9253422,
+            -2.238714
+          ],
+          [
+            -79.9249098,
+            -2.2388534
+          ],
+          [
+            -79.9246925,
+            -2.2389311
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "way/266826406",
+      "properties": {
+        "@id": "way/266826406",
+        "highway": "primary",
+        "lanes": "2",
+        "maxspeed": "60",
+        "name": "Vía Perimetral",
+        "oneway": "yes",
+        "ref": "E40",
+        "source": "Bing",
+        "surface": "concrete"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -79.9226544,
+            -2.077047
+          ],
+          [
+            -79.923044,
+            -2.0774233
+          ],
+          [
+            -79.9234068,
+            -2.0777281
+          ],
+          [
+            -79.9234894,
+            -2.0778467
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "way/291541004",
+      "properties": {
+        "@id": "way/291541004",
+        "highway": "primary",
+        "lanes": "2",
+        "maxspeed": "40",
+        "name": "Vía Perimetral",
+        "oneway": "yes",
+        "ref": "E40",
+        "surface": "concrete"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -79.9222003,
+            -2.0770957
+          ],
+          [
+            -79.9214198,
+            -2.0763716
+          ],
+          [
+            -79.9208405,
+            -2.0758543
+          ],
+          [
+            -79.9201517,
+            -2.0752459
+          ],
+          [
+            -79.9198933,
+            -2.0750075
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "way/388351711",
+      "properties": {
+        "@id": "way/388351711",
+        "highway": "trunk",
+        "lanes": "3",
+        "lit": "yes",
+        "maxspeed": "90",
+        "name": "Vía Perimetral",
+        "oneway": "yes",
+        "ref": "E40",
+        "surface": "asphalt"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -79.9561584,
+            -2.1878662
+          ],
+          [
+            -79.9564509,
+            -2.1881759
+          ],
+          [
+            -79.9567505,
+            -2.1884908
+          ],
+          [
+            -79.9569424,
+            -2.1887184
+          ],
+          [
+            -79.957289,
+            -2.1892022
+          ],
+          [
+            -79.9576023,
+            -2.1897082
+          ],
+          [
+            -79.9578808,
+            -2.190234
+          ],
+          [
+            -79.9580347,
+            -2.1903595
+          ],
+          [
+            -79.9583443,
+            -2.1913831
+          ],
+          [
+            -79.9585206,
+            -2.1920033
+          ],
+          [
+            -79.9586258,
+            -2.1924922
+          ],
+          [
+            -79.9587033,
+            -2.1929863
+          ],
+          [
+            -79.9587527,
+            -2.1934839
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "way/388351715",
+      "properties": {
+        "@id": "way/388351715",
+        "highway": "trunk",
+        "lanes": "4",
+        "maxspeed": "90",
+        "name": "Vía Perimetral",
+        "oneway": "yes",
+        "ref": "E40",
+        "surface": "asphalt"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -79.9558466,
+            -2.1878304
+          ],
+          [
+            -79.9558029,
+            -2.1877935
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "way/408439403",
+      "properties": {
+        "@id": "way/408439403",
+        "highway": "trunk",
+        "lanes": "3",
+        "maxspeed": "90",
+        "name": "Vía Perimetral",
+        "oneway": "yes",
+        "ref": "E40",
+        "surface": "asphalt"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -79.9289328,
+            -2.2373149
+          ],
+          [
+            -79.9285044,
+            -2.2374554
+          ],
+          [
+            -79.9248794,
+            -2.238699
+          ],
+          [
+            -79.9248584,
+            -2.2387078
+          ],
+          [
+            -79.9246776,
+            -2.2387673
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "way/419269295",
+      "properties": {
+        "@id": "way/419269295",
+        "highway": "secondary",
+        "lanes": "3",
+        "maxspeed": "60",
+        "name": "Vía Perimetral",
+        "oneway": "yes",
+        "sidewalk:both": "yes",
+        "surface": "asphalt"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -79.9486447,
+            -2.1208842
+          ],
+          [
+            -79.9485845,
+            -2.1205414
+          ],
+          [
+            -79.9484955,
+            -2.1200347
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "way/419269302",
+      "properties": {
+        "@id": "way/419269302",
+        "highway": "secondary",
+        "lanes": "3",
+        "maxspeed": "60",
+        "name": "Vía Perimetral",
+        "oneway": "yes",
+        "surface": "asphalt"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -79.9483101,
+            -2.1160805
+          ],
+          [
+            -79.9484337,
+            -2.1166591
+          ],
+          [
+            -79.9484931,
+            -2.1169512
+          ],
+          [
+            -79.9485566,
+            -2.1172631
+          ],
+          [
+            -79.9486184,
+            -2.117567
+          ],
+          [
+            -79.9486775,
+            -2.1179168
+          ],
+          [
+            -79.9487418,
+            -2.118258
+          ],
+          [
+            -79.9488412,
+            -2.1187921
+          ],
+          [
+            -79.9489265,
+            -2.1193452
+          ],
+          [
+            -79.9489525,
+            -2.1195126
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "way/419269309",
+      "properties": {
+        "@id": "way/419269309",
+        "destination:street": "Avenida Honorato Vasquez;Avenida 22 NO",
+        "highway": "secondary",
+        "maxspeed": "60",
+        "name": "Vía Perimetral",
+        "oneway": "yes",
+        "surface": "asphalt"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -79.9492984,
+            -2.1235709
+          ],
+          [
+            -79.9491836,
+            -2.1233465
+          ],
+          [
+            -79.9490944,
+            -2.1230312
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "way/419271675",
+      "properties": {
+        "@id": "way/419271675",
+        "highway": "trunk",
+        "lanes": "3",
+        "maxspeed": "90",
+        "name": "Vía Perimetral",
+        "oneway": "yes",
+        "ref": "E40",
+        "road_shield_color": "blue",
+        "surface": "asphalt"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -79.9479533,
+            -2.1147743
+          ],
+          [
+            -79.9481115,
+            -2.1158486
+          ],
+          [
+            -79.9485126,
+            -2.1182203
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "way/419271676",
+      "properties": {
+        "@id": "way/419271676",
+        "foot": "yes",
+        "highway": "trunk",
+        "lanes": "3",
+        "maxspeed": "90",
+        "name": "Vía Perimetral",
+        "oneway": "yes",
+        "ref": "E40",
+        "road_shield_color": "blue",
+        "surface": "asphalt"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -79.9494302,
+            -2.1235079
+          ],
+          [
+            -79.9495801,
+            -2.1244028
+          ],
+          [
+            -79.9496396,
+            -2.1251142
+          ],
+          [
+            -79.9496594,
+            -2.1255401
+          ],
+          [
+            -79.9496652,
+            -2.1261863
+          ],
+          [
+            -79.9496448,
+            -2.1265939
+          ],
+          [
+            -79.9495967,
+            -2.1270612
+          ],
+          [
+            -79.9495287,
+            -2.1275437
+          ],
+          [
+            -79.949476,
+            -2.1278613
+          ],
+          [
+            -79.9493603,
+            -2.1283672
+          ],
+          [
+            -79.9491706,
+            -2.1290417
+          ],
+          [
+            -79.948984,
+            -2.1296888
+          ],
+          [
+            -79.9488744,
+            -2.1300334
+          ],
+          [
+            -79.9487492,
+            -2.13044
+          ],
+          [
+            -79.9486219,
+            -2.1308534
+          ],
+          [
+            -79.9484717,
+            -2.1314074
+          ],
+          [
+            -79.9481059,
+            -2.1325201
+          ],
+          [
+            -79.947516,
+            -2.134402
+          ],
+          [
+            -79.9471808,
+            -2.1353991
+          ],
+          [
+            -79.9468828,
+            -2.1363208
+          ],
+          [
+            -79.9468519,
+            -2.1364201
+          ],
+          [
+            -79.9466093,
+            -2.1371756
+          ],
+          [
+            -79.9463969,
+            -2.1379749
+          ],
+          [
+            -79.9461759,
+            -2.1389242
+          ],
+          [
+            -79.9460657,
+            -2.1394629
+          ],
+          [
+            -79.9460111,
+            -2.1398457
+          ],
+          [
+            -79.94598,
+            -2.1401193
+          ],
+          [
+            -79.9458855,
+            -2.1406609
+          ],
+          [
+            -79.9458611,
+            -2.1410723
+          ],
+          [
+            -79.9458293,
+            -2.1414705
+          ],
+          [
+            -79.9458099,
+            -2.1417686
+          ],
+          [
+            -79.9457918,
+            -2.1422096
+          ],
+          [
+            -79.9457838,
+            -2.1427825
+          ],
+          [
+            -79.9458117,
+            -2.1442486
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "way/419271677",
+      "properties": {
+        "@id": "way/419271677",
+        "bridge": "yes",
+        "highway": "trunk",
+        "lanes": "3",
+        "layer": "1",
+        "maxspeed": "90",
+        "name": "Vía Perimetral",
+        "oneway": "yes",
+        "ref": "E40",
+        "road_shield_color": "blue",
+        "surface": "asphalt"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -79.9485735,
+            -2.1192188
+          ],
+          [
+            -79.9483953,
+            -2.1182281
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "way/419271679",
+      "properties": {
+        "@id": "way/419271679",
+        "highway": "secondary",
+        "maxspeed": "60",
+        "name": "Vía Perimetral",
+        "oneway": "yes",
+        "surface": "asphalt"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -79.9484393,
+            -2.1196847
+          ],
+          [
+            -79.9484084,
+            -2.1194835
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "way/425220047",
+      "properties": {
+        "@id": "way/425220047",
+        "highway": "secondary",
+        "lane_markings": "yes",
+        "name": "Vía Perimetral",
+        "source": "yahoo",
+        "surface": "asphalt"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -79.9482379,
+            -2.1145558
+          ],
+          [
+            -79.948235,
+            -2.1145362
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "way/425220053",
+      "properties": {
+        "@id": "way/425220053",
+        "highway": "secondary",
+        "name": "Vía Perimetral",
+        "source": "yahoo"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -79.9483166,
+            -2.1153896
+          ],
+          [
+            -79.9483349,
+            -2.115917
+          ],
+          [
+            -79.9483101,
+            -2.1160805
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "way/430840039",
+      "properties": {
+        "@id": "way/430840039",
+        "foot": "yes",
+        "highway": "trunk",
+        "lanes": "3",
+        "maxspeed": "90",
+        "name": "Vía Perimetral",
+        "oneway": "yes",
+        "ref": "E40",
+        "road_shield_color": "blue",
+        "sidewalk:both": "yes",
+        "surface": "asphalt"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -79.947814,
+            -2.0988469
+          ],
+          [
+            -79.9478495,
+            -2.0962151
+          ],
+          [
+            -79.9478573,
+            -2.0957377
+          ],
+          [
+            -79.9478438,
+            -2.0943138
+          ],
+          [
+            -79.9479179,
+            -2.0928018
+          ],
+          [
+            -79.9479207,
+            -2.0925596
+          ],
+          [
+            -79.9479342,
+            -2.0913755
+          ],
+          [
+            -79.9479031,
+            -2.0904904
+          ],
+          [
+            -79.9478128,
+            -2.0898214
+          ],
+          [
+            -79.9476073,
+            -2.089039
+          ],
+          [
+            -79.9472701,
+            -2.0881547
+          ],
+          [
+            -79.9470217,
+            -2.087682
+          ],
+          [
+            -79.9468237,
+            -2.0873495
+          ],
+          [
+            -79.9466097,
+            -2.0870268
+          ],
+          [
+            -79.9463502,
+            -2.0866813
+          ],
+          [
+            -79.9458373,
+            -2.0861219
+          ],
+          [
+            -79.9455716,
+            -2.0858725
+          ],
+          [
+            -79.9454446,
+            -2.0857521
+          ],
+          [
+            -79.9451602,
+            -2.0855362
+          ],
+          [
+            -79.9448342,
+            -2.0853049
+          ],
+          [
+            -79.9447086,
+            -2.0852222
+          ],
+          [
+            -79.9444038,
+            -2.0850269
+          ],
+          [
+            -79.9436647,
+            -2.0846128
+          ],
+          [
+            -79.9428071,
+            -2.0841867
+          ],
+          [
+            -79.9420359,
+            -2.0838036
+          ],
+          [
+            -79.9394657,
+            -2.0825008
+          ],
+          [
+            -79.9394094,
+            -2.0824711
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "way/430840040",
+      "properties": {
+        "@id": "way/430840040",
+        "bridge": "yes",
+        "highway": "trunk",
+        "lanes": "3",
+        "layer": "1",
+        "maxspeed": "80",
+        "name": "Vía Perimetral",
+        "oneway": "yes",
+        "ref": "E40",
+        "road_shield_color": "blue",
+        "surface": "asphalt"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -79.9477728,
+            -2.1032315
+          ],
+          [
+            -79.9477741,
+            -2.1029048
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "way/430840041",
+      "properties": {
+        "@id": "way/430840041",
+        "highway": "trunk",
+        "lanes": "3",
+        "maxheight": "40",
+        "maxspeed": "90",
+        "name": "Vía Perimetral",
+        "oneway": "yes",
+        "ref": "E40",
+        "road_shield_color": "blue",
+        "surface": "asphalt"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -79.9478976,
+            -2.1032491
+          ],
+          [
+            -79.9478984,
+            -2.1046535
+          ],
+          [
+            -79.9478839,
+            -2.1052889
+          ],
+          [
+            -79.9478664,
+            -2.1072459
+          ],
+          [
+            -79.9478108,
+            -2.1127731
+          ],
+          [
+            -79.9478255,
+            -2.1132186
+          ],
+          [
+            -79.9478316,
+            -2.1135103
+          ],
+          [
+            -79.9478416,
+            -2.1136973
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "way/430840042",
+      "properties": {
+        "@id": "way/430840042",
+        "bridge": "yes",
+        "highway": "trunk",
+        "lanes": "3",
+        "layer": "1",
+        "maxspeed": "90",
+        "name": "Vía Perimetral",
+        "oneway": "yes",
+        "ref": "E40",
+        "road_shield_color": "blue",
+        "surface": "asphalt"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -79.9479061,
+            -2.1029139
+          ],
+          [
+            -79.9478976,
+            -2.1032491
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "way/431088247",
+      "properties": {
+        "@id": "way/431088247",
+        "foot": "no",
+        "highway": "trunk",
+        "lanes": "3",
+        "maxspeed": "90",
+        "name": "Vía Perimetral",
+        "oneway": "yes",
+        "ref": "E40",
+        "road_shield_color": "blue",
+        "surface": "asphalt"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -79.9487392,
+            -2.1830873
+          ],
+          [
+            -79.9488043,
+            -2.1831797
+          ],
+          [
+            -79.949046,
+            -2.1835228
+          ],
+          [
+            -79.9495829,
+            -2.1841219
+          ],
+          [
+            -79.9501772,
+            -2.1846756
+          ],
+          [
+            -79.9506716,
+            -2.1850383
+          ],
+          [
+            -79.9512484,
+            -2.1853669
+          ],
+          [
+            -79.9517551,
+            -2.185565
+          ],
+          [
+            -79.9529294,
+            -2.1859235
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "way/431705586",
+      "properties": {
+        "@id": "way/431705586",
+        "highway": "trunk",
+        "lanes": "3",
+        "maxspeed": "90",
+        "name": "Vía Perimetral",
+        "oneway": "yes",
+        "ref": "E40",
+        "road_shield_color": "blue",
+        "surface": "asphalt"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -79.9490639,
+            -2.1213701
+          ],
+          [
+            -79.9494302,
+            -2.1235079
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "way/431705587",
+      "properties": {
+        "@id": "way/431705587",
+        "bridge": "yes",
+        "highway": "trunk",
+        "lanes": "3",
+        "layer": "1",
+        "maxspeed": "90",
+        "name": "Vía Perimetral",
+        "oneway": "yes",
+        "ref": "E40",
+        "road_shield_color": "blue",
+        "surface": "asphalt"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -79.9489436,
+            -2.1213898
+          ],
+          [
+            -79.9485735,
+            -2.1192188
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "way/431705588",
+      "properties": {
+        "@id": "way/431705588",
+        "bridge": "yes",
+        "highway": "trunk",
+        "lanes": "3",
+        "layer": "1",
+        "maxspeed": "90",
+        "name": "Vía Perimetral",
+        "oneway": "yes",
+        "ref": "E40",
+        "road_shield_color": "blue",
+        "surface": "asphalt"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -79.9485126,
+            -2.1182203
+          ],
+          [
+            -79.9486615,
+            -2.1190712
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "way/431706478",
+      "properties": {
+        "@id": "way/431706478",
+        "highway": "trunk",
+        "lanes": "3",
+        "maxspeed": "90",
+        "name": "Vía Perimetral",
+        "oneway": "yes",
+        "ref": "E40",
+        "road_shield_color": "blue",
+        "surface": "asphalt"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -79.9483953,
+            -2.1182281
+          ],
+          [
+            -79.9478483,
+            -2.115052
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "way/431949096",
+      "properties": {
+        "@id": "way/431949096",
+        "highway": "secondary",
+        "lanes": "2",
+        "maxspeed": "50",
+        "name": "Vía Perimetral",
+        "oneway": "yes",
+        "surface": "concrete"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -79.9482972,
+            -2.1033234
+          ],
+          [
+            -79.9482964,
+            -2.1034681
+          ],
+          [
+            -79.9481865,
+            -2.103909
+          ],
+          [
+            -79.9481274,
+            -2.1041876
+          ],
+          [
+            -79.9481054,
+            -2.104392
+          ],
+          [
+            -79.9480902,
+            -2.1046993
+          ],
+          [
+            -79.9480712,
+            -2.1051678
+          ],
+          [
+            -79.9480169,
+            -2.10684
+          ],
+          [
+            -79.9479971,
+            -2.1074495
+          ],
+          [
+            -79.9479926,
+            -2.107608
+          ],
+          [
+            -79.9479979,
+            -2.1084436
+          ],
+          [
+            -79.9479973,
+            -2.1084865
+          ],
+          [
+            -79.9479929,
+            -2.1087727
+          ],
+          [
+            -79.9479921,
+            -2.1091423
+          ],
+          [
+            -79.9479578,
+            -2.1103696
+          ],
+          [
+            -79.9479562,
+            -2.1104472
+          ],
+          [
+            -79.9479554,
+            -2.1105872
+          ],
+          [
+            -79.947951,
+            -2.1113187
+          ],
+          [
+            -79.9479507,
+            -2.1116353
+          ],
+          [
+            -79.9479501,
+            -2.1121408
+          ],
+          [
+            -79.9479647,
+            -2.112394
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "way/431991944",
+      "properties": {
+        "@id": "way/431991944",
+        "highway": "tertiary",
+        "lane_markings": "yes",
+        "lanes": "2",
+        "maxspeed": "30",
+        "name": "Vía Perimetral",
+        "oneway": "yes",
+        "ref": "E40",
+        "sidewalk:both": "yes",
+        "surface": "asphalt"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -79.9246545,
+            -2.2384273
+          ],
+          [
+            -79.9247458,
+            -2.2383941
+          ],
+          [
+            -79.9254212,
+            -2.238129
+          ],
+          [
+            -79.9261878,
+            -2.237896
+          ],
+          [
+            -79.9266769,
+            -2.2377328
+          ],
+          [
+            -79.9271374,
+            -2.2375803
+          ],
+          [
+            -79.9274547,
+            -2.2374827
+          ],
+          [
+            -79.9276676,
+            -2.2374194
+          ],
+          [
+            -79.9278279,
+            -2.2373858
+          ],
+          [
+            -79.9287833,
+            -2.2370343
+          ],
+          [
+            -79.9292924,
+            -2.2368597
+          ],
+          [
+            -79.9293372,
+            -2.2368451
+          ],
+          [
+            -79.930094,
+            -2.2365883
+          ],
+          [
+            -79.9306008,
+            -2.2364181
+          ],
+          [
+            -79.93223,
+            -2.2358669
+          ],
+          [
+            -79.9326167,
+            -2.235736
+          ],
+          [
+            -79.9331369,
+            -2.2355599
+          ],
+          [
+            -79.9341474,
+            -2.2352414
+          ],
+          [
+            -79.9342734,
+            -2.2352018
+          ],
+          [
+            -79.9346614,
+            -2.2350893
+          ],
+          [
+            -79.935176,
+            -2.2349365
+          ],
+          [
+            -79.9354013,
+            -2.2348668
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "way/431991945",
+      "properties": {
+        "@id": "way/431991945",
+        "highway": "trunk",
+        "lanes": "3",
+        "maxspeed": "90",
+        "name": "Vía Perimetral",
+        "oneway": "yes",
+        "ref": "E40",
+        "surface": "asphalt"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -79.9246588,
+            -2.2385949
+          ],
+          [
+            -79.924804,
+            -2.2385534
+          ],
+          [
+            -79.9281999,
+            -2.2374403
+          ],
+          [
+            -79.9330026,
+            -2.2357974
+          ],
+          [
+            -79.9352727,
+            -2.2350876
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "way/431991947",
+      "properties": {
+        "@id": "way/431991947",
+        "highway": "trunk",
+        "lanes": "3",
+        "maxheight": "60",
+        "maxspeed": "90",
+        "name": "Vía Perimetral",
+        "oneway": "yes",
+        "ref": "E40",
+        "surface": "asphalt"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -79.9246776,
+            -2.2387673
+          ],
+          [
+            -79.9245299,
+            -2.2388216
+          ],
+          [
+            -79.9229696,
+            -2.2393675
+          ],
+          [
+            -79.9221297,
+            -2.2396283
+          ],
+          [
+            -79.92153,
+            -2.2397835
+          ],
+          [
+            -79.9210398,
+            -2.2398976
+          ],
+          [
+            -79.9206878,
+            -2.2399506
+          ],
+          [
+            -79.9203284,
+            -2.2399967
+          ],
+          [
+            -79.9197695,
+            -2.2400654
+          ],
+          [
+            -79.9187993,
+            -2.2400984
+          ],
+          [
+            -79.9180434,
+            -2.2400854
+          ],
+          [
+            -79.9174812,
+            -2.2400386
+          ],
+          [
+            -79.9170091,
+            -2.2399817
+          ],
+          [
+            -79.9151214,
+            -2.2396728
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "way/432208851",
+      "properties": {
+        "@id": "way/432208851",
+        "highway": "tertiary",
+        "maxspeed": "30",
+        "name": "Vía Perimetral",
+        "oneway": "yes",
+        "ref": "E40",
+        "surface": "concrete"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -79.9158738,
+            -2.2394974
+          ],
+          [
+            -79.9159741,
+            -2.2395094
+          ],
+          [
+            -79.9171887,
+            -2.2396935
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "way/432243199",
+      "properties": {
+        "@id": "way/432243199",
+        "foot": "no",
+        "highway": "trunk",
+        "lanes": "3",
+        "maxspeed": "90",
+        "name": "Vía Perimetral",
+        "oneway": "yes",
+        "ref": "E40",
+        "road_shield_color": "blue",
+        "surface": "asphalt"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -79.9537045,
+            -2.1864398
+          ],
+          [
+            -79.95331,
+            -2.1862703
+          ],
+          [
+            -79.952946,
+            -2.1861288
+          ],
+          [
+            -79.952492,
+            -2.1859687
+          ],
+          [
+            -79.9521389,
+            -2.1858574
+          ],
+          [
+            -79.951656,
+            -2.1857066
+          ],
+          [
+            -79.9511847,
+            -2.1855147
+          ],
+          [
+            -79.9505614,
+            -2.1851714
+          ],
+          [
+            -79.950052,
+            -2.1847823
+          ],
+          [
+            -79.9494712,
+            -2.1842654
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "way/432243200",
+      "properties": {
+        "@id": "way/432243200",
+        "foot": "no",
+        "highway": "trunk",
+        "lanes": "3",
+        "maxspeed": "90",
+        "name": "Vía Perimetral",
+        "oneway": "yes",
+        "ref": "E40",
+        "road_shield_color": "blue",
+        "surface": "asphalt"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -79.9478862,
+            -2.1817709
+          ],
+          [
+            -79.9468298,
+            -2.1795281
+          ],
+          [
+            -79.9457257,
+            -2.1773053
+          ],
+          [
+            -79.9454465,
+            -2.1767051
+          ],
+          [
+            -79.9451954,
+            -2.1760467
+          ],
+          [
+            -79.9450099,
+            -2.1753978
+          ],
+          [
+            -79.9449241,
+            -2.1749609
+          ],
+          [
+            -79.944816,
+            -2.1741068
+          ],
+          [
+            -79.9448004,
+            -2.1733859
+          ],
+          [
+            -79.9448502,
+            -2.1728625
+          ],
+          [
+            -79.9449185,
+            -2.1724751
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "way/432243201",
+      "properties": {
+        "@id": "way/432243201",
+        "foot": "no",
+        "highway": "trunk",
+        "lanes": "3",
+        "maxspeed": "90",
+        "name": "Vía Perimetral",
+        "oneway": "yes",
+        "ref": "E40",
+        "road_shield_color": "blue",
+        "surface": "asphalt"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -79.9449185,
+            -2.1724751
+          ],
+          [
+            -79.9450341,
+            -2.1719697
+          ],
+          [
+            -79.9451575,
+            -2.171506
+          ],
+          [
+            -79.945305,
+            -2.1711066
+          ],
+          [
+            -79.9455295,
+            -2.1705931
+          ],
+          [
+            -79.9458029,
+            -2.1699978
+          ],
+          [
+            -79.9471827,
+            -2.1674471
+          ],
+          [
+            -79.947534,
+            -2.1667137
+          ],
+          [
+            -79.9477861,
+            -2.1660979
+          ],
+          [
+            -79.9479381,
+            -2.1655977
+          ],
+          [
+            -79.9481547,
+            -2.1645343
+          ],
+          [
+            -79.9488413,
+            -2.1605374
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "way/432243202",
+      "properties": {
+        "@id": "way/432243202",
+        "foot": "no",
+        "highway": "trunk",
+        "lanes": "3",
+        "maxspeed": "90",
+        "name": "Vía Perimetral",
+        "oneway": "yes",
+        "ref": "E40",
+        "road_shield_color": "blue",
+        "surface": "asphalt"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -79.945077,
+            -2.1725191
+          ],
+          [
+            -79.945018,
+            -2.1729212
+          ],
+          [
+            -79.9449831,
+            -2.1733098
+          ],
+          [
+            -79.9449697,
+            -2.1738164
+          ],
+          [
+            -79.9450073,
+            -2.1744141
+          ],
+          [
+            -79.9450609,
+            -2.1748617
+          ],
+          [
+            -79.9451172,
+            -2.1751753
+          ],
+          [
+            -79.9452299,
+            -2.175647
+          ],
+          [
+            -79.9454123,
+            -2.1761643
+          ],
+          [
+            -79.945869,
+            -2.1772253
+          ],
+          [
+            -79.9469358,
+            -2.179378
+          ],
+          [
+            -79.9474467,
+            -2.1804192
+          ],
+          [
+            -79.947918,
+            -2.1814629
+          ],
+          [
+            -79.9480629,
+            -2.1817557
+          ],
+          [
+            -79.9484385,
+            -2.1825144
+          ],
+          [
+            -79.9487392,
+            -2.1830873
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "way/433070581",
+      "properties": {
+        "@id": "way/433070581",
+        "alt_name": "Calle 48",
+        "highway": "residential",
+        "name": "Vía Perimetral",
+        "oneway": "yes"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -79.9431027,
+            -2.2331473
+          ],
+          [
+            -79.9429079,
+            -2.2332
+          ],
+          [
+            -79.9428215,
+            -2.2332233
+          ],
+          [
+            -79.9423949,
+            -2.2333387
+          ],
+          [
+            -79.9421482,
+            -2.2334054
+          ],
+          [
+            -79.941099,
+            -2.2336918
+          ],
+          [
+            -79.940543,
+            -2.2338394
+          ],
+          [
+            -79.9403888,
+            -2.2338712
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "way/433080796",
+      "properties": {
+        "@id": "way/433080796",
+        "highway": "trunk",
+        "lanes": "3",
+        "maxspeed": "80",
+        "name": "Vía Perimetral",
+        "oneway": "yes",
+        "ref": "E40",
+        "surface": "asphalt"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -79.9352727,
+            -2.2350876
+          ],
+          [
+            -79.9361687,
+            -2.2348336
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "way/433080797",
+      "properties": {
+        "@id": "way/433080797",
+        "access": "yes",
+        "highway": "trunk",
+        "lanes": "3",
+        "lit": "yes",
+        "maxspeed": "90",
+        "name": "Vía Perimetral",
+        "oneway": "yes",
+        "ref": "E40",
+        "surface": "asphalt"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -79.9561572,
+            -2.2134173
+          ],
+          [
+            -79.9556735,
+            -2.2103774
+          ],
+          [
+            -79.9555492,
+            -2.2094338
+          ],
+          [
+            -79.9554846,
+            -2.2086535
+          ],
+          [
+            -79.9554228,
+            -2.2076991
+          ],
+          [
+            -79.9555248,
+            -2.206929
+          ],
+          [
+            -79.9555939,
+            -2.2063653
+          ],
+          [
+            -79.9556821,
+            -2.2056345
+          ],
+          [
+            -79.955991,
+            -2.2042622
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "way/433080798",
+      "properties": {
+        "@id": "way/433080798",
+        "highway": "trunk",
+        "lanes": "3",
+        "lit": "yes",
+        "maxspeed": "90",
+        "name": "Vía Perimetral",
+        "oneway": "yes",
+        "ref": "E40",
+        "surface": "asphalt"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -79.9585843,
+            -2.1949486
+          ],
+          [
+            -79.958625,
+            -2.1942231
+          ],
+          [
+            -79.9586067,
+            -2.1934941
+          ],
+          [
+            -79.9585251,
+            -2.1927635
+          ],
+          [
+            -79.9584953,
+            -2.1925383
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "way/433080799",
+      "properties": {
+        "@id": "way/433080799",
+        "highway": "trunk",
+        "lanes": "3",
+        "lit": "yes",
+        "maxspeed": "90",
+        "name": "Vía Perimetral",
+        "oneway": "yes",
+        "ref": "E40",
+        "surface": "asphalt"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -79.9584953,
+            -2.1925383
+          ],
+          [
+            -79.9584237,
+            -2.1921572
+          ],
+          [
+            -79.9583331,
+            -2.1917801
+          ],
+          [
+            -79.9582237,
+            -2.191408
+          ],
+          [
+            -79.9580958,
+            -2.1910418
+          ],
+          [
+            -79.9579497,
+            -2.1906825
+          ],
+          [
+            -79.9579178,
+            -2.1906103
+          ],
+          [
+            -79.9577491,
+            -2.1902578
+          ],
+          [
+            -79.9575627,
+            -2.1899143
+          ],
+          [
+            -79.9573593,
+            -2.1895806
+          ],
+          [
+            -79.9571393,
+            -2.1892576
+          ],
+          [
+            -79.9569033,
+            -2.1889461
+          ],
+          [
+            -79.9566519,
+            -2.1886469
+          ],
+          [
+            -79.9563857,
+            -2.1883607
+          ],
+          [
+            -79.9561054,
+            -2.1880883
+          ],
+          [
+            -79.9558466,
+            -2.1878304
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "way/492150911",
+      "properties": {
+        "@id": "way/492150911",
+        "highway": "trunk",
+        "lanes": "4",
+        "maxspeed": "90",
+        "name": "Vía Perimetral",
+        "oneway": "yes",
+        "ref": "E40",
+        "road_shield_color": "blue",
+        "surface": "asphalt"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -79.9373816,
+            -2.0812388
+          ],
+          [
+            -79.9387496,
+            -2.0819344
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "way/492207938",
+      "properties": {
+        "@id": "way/492207938",
+        "highway": "trunk",
+        "lanes": "4",
+        "maxspeed": "90",
+        "name": "Vía Perimetral",
+        "oneway": "yes",
+        "ref": "E40",
+        "road_shield_color": "blue",
+        "surface": "asphalt",
+        "turn:lanes": "through|through|through;right|right"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -79.9342763,
+            -2.0796855
+          ],
+          [
+            -79.9345234,
+            -2.0798052
+          ],
+          [
+            -79.9353127,
+            -2.0801812
+          ],
+          [
+            -79.9353848,
+            -2.0802171
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "way/492207939",
+      "properties": {
+        "@id": "way/492207939",
+        "highway": "trunk",
+        "lanes": "3",
+        "maxspeed": "90",
+        "name": "Vía Perimetral",
+        "oneway": "yes",
+        "ref": "E40",
+        "road_shield_color": "blue",
+        "surface": "asphalt"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -79.9353848,
+            -2.0802171
+          ],
+          [
+            -79.9373816,
+            -2.0812388
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "way/519871699",
+      "properties": {
+        "@id": "way/519871699",
+        "highway": "trunk",
+        "lanes": "3",
+        "maxspeed": "90",
+        "name": "Vía Perimetral",
+        "oneway": "yes",
+        "ref": "E40",
+        "surface": "asphalt"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -79.9229198,
+            -2.2392032
+          ],
+          [
+            -79.9241424,
+            -2.2387845
+          ],
+          [
+            -79.9244748,
+            -2.2386572
+          ],
+          [
+            -79.9246588,
+            -2.2385949
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "way/527513691",
+      "properties": {
+        "@id": "way/527513691",
+        "foot": "no",
+        "highway": "trunk",
+        "lanes": "3",
+        "maxspeed": "90",
+        "name": "Vía Perimetral",
+        "oneway": "yes",
+        "ref": "E40",
+        "road_shield_color": "blue",
+        "surface": "asphalt"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -79.9529294,
+            -2.1859235
+          ],
+          [
+            -79.9534061,
+            -2.1860839
+          ],
+          [
+            -79.9538038,
+            -2.1862568
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "way/531702528",
+      "properties": {
+        "@id": "way/531702528",
+        "highway": "trunk",
+        "lanes": "3",
+        "maxspeed": "90",
+        "name": "Vía Perimetral",
+        "oneway": "yes",
+        "ref": "E40",
+        "road_shield_color": "blue",
+        "surface": "asphalt"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -79.9478897,
+            -2.1558111
+          ],
+          [
+            -79.9476502,
+            -2.1551567
+          ],
+          [
+            -79.946888,
+            -2.1531483
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "way/531702529",
+      "properties": {
+        "@id": "way/531702529",
+        "foot": "no",
+        "highway": "trunk",
+        "lanes": "4",
+        "maxspeed": "90",
+        "name": "Vía Perimetral",
+        "oneway": "yes",
+        "ref": "E40",
+        "road_shield_color": "blue",
+        "surface": "asphalt"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -79.9482085,
+            -2.1567876
+          ],
+          [
+            -79.948189,
+            -2.1567238
+          ],
+          [
+            -79.9480434,
+            -2.1562491
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "way/535264240",
+      "properties": {
+        "@id": "way/535264240",
+        "highway": "trunk",
+        "lanes": "4",
+        "maxspeed": "90",
+        "name": "Vía Perimetral",
+        "oneway": "yes",
+        "ref": "E40",
+        "surface": "asphalt"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -79.9338428,
+            -2.2357089
+          ],
+          [
+            -79.9330453,
+            -2.2359555
+          ],
+          [
+            -79.9289328,
+            -2.2373149
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "way/535264241",
+      "properties": {
+        "@id": "way/535264241",
+        "highway": "trunk",
+        "lanes": "3",
+        "maxspeed": "90",
+        "name": "Vía Perimetral",
+        "oneway": "yes",
+        "ref": "E40",
+        "sidewalk:right": "separate",
+        "surface": "asphalt"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -79.9377654,
+            -2.2345387
+          ],
+          [
+            -79.9373957,
+            -2.2346486
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "way/535264242",
+      "properties": {
+        "@id": "way/535264242",
+        "highway": "trunk",
+        "lanes": "3",
+        "lit": "yes",
+        "maxspeed": "90",
+        "name": "Vía Perimetral",
+        "oneway": "yes",
+        "ref": "E40",
+        "surface": "asphalt"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -79.9584576,
+            -2.1962985
+          ],
+          [
+            -79.9579558,
+            -2.198085
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "way/535264243",
+      "properties": {
+        "@id": "way/535264243",
+        "access": "yes",
+        "foot": "no",
+        "hgv": "no",
+        "highway": "trunk",
+        "lanes": "3",
+        "maxspeed": "90",
+        "motor_vehicle": "yes",
+        "name": "Vía Perimetral",
+        "oneway": "yes",
+        "ref": "E40",
+        "road_shield_color": "blue",
+        "surface": "asphalt"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -79.9458153,
+            -2.1444403
+          ],
+          [
+            -79.9458533,
+            -2.1471661
+          ],
+          [
+            -79.9458687,
+            -2.1475103
+          ],
+          [
+            -79.9459084,
+            -2.1480502
+          ],
+          [
+            -79.9459617,
+            -2.1485382
+          ],
+          [
+            -79.9459983,
+            -2.148849
+          ],
+          [
+            -79.9460488,
+            -2.1492611
+          ],
+          [
+            -79.9461292,
+            -2.1496771
+          ],
+          [
+            -79.9462391,
+            -2.1502998
+          ],
+          [
+            -79.9462697,
+            -2.1504612
+          ],
+          [
+            -79.9464222,
+            -2.1510557
+          ],
+          [
+            -79.9464557,
+            -2.151162
+          ],
+          [
+            -79.9468072,
+            -2.1522778
+          ],
+          [
+            -79.9470663,
+            -2.1531058
+          ],
+          [
+            -79.9479545,
+            -2.1553473
+          ],
+          [
+            -79.9480794,
+            -2.1557706
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "way/535501909",
+      "properties": {
+        "@id": "way/535501909",
+        "foot": "no",
+        "highway": "trunk",
+        "lanes": "3",
+        "maxspeed": "90",
+        "name": "Vía Perimetral",
+        "oneway": "yes",
+        "ref": "E40",
+        "road_shield_color": "blue",
+        "surface": "asphalt"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -79.9494712,
+            -2.1842654
+          ],
+          [
+            -79.9491607,
+            -2.183925
+          ],
+          [
+            -79.9489685,
+            -2.1836972
+          ],
+          [
+            -79.9485858,
+            -2.1831561
+          ],
+          [
+            -79.9482673,
+            -2.1825839
+          ],
+          [
+            -79.9479604,
+            -2.1819148
+          ],
+          [
+            -79.9478862,
+            -2.1817709
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "way/535581768",
+      "properties": {
+        "@id": "way/535581768",
+        "foot": "yes",
+        "highway": "trunk",
+        "lanes": "4",
+        "maxspeed": "90",
+        "name": "Vía Perimetral",
+        "oneway": "yes",
+        "ref": "E40",
+        "road_shield_color": "blue",
+        "surface": "asphalt"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -79.9269459,
+            -2.0790798
+          ],
+          [
+            -79.9267475,
+            -2.0790687
+          ],
+          [
+            -79.9262797,
+            -2.0790425
+          ],
+          [
+            -79.9257786,
+            -2.0789941
+          ],
+          [
+            -79.9254279,
+            -2.0789312
+          ],
+          [
+            -79.9247747,
+            -2.0787438
+          ],
+          [
+            -79.9242886,
+            -2.0785678
+          ],
+          [
+            -79.9237574,
+            -2.0782885
+          ],
+          [
+            -79.9234489,
+            -2.078083
+          ],
+          [
+            -79.9232913,
+            -2.0779542
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "way/535581771",
+      "properties": {
+        "@id": "way/535581771",
+        "highway": "trunk",
+        "lanes": "4",
+        "maxspeed": "90",
+        "name": "Vía Perimetral",
+        "oneway": "yes",
+        "ref": "E40",
+        "road_shield_color": "blue",
+        "surface": "asphalt"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -79.936245,
+            -2.0808428
+          ],
+          [
+            -79.9360345,
+            -2.0807371
+          ],
+          [
+            -79.9352413,
+            -2.0803388
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "way/535605933",
+      "properties": {
+        "@id": "way/535605933",
+        "highway": "trunk",
+        "lanes": "4",
+        "maxspeed": "90",
+        "name": "Vía Perimetral",
+        "oneway": "yes",
+        "ref": "E40",
+        "road_shield_color": "blue",
+        "surface": "asphalt"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -79.9478416,
+            -2.1136973
+          ],
+          [
+            -79.9479055,
+            -2.1144283
+          ],
+          [
+            -79.9479533,
+            -2.1147743
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "way/535605945",
+      "properties": {
+        "@id": "way/535605945",
+        "highway": "trunk",
+        "lanes": "4",
+        "maxspeed": "90",
+        "name": "Vía Perimetral",
+        "oneway": "yes",
+        "ref": "E40",
+        "road_shield_color": "blue",
+        "surface": "asphalt",
+        "turn:lanes": "|||merge_to_left"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -79.9417499,
+            -2.0834664
+          ],
+          [
+            -79.9423955,
+            -2.0837961
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "way/535605947",
+      "properties": {
+        "@id": "way/535605947",
+        "highway": "trunk",
+        "lanes": "3",
+        "maxspeed": "90",
+        "name": "Vía Perimetral",
+        "oneway": "yes",
+        "ref": "E40",
+        "road_shield_color": "blue",
+        "surface": "asphalt"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -79.9394192,
+            -2.0822749
+          ],
+          [
+            -79.9394404,
+            -2.0822857
+          ],
+          [
+            -79.9417499,
+            -2.0834664
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "way/537416187",
+      "properties": {
+        "@id": "way/537416187",
+        "highway": "trunk",
+        "lanes": "4",
+        "maxspeed": "90",
+        "name": "Vía Perimetral",
+        "oneway": "yes",
+        "ref": "E40",
+        "road_shield_color": "blue",
+        "surface": "asphalt"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -79.9477971,
+            -2.0995589
+          ],
+          [
+            -79.9477999,
+            -2.0994422
+          ],
+          [
+            -79.9478046,
+            -2.0992452
+          ],
+          [
+            -79.9478104,
+            -2.0990001
+          ],
+          [
+            -79.947814,
+            -2.0988469
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "way/537416188",
+      "properties": {
+        "@id": "way/537416188",
+        "highway": "trunk",
+        "lanes": "3",
+        "maxspeed": "90",
+        "name": "Vía Perimetral",
+        "oneway": "yes",
+        "ref": "E40",
+        "road_shield_color": "blue",
+        "surface": "asphalt"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -79.9477741,
+            -2.1029048
+          ],
+          [
+            -79.9477971,
+            -2.0995589
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "way/537416189",
+      "properties": {
+        "@id": "way/537416189",
+        "highway": "trunk",
+        "lanes": "4",
+        "maxspeed": "90",
+        "name": "Vía Perimetral",
+        "oneway": "yes",
+        "ref": "E40",
+        "road_shield_color": "blue",
+        "surface": "asphalt"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -79.9478483,
+            -2.115052
+          ],
+          [
+            -79.9478449,
+            -2.1150196
+          ],
+          [
+            -79.9478175,
+            -2.1147591
+          ],
+          [
+            -79.9477579,
+            -2.1141941
+          ],
+          [
+            -79.9477302,
+            -2.1139389
+          ],
+          [
+            -79.9477042,
+            -2.1136987
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "way/537416191",
+      "properties": {
+        "@id": "way/537416191",
+        "highway": "residential",
+        "lanes": "2",
+        "maxspeed": "30",
+        "name": "Vía Perimetral",
+        "note": "moved name to old_name because it is not valid (name belongs to southern) secondary road. Unable to verify this road's name",
+        "old_name": "Avenida Eduardo Solá",
+        "oneway": "yes",
+        "surface": "asphalt"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -79.9490312,
+            -2.1285624
+          ],
+          [
+            -79.9490588,
+            -2.1284604
+          ],
+          [
+            -79.9491729,
+            -2.1279756
+          ],
+          [
+            -79.9492554,
+            -2.1274676
+          ],
+          [
+            -79.9492715,
+            -2.127329
+          ],
+          [
+            -79.9493152,
+            -2.1269514
+          ],
+          [
+            -79.9493561,
+            -2.1264601
+          ],
+          [
+            -79.9493895,
+            -2.1259484
+          ],
+          [
+            -79.9493812,
+            -2.1254396
+          ],
+          [
+            -79.9493766,
+            -2.1249957
+          ],
+          [
+            -79.9493592,
+            -2.1248697
+          ],
+          [
+            -79.9493243,
+            -2.1248094
+          ],
+          [
+            -79.949285,
+            -2.124757
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "way/537416194",
+      "properties": {
+        "@id": "way/537416194",
+        "highway": "trunk",
+        "lanes": "4",
+        "maxspeed": "90",
+        "name": "Vía Perimetral",
+        "oneway": "yes",
+        "ref": "E40",
+        "road_shield_color": "blue",
+        "surface": "asphalt"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -79.9457122,
+            -2.1408285
+          ],
+          [
+            -79.9458857,
+            -2.1394548
+          ],
+          [
+            -79.9459944,
+            -2.1388996
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "way/537431128",
+      "properties": {
+        "@id": "way/537431128",
+        "highway": "residential",
+        "maxspeed": "60",
+        "name": "Vía Perimetral",
+        "note": "please add name, I saw new road on open street cam",
+        "oneway": "yes"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -79.9493647,
+            -2.1219153
+          ],
+          [
+            -79.9493887,
+            -2.1220325
+          ],
+          [
+            -79.949503,
+            -2.1226543
+          ],
+          [
+            -79.9495124,
+            -2.1227002
+          ],
+          [
+            -79.949572,
+            -2.1230765
+          ],
+          [
+            -79.9496362,
+            -2.1234403
+          ],
+          [
+            -79.9497055,
+            -2.1240313
+          ],
+          [
+            -79.9497495,
+            -2.1244332
+          ],
+          [
+            -79.9497579,
+            -2.1246797
+          ],
+          [
+            -79.949768,
+            -2.1249668
+          ],
+          [
+            -79.9497799,
+            -2.1252673
+          ],
+          [
+            -79.9497849,
+            -2.1254159
+          ],
+          [
+            -79.9497883,
+            -2.1255138
+          ],
+          [
+            -79.9497521,
+            -2.1262662
+          ],
+          [
+            -79.9496864,
+            -2.1271024
+          ],
+          [
+            -79.9496646,
+            -2.1272622
+          ],
+          [
+            -79.9496301,
+            -2.1275152
+          ],
+          [
+            -79.9495563,
+            -2.1279132
+          ],
+          [
+            -79.9494624,
+            -2.128389
+          ],
+          [
+            -79.9493434,
+            -2.1288229
+          ],
+          [
+            -79.949326,
+            -2.1288799
+          ],
+          [
+            -79.9492155,
+            -2.1292415
+          ],
+          [
+            -79.948984,
+            -2.1296888
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "way/537431129",
+      "properties": {
+        "@id": "way/537431129",
+        "highway": "secondary",
+        "lanes": "2",
+        "name": "Vía Perimetral",
+        "oneway": "yes",
+        "surface": "asphalt"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -79.9493647,
+            -2.1219153
+          ],
+          [
+            -79.9494307,
+            -2.1227047
+          ],
+          [
+            -79.9494825,
+            -2.1231234
+          ],
+          [
+            -79.9494302,
+            -2.1235079
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "way/537431130",
+      "properties": {
+        "@id": "way/537431130",
+        "highway": "secondary",
+        "lanes": "3",
+        "maxspeed": "60",
+        "name": "Vía Perimetral",
+        "oneway": "yes",
+        "sidewalk:both": "yes",
+        "surface": "asphalt"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -79.9489525,
+            -2.1195126
+          ],
+          [
+            -79.9490304,
+            -2.1199919
+          ],
+          [
+            -79.949055,
+            -2.1201292
+          ],
+          [
+            -79.949306,
+            -2.121531
+          ],
+          [
+            -79.9493647,
+            -2.1219153
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "way/539247857",
+      "properties": {
+        "@id": "way/539247857",
+        "highway": "trunk",
+        "lanes": "3",
+        "maxspeed": "90",
+        "name": "Vía Perimetral",
+        "oneway": "yes",
+        "ref": "E40",
+        "surface": "asphalt"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -79.9430881,
+            -2.2331017
+          ],
+          [
+            -79.9428893,
+            -2.233155
+          ],
+          [
+            -79.9422213,
+            -2.2333454
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "way/539247866",
+      "properties": {
+        "@id": "way/539247866",
+        "highway": "trunk",
+        "lanes": "3",
+        "lit": "yes",
+        "maxspeed": "90",
+        "name": "Vía Perimetral",
+        "oneway": "yes",
+        "ref": "E40",
+        "surface": "asphalt"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -79.9564864,
+            -2.214639
+          ],
+          [
+            -79.9571755,
+            -2.2192971
+          ],
+          [
+            -79.9572784,
+            -2.2199969
+          ],
+          [
+            -79.9573226,
+            -2.2203399
+          ],
+          [
+            -79.9573441,
+            -2.2206649
+          ],
+          [
+            -79.9573505,
+            -2.2209604
+          ],
+          [
+            -79.9573472,
+            -2.2214413
+          ],
+          [
+            -79.9573052,
+            -2.2221786
+          ],
+          [
+            -79.9572837,
+            -2.2224653
+          ],
+          [
+            -79.9572442,
+            -2.2228135
+          ],
+          [
+            -79.9571362,
+            -2.2233954
+          ],
+          [
+            -79.9570021,
+            -2.2239287
+          ],
+          [
+            -79.9567822,
+            -2.2246149
+          ],
+          [
+            -79.9565533,
+            -2.2252524
+          ],
+          [
+            -79.9563976,
+            -2.22562
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "way/539247870",
+      "properties": {
+        "@id": "way/539247870",
+        "highway": "trunk",
+        "lanes": "3",
+        "lit": "yes",
+        "maxspeed": "90",
+        "name": "Vía Perimetral",
+        "oneway": "yes",
+        "ref": "E40",
+        "surface": "asphalt"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -79.9561112,
+            -2.2044166
+          ],
+          [
+            -79.9558451,
+            -2.2056688
+          ],
+          [
+            -79.955725,
+            -2.2063892
+          ],
+          [
+            -79.9556718,
+            -2.2069252
+          ],
+          [
+            -79.9556604,
+            -2.2071824
+          ],
+          [
+            -79.9556391,
+            -2.2076586
+          ],
+          [
+            -79.955622,
+            -2.2086706
+          ],
+          [
+            -79.9556821,
+            -2.2094254
+          ],
+          [
+            -79.9560082,
+            -2.2116124
+          ],
+          [
+            -79.9564864,
+            -2.214639
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "way/539247871",
+      "properties": {
+        "@id": "way/539247871",
+        "highway": "trunk",
+        "lanes": "3",
+        "lit": "yes",
+        "maxspeed": "90",
+        "name": "Vía Perimetral",
+        "oneway": "yes",
+        "ref": "E40",
+        "surface": "asphalt"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -79.9579558,
+            -2.198085
+          ],
+          [
+            -79.9561112,
+            -2.2044166
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "way/539247872",
+      "properties": {
+        "@id": "way/539247872",
+        "highway": "trunk",
+        "lanes": "3",
+        "lit": "yes",
+        "maxspeed": "90",
+        "name": "Vía Perimetral",
+        "oneway": "yes",
+        "ref": "E40",
+        "surface": "asphalt"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -79.9587527,
+            -2.1934839
+          ],
+          [
+            -79.9587798,
+            -2.1940593
+          ],
+          [
+            -79.9587758,
+            -2.1945353
+          ],
+          [
+            -79.9587417,
+            -2.1949715
+          ],
+          [
+            -79.9585745,
+            -2.1958656
+          ],
+          [
+            -79.95854,
+            -2.1959935
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "way/540382304",
+      "properties": {
+        "@id": "way/540382304",
+        "highway": "tertiary",
+        "lanes": "2",
+        "maxspeed": "30",
+        "name": "Vía Perimetral",
+        "oneway": "yes",
+        "ref": "E40",
+        "surface": "asphalt"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -79.9171887,
+            -2.2396935
+          ],
+          [
+            -79.9163071,
+            -2.2395581
+          ],
+          [
+            -79.9167701,
+            -2.2396292
+          ],
+          [
+            -79.9171887,
+            -2.2396935
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "way/540616215",
+      "properties": {
+        "@id": "way/540616215",
+        "highway": "trunk",
+        "lanes": "3",
+        "lit": "yes",
+        "maxspeed": "90",
+        "name": "Vía Perimetral",
+        "oneway": "yes",
+        "ref": "E40",
+        "surface": "asphalt"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -79.955991,
+            -2.2042622
+          ],
+          [
+            -79.9582899,
+            -2.1962521
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "way/540616217",
+      "properties": {
+        "@id": "way/540616217",
+        "highway": "trunk",
+        "lanes": "3",
+        "lit": "yes",
+        "maxspeed": "90",
+        "name": "Vía Perimetral",
+        "oneway": "yes",
+        "ref": "E40",
+        "surface": "asphalt"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -79.9564642,
+            -2.2155871
+          ],
+          [
+            -79.9561572,
+            -2.2134173
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "way/540616219",
+      "properties": {
+        "@id": "way/540616219",
+        "highway": "trunk",
+        "lanes": "3",
+        "lit": "yes",
+        "maxspeed": "90",
+        "name": "Vía Perimetral",
+        "oneway": "yes",
+        "ref": "E40",
+        "surface": "asphalt"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -79.948593,
+            -2.2314612
+          ],
+          [
+            -79.9490118,
+            -2.2313475
+          ],
+          [
+            -79.9496567,
+            -2.2311757
+          ],
+          [
+            -79.9502683,
+            -2.2309838
+          ],
+          [
+            -79.9508444,
+            -2.2307822
+          ],
+          [
+            -79.9514109,
+            -2.2305335
+          ],
+          [
+            -79.9519193,
+            -2.2302646
+          ],
+          [
+            -79.9524692,
+            -2.2299369
+          ],
+          [
+            -79.9530814,
+            -2.2295033
+          ],
+          [
+            -79.9536212,
+            -2.2290774
+          ],
+          [
+            -79.954077,
+            -2.228637
+          ],
+          [
+            -79.9545479,
+            -2.2281473
+          ],
+          [
+            -79.9548495,
+            -2.2277708
+          ],
+          [
+            -79.955519,
+            -2.2268445
+          ],
+          [
+            -79.9558863,
+            -2.2262927
+          ],
+          [
+            -79.9560603,
+            -2.2259676
+          ],
+          [
+            -79.9561996,
+            -2.2256683
+          ],
+          [
+            -79.9565474,
+            -2.2248761
+          ],
+          [
+            -79.9566519,
+            -2.2245546
+          ],
+          [
+            -79.9568519,
+            -2.223926
+          ],
+          [
+            -79.9569959,
+            -2.2233719
+          ],
+          [
+            -79.9570811,
+            -2.222865
+          ],
+          [
+            -79.9571724,
+            -2.2220868
+          ],
+          [
+            -79.9572006,
+            -2.2213022
+          ],
+          [
+            -79.9571988,
+            -2.220823
+          ],
+          [
+            -79.9571578,
+            -2.2202378
+          ],
+          [
+            -79.9570302,
+            -2.2192537
+          ],
+          [
+            -79.9570033,
+            -2.219099
+          ],
+          [
+            -79.9566088,
+            -2.2165418
+          ],
+          [
+            -79.9564642,
+            -2.2155871
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "way/541313080",
+      "properties": {
+        "@id": "way/541313080",
+        "highway": "trunk",
+        "lanes": "3",
+        "maxspeed": "90",
+        "name": "Vía Perimetral",
+        "oneway": "yes",
+        "ref": "E40",
+        "road_shield_color": "blue",
+        "surface": "asphalt"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -79.9352413,
+            -2.0803388
+          ],
+          [
+            -79.9342937,
+            -2.0798824
+          ],
+          [
+            -79.9339114,
+            -2.0797142
+          ],
+          [
+            -79.9337952,
+            -2.0796631
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "way/541313081",
+      "properties": {
+        "@id": "way/541313081",
+        "highway": "trunk",
+        "lanes": "3",
+        "maxspeed": "90",
+        "name": "Vía Perimetral",
+        "oneway": "yes",
+        "ref": "E40",
+        "road_shield_color": "blue",
+        "surface": "asphalt"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -79.9386966,
+            -2.0821026
+          ],
+          [
+            -79.9384323,
+            -2.0819817
+          ],
+          [
+            -79.936245,
+            -2.0808428
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "way/552531709",
+      "properties": {
+        "@id": "way/552531709",
+        "foot": "yes",
+        "highway": "trunk",
+        "lanes": "3",
+        "maxspeed": "90",
+        "name": "Vía Perimetral",
+        "oneway": "yes",
+        "ref": "E40",
+        "road_shield_color": "blue",
+        "surface": "asphalt"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -79.927219,
+            -2.0789206
+          ],
+          [
+            -79.9280047,
+            -2.0789289
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "way/552531710",
+      "properties": {
+        "@id": "way/552531710",
+        "foot": "yes",
+        "highway": "trunk",
+        "lanes": "3",
+        "maxspeed": "90",
+        "name": "Vía Perimetral",
+        "oneway": "yes",
+        "ref": "E40",
+        "road_shield_color": "blue",
+        "sidewalk:both": "no",
+        "surface": "asphalt"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -79.9280047,
+            -2.0789289
+          ],
+          [
+            -79.928271,
+            -2.0789351
+          ],
+          [
+            -79.9286283,
+            -2.0789434
+          ],
+          [
+            -79.929075,
+            -2.0789506
+          ],
+          [
+            -79.9301646,
+            -2.0789683
+          ],
+          [
+            -79.9310685,
+            -2.0789774
+          ],
+          [
+            -79.9316374,
+            -2.0790265
+          ],
+          [
+            -79.9322492,
+            -2.0791214
+          ],
+          [
+            -79.9328082,
+            -2.0792256
+          ],
+          [
+            -79.9337392,
+            -2.0794931
+          ],
+          [
+            -79.9338795,
+            -2.0795427
+          ],
+          [
+            -79.9341331,
+            -2.0796337
+          ],
+          [
+            -79.9342763,
+            -2.0796855
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "way/552531711",
+      "properties": {
+        "@id": "way/552531711",
+        "highway": "trunk",
+        "lanes": "3",
+        "maxspeed": "90",
+        "name": "Vía Perimetral",
+        "oneway": "yes",
+        "ref": "E40",
+        "road_shield_color": "blue",
+        "surface": "asphalt"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -79.9234894,
+            -2.0778467
+          ],
+          [
+            -79.9237525,
+            -2.0780266
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "way/558938464",
+      "properties": {
+        "@id": "way/558938464",
+        "highway": "secondary",
+        "lanes": "2",
+        "maxspeed": "50",
+        "name": "Vía Perimetral",
+        "oneway": "yes",
+        "surface": "concrete"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -79.9479647,
+            -2.112394
+          ],
+          [
+            -79.9480063,
+            -2.1129709
+          ],
+          [
+            -79.9480793,
+            -2.1134931
+          ],
+          [
+            -79.9481205,
+            -2.1137615
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "way/558940688",
+      "properties": {
+        "@id": "way/558940688",
+        "highway": "residential",
+        "maxspeed": "30",
+        "name": "Vía Perimetral",
+        "note": "moved name to old_name because it is not valid (name belongs to southern) secondary road. Unable to verify this road's name",
+        "old_name": "Avenida Eduardo Solá",
+        "oneway": "yes",
+        "surface": "asphalt"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -79.948928,
+            -2.1290896
+          ],
+          [
+            -79.9489273,
+            -2.1290189
+          ],
+          [
+            -79.9489474,
+            -2.128905
+          ],
+          [
+            -79.9490312,
+            -2.1285624
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "way/682407077",
+      "properties": {
+        "@id": "way/682407077",
+        "highway": "secondary",
+        "maxspeed": "60",
+        "name": "Vía Perimetral",
+        "oneway": "yes",
+        "surface": "asphalt"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -79.9483886,
+            -2.1193458
+          ],
+          [
+            -79.948341,
+            -2.1190721
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "way/682407078",
+      "properties": {
+        "@id": "way/682407078",
+        "destination:street": "Avenida Honorato Vasquez",
+        "highway": "secondary",
+        "lane_markings": "no",
+        "maxspeed": "60",
+        "name": "Vía Perimetral",
+        "oneway": "yes",
+        "sidewalk:both": "yes",
+        "surface": "asphalt"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -79.9490944,
+            -2.1230312
+          ],
+          [
+            -79.9488247,
+            -2.1218822
+          ],
+          [
+            -79.9486447,
+            -2.1208842
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "way/684445855",
+      "properties": {
+        "@id": "way/684445855",
+        "highway": "tertiary",
+        "maxheight": "2",
+        "maxspeed": "30",
+        "name": "Vía Perimetral",
+        "oneway": "yes",
+        "ref": "E40",
+        "surface": "asphalt"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -79.9235722,
+            -2.2387974
+          ],
+          [
+            -79.9237845,
+            -2.2387273
+          ],
+          [
+            -79.9242362,
+            -2.2385738
+          ],
+          [
+            -79.9244316,
+            -2.2385074
+          ],
+          [
+            -79.9246545,
+            -2.2384273
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "way/684445858",
+      "properties": {
+        "@id": "way/684445858",
+        "highway": "trunk",
+        "lanes": "3",
+        "maxspeed": "90",
+        "name": "Vía Perimetral",
+        "oneway": "yes",
+        "ref": "E40",
+        "surface": "asphalt"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -79.9361687,
+            -2.2348336
+          ],
+          [
+            -79.9373426,
+            -2.2345071
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "way/684445860",
+      "properties": {
+        "@id": "way/684445860",
+        "highway": "tertiary",
+        "lanes": "2",
+        "maxspeed": "30",
+        "name": "Vía Perimetral",
+        "oneway": "yes",
+        "ref": "E40",
+        "surface": "asphalt"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -79.9171887,
+            -2.2396935
+          ],
+          [
+            -79.9175668,
+            -2.2397578
+          ],
+          [
+            -79.9179724,
+            -2.2397918
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "way/684448518",
+      "properties": {
+        "@id": "way/684448518",
+        "highway": "trunk",
+        "lanes": "3",
+        "maxspeed": "90",
+        "name": "Vía Perimetral",
+        "oneway": "yes",
+        "ref": "E40",
+        "surface": "asphalt"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -79.9362207,
+            -2.2349926
+          ],
+          [
+            -79.9338428,
+            -2.2357089
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "way/684448519",
+      "properties": {
+        "@id": "way/684448519",
+        "highway": "trunk",
+        "lanes": "3",
+        "maxspeed": "90",
+        "name": "Vía Perimetral",
+        "oneway": "yes",
+        "ref": "E40",
+        "sidewalk:both": "yes",
+        "surface": "asphalt"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -79.9401562,
+            -2.2339008
+          ],
+          [
+            -79.9399236,
+            -2.2339666
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "way/684448520",
+      "properties": {
+        "@id": "way/684448520",
+        "alt_name": "Calle 48",
+        "highway": "residential",
+        "name": "Vía Perimetral",
+        "oneway": "yes"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -79.9449137,
+            -2.2327094
+          ],
+          [
+            -79.9444095,
+            -2.232832
+          ],
+          [
+            -79.9441427,
+            -2.2328969
+          ],
+          [
+            -79.9434451,
+            -2.2330666
+          ],
+          [
+            -79.9431989,
+            -2.2331264
+          ],
+          [
+            -79.9431027,
+            -2.2331473
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "way/895404423",
+      "properties": {
+        "@id": "way/895404423",
+        "bridge": "yes",
+        "highway": "trunk",
+        "lanes": "4",
+        "layer": "1",
+        "maxspeed": "60",
+        "name": "Vía Perimetral",
+        "oneway": "yes",
+        "ref": "E40",
+        "road_shield_color": "blue",
+        "surface": "asphalt",
+        "turn:lanes": "through|through|through;right|right"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -79.9388464,
+            -2.0821779
+          ],
+          [
+            -79.9386966,
+            -2.0821026
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "way/895593890",
+      "properties": {
+        "@id": "way/895593890",
+        "highway": "secondary",
+        "lanes": "3",
+        "maxspeed": "60",
+        "name": "Vía Perimetral",
+        "oneway": "yes"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -79.9484955,
+            -2.1200347
+          ],
+          [
+            -79.9484393,
+            -2.1196847
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "way/895603829",
+      "properties": {
+        "@id": "way/895603829",
+        "highway": "trunk",
+        "lanes": "3",
+        "maxspeed": "90",
+        "name": "Vía Perimetral",
+        "oneway": "yes",
+        "ref": "E40",
+        "road_shield_color": "blue",
+        "surface": "asphalt"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -79.9484008,
+            -2.1311056
+          ],
+          [
+            -79.9486092,
+            -2.1303975
+          ],
+          [
+            -79.9486225,
+            -2.1303537
+          ],
+          [
+            -79.9486974,
+            -2.1301148
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "way/895603830",
+      "properties": {
+        "@id": "way/895603830",
+        "foot": "yes",
+        "highway": "trunk",
+        "lanes": "3",
+        "maxheight:signed": "no",
+        "maxspeed": "90",
+        "name": "Vía Perimetral",
+        "oneway": "yes",
+        "ref": "E40",
+        "road_shield_color": "blue",
+        "surface": "asphalt"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -79.9459944,
+            -2.1388996
+          ],
+          [
+            -79.9461061,
+            -2.1384023
+          ],
+          [
+            -79.946231,
+            -2.1379197
+          ],
+          [
+            -79.9466018,
+            -2.1366793
+          ],
+          [
+            -79.9471034,
+            -2.1351457
+          ],
+          [
+            -79.9472483,
+            -2.1347079
+          ],
+          [
+            -79.9477787,
+            -2.1330466
+          ],
+          [
+            -79.9480627,
+            -2.1321604
+          ],
+          [
+            -79.9484008,
+            -2.1311056
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "way/895606530",
+      "properties": {
+        "@id": "way/895606530",
+        "foot": "no",
+        "highway": "trunk",
+        "lanes": "3",
+        "maxspeed": "90",
+        "name": "Vía Perimetral",
+        "oneway": "yes",
+        "ref": "E40",
+        "road_shield_color": "blue",
+        "surface": "asphalt"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -79.9484164,
+            -2.1573362
+          ],
+          [
+            -79.9482085,
+            -2.1567876
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "way/895606531",
+      "properties": {
+        "@id": "way/895606531",
+        "foot": "no",
+        "highway": "trunk",
+        "lanes": "3",
+        "maxspeed": "90",
+        "name": "Vía Perimetral",
+        "oneway": "yes",
+        "ref": "E40",
+        "road_shield_color": "blue",
+        "surface": "asphalt"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -79.9488413,
+            -2.1605374
+          ],
+          [
+            -79.9488799,
+            -2.1599459
+          ],
+          [
+            -79.9488692,
+            -2.1594428
+          ],
+          [
+            -79.9487952,
+            -2.1586494
+          ],
+          [
+            -79.9486884,
+            -2.1581366
+          ],
+          [
+            -79.9485625,
+            -2.1576783
+          ],
+          [
+            -79.9484164,
+            -2.1573362
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "way/1176316421",
+      "properties": {
+        "@id": "way/1176316421",
+        "highway": "residential",
+        "maxspeed": "30",
+        "name": "Vía Perimetral",
+        "note": "moved name to old_name because it is not valid (name belongs to southern) secondary road. Unable to verify this road's name",
+        "old_name": "Avenida Eduardo Solá",
+        "oneway": "yes",
+        "sidewalk:both": "yes",
+        "surface": "asphalt"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -79.9489681,
+            -2.1292417
+          ],
+          [
+            -79.948928,
+            -2.1290896
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "way/1178375028",
+      "properties": {
+        "@id": "way/1178375028",
+        "bridge": "yes",
+        "highway": "trunk",
+        "lanes": "3",
+        "layer": "1",
+        "maxspeed": "90",
+        "name": "Vía Perimetral",
+        "oneway": "yes",
+        "ref": "E40",
+        "surface": "asphalt"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -79.955554,
+            -2.1873362
+          ],
+          [
+            -79.9560689,
+            -2.1877834
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "way/1178375029",
+      "properties": {
+        "@id": "way/1178375029",
+        "bridge": "yes",
+        "highway": "trunk",
+        "lanes": "4",
+        "layer": "1",
+        "maxspeed": "90",
+        "name": "Vía Perimetral",
+        "oneway": "yes",
+        "ref": "E40",
+        "surface": "asphalt"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -79.9558029,
+            -2.1877935
+          ],
+          [
+            -79.955262,
+            -2.1873542
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "way/1178375030",
+      "properties": {
+        "@id": "way/1178375030",
+        "highway": "trunk",
+        "lanes": "3",
+        "maxspeed": "90",
+        "name": "Vía Perimetral",
+        "oneway": "yes",
+        "ref": "E40",
+        "surface": "asphalt"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -79.9560689,
+            -2.1877834
+          ],
+          [
+            -79.9561584,
+            -2.1878662
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "way/1181811970",
+      "properties": {
+        "@id": "way/1181811970",
+        "highway": "trunk",
+        "lanes": "3",
+        "maxspeed": "90",
+        "name": "Vía Perimetral",
+        "oneway": "yes",
+        "ref": "E40",
+        "surface": "asphalt"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -79.9430427,
+            -2.2329724
+          ],
+          [
+            -79.9431233,
+            -2.2329493
+          ],
+          [
+            -79.9451698,
+            -2.2323902
+          ],
+          [
+            -79.9455279,
+            -2.232293
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "way/1213250211",
+      "properties": {
+        "@id": "way/1213250211",
+        "highway": "secondary",
+        "lanes": "3",
+        "maxspeed": "60",
+        "name": "Vía Perimetral",
+        "oneway": "yes",
+        "sidewalk:both": "yes",
+        "surface": "asphalt"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -79.9479533,
+            -2.1147743
+          ],
+          [
+            -79.9480837,
+            -2.1152312
+          ],
+          [
+            -79.9482058,
+            -2.1156614
+          ],
+          [
+            -79.9483101,
+            -2.1160805
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "way/1219679940",
+      "properties": {
+        "@id": "way/1219679940",
+        "highway": "secondary",
+        "maxspeed": "60",
+        "name": "Vía Perimetral",
+        "oneway": "yes",
+        "surface": "asphalt"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -79.9484084,
+            -2.1194835
+          ],
+          [
+            -79.9483886,
+            -2.1193458
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "way/1454347317",
+      "properties": {
+        "@id": "way/1454347317",
+        "highway": "trunk",
+        "lanes": "3",
+        "maxspeed": "90",
+        "name": "Vía Perimetral",
+        "oneway": "yes",
+        "ref": "E40",
+        "sidewalk:both": "yes",
+        "surface": "asphalt"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -79.9402718,
+            -2.2338711
+          ],
+          [
+            -79.9401562,
+            -2.2339008
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "way/1454347318",
+      "properties": {
+        "@id": "way/1454347318",
+        "alt_name": "Calle 48",
+        "highway": "residential",
+        "lane_markings": "yes",
+        "lanes": "2",
+        "name": "Vía Perimetral",
+        "oneway": "yes",
+        "sidewalk:both": "yes",
+        "surface": "asphalt"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -79.9403888,
+            -2.2338712
+          ],
+          [
+            -79.9403707,
+            -2.2338745
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "way/1454347319",
+      "properties": {
+        "@id": "way/1454347319",
+        "alt_name": "Calle 48",
+        "highway": "residential",
+        "lane_markings": "yes",
+        "lanes": "2",
+        "name": "Vía Perimetral",
+        "oneway": "yes",
+        "sidewalk:left": "no",
+        "sidewalk:right": "yes",
+        "surface": "asphalt"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -79.9403707,
+            -2.2338745
+          ],
+          [
+            -79.9403345,
+            -2.2338789
+          ],
+          [
+            -79.940303,
+            -2.2338749
+          ],
+          [
+            -79.9402718,
+            -2.2338711
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "way/1454347320",
+      "properties": {
+        "@id": "way/1454347320",
+        "highway": "trunk",
+        "lanes": "4",
+        "maxspeed": "90",
+        "name": "Vía Perimetral",
+        "oneway": "yes",
+        "ref": "E40",
+        "surface": "asphalt"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -79.9402454,
+            -2.2337193
+          ],
+          [
+            -79.9407349,
+            -2.2335857
+          ],
+          [
+            -79.9408117,
+            -2.2335644
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "way/1454347321",
+      "properties": {
+        "@id": "way/1454347321",
+        "highway": "trunk",
+        "lanes": "3",
+        "maxspeed": "90",
+        "name": "Vía Perimetral",
+        "oneway": "yes",
+        "ref": "E40",
+        "surface": "asphalt"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -79.9373957,
+            -2.2346486
+          ],
+          [
+            -79.9362207,
+            -2.2349926
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "way/1454347325",
+      "properties": {
+        "@id": "way/1454347325",
+        "highway": "trunk",
+        "lanes": "3",
+        "maxspeed": "90",
+        "name": "Vía Perimetral",
+        "oneway": "yes",
+        "ref": "E40",
+        "sidewalk:right": "separate",
+        "surface": "asphalt"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -79.9373426,
+            -2.2345071
+          ],
+          [
+            -79.9377498,
+            -2.2343922
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "way/1553542806",
+      "properties": {
+        "@id": "way/1553542806",
+        "foot": "yes",
+        "highway": "trunk",
+        "lanes": "3",
+        "maxspeed": "90",
+        "name": "Vía Perimetral",
+        "oneway": "yes",
+        "ref": "E40",
+        "road_shield_color": "blue",
+        "surface": "asphalt"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -79.9458117,
+            -2.1442486
+          ],
+          [
+            -79.9458153,
+            -2.1444403
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "way/1554558331",
+      "properties": {
+        "@id": "way/1554558331",
+        "bridge": "yes",
+        "highway": "trunk",
+        "lanes": "3",
+        "layer": "1",
+        "maxspeed": "90",
+        "name": "Vía Perimetral",
+        "oneway": "yes",
+        "ref": "E40",
+        "road_shield_color": "blue",
+        "surface": "asphalt"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -79.9486615,
+            -2.1190712
+          ],
+          [
+            -79.9490639,
+            -2.1213701
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "way/1554559311",
+      "properties": {
+        "@id": "way/1554559311",
+        "highway": "secondary",
+        "lane_markings": "yes",
+        "name": "Vía Perimetral",
+        "source": "yahoo",
+        "surface": "asphalt"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -79.948235,
+            -2.1145362
+          ],
+          [
+            -79.9481218,
+            -2.11377
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "way/1554559312",
+      "properties": {
+        "@id": "way/1554559312",
+        "highway": "secondary",
+        "lane_markings": "yes",
+        "name": "Vía Perimetral",
+        "source": "yahoo",
+        "surface": "asphalt"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -79.9481218,
+            -2.11377
+          ],
+          [
+            -79.9481205,
+            -2.1137615
+          ]
+        ]
+      }
+    }
+  ]
+}
