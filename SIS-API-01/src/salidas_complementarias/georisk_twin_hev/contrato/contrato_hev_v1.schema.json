@@ -1,0 +1,845 @@
+{
+ "$schema": "https://json-schema.org/draft/2020-12/schema",
+ "title": "RISKTWIN contrato H–E–V",
+ "version": "1.0.0",
+ "$defs": {
+  "Zona": {
+   "additionalProperties": false,
+   "description": "Unidad espacial común (corredor Perimetral PER-Z## o planta industrial IND-Z##).",
+   "properties": {
+    "id_zona": {
+     "examples": [
+      "PER-Z04"
+     ],
+     "pattern": "^(PER|IND)-Z\\d{2}$",
+     "title": "Id Zona",
+     "type": "string"
+    },
+    "nombre": {
+     "minLength": 1,
+     "title": "Nombre",
+     "type": "string"
+    },
+    "area_km2": {
+     "minimum": 0,
+     "title": "Area Km2",
+     "type": "number"
+    },
+    "longitud_eje_km": {
+     "anyOf": [
+      {
+       "minimum": 0,
+       "type": "number"
+      },
+      {
+       "type": "null"
+      }
+     ],
+     "default": null,
+     "title": "Longitud Eje Km"
+    },
+    "centroide_lat": {
+     "maximum": 90,
+     "minimum": -90,
+     "title": "Centroide Lat",
+     "type": "number"
+    },
+    "centroide_lon": {
+     "maximum": 180,
+     "minimum": -180,
+     "title": "Centroide Lon",
+     "type": "number"
+    }
+   },
+   "required": [
+    "id_zona",
+    "nombre",
+    "area_km2",
+    "centroide_lat",
+    "centroide_lon"
+   ],
+   "title": "Zona",
+   "type": "object"
+  },
+  "Evento": {
+   "additionalProperties": false,
+   "description": "Evento georreferenciado (siniestro, homicidio, anegamiento, incidente industrial).",
+   "properties": {
+    "id_evento": {
+     "examples": [
+      "ATM00001012024"
+     ],
+     "minLength": 1,
+     "title": "Id Evento",
+     "type": "string"
+    },
+    "riesgo": {
+     "enum": [
+      "accidentes_viales",
+      "seguridad_urbana",
+      "inundaciones",
+      "industrial"
+     ],
+     "title": "Riesgo",
+     "type": "string"
+    },
+    "id_zona": {
+     "pattern": "^(PER|IND)-Z\\d{2}$",
+     "title": "Id Zona",
+     "type": "string"
+    },
+    "fecha_hora": {
+     "format": "date-time",
+     "title": "Fecha Hora",
+     "type": "string"
+    },
+    "lat": {
+     "anyOf": [
+      {
+       "maximum": 90,
+       "minimum": -90,
+       "type": "number"
+      },
+      {
+       "type": "null"
+      }
+     ],
+     "default": null,
+     "title": "Lat"
+    },
+    "lon": {
+     "anyOf": [
+      {
+       "maximum": 180,
+       "minimum": -180,
+       "type": "number"
+      },
+      {
+       "type": "null"
+      }
+     ],
+     "default": null,
+     "title": "Lon"
+    },
+    "subtipo": {
+     "anyOf": [
+      {
+       "type": "string"
+      },
+      {
+       "type": "null"
+      }
+     ],
+     "default": null,
+     "title": "Subtipo"
+    },
+    "severidad": {
+     "description": "1 sin víctimas/leve · 2 lesionados/moderada · 3 grave · 4 fallecidos/crítica",
+     "maximum": 4,
+     "minimum": 1,
+     "title": "Severidad",
+     "type": "integer"
+    },
+    "lesionados": {
+     "default": 0,
+     "minimum": 0,
+     "title": "Lesionados",
+     "type": "integer"
+    },
+    "fallecidos": {
+     "default": 0,
+     "minimum": 0,
+     "title": "Fallecidos",
+     "type": "integer"
+    },
+    "fuente": {
+     "minLength": 1,
+     "title": "Fuente",
+     "type": "string"
+    },
+    "tipo_dato": {
+     "enum": [
+      "real",
+      "sintetico"
+     ],
+     "title": "Tipo Dato",
+     "type": "string"
+    }
+   },
+   "required": [
+    "id_evento",
+    "riesgo",
+    "id_zona",
+    "fecha_hora",
+    "severidad",
+    "fuente",
+    "tipo_dato"
+   ],
+   "title": "Evento",
+   "type": "object"
+  },
+  "Observacion": {
+   "additionalProperties": false,
+   "description": "Valor de una variable H–E–V para una zona y un periodo (URB-01 produce, URB-03 agrega, la API expone).",
+   "properties": {
+    "id_zona": {
+     "pattern": "^(PER|IND)-Z\\d{2}$",
+     "title": "Id Zona",
+     "type": "string"
+    },
+    "periodo": {
+     "examples": [
+      "2024-01/2026-05",
+      "piloto"
+     ],
+     "minLength": 1,
+     "title": "Periodo",
+     "type": "string"
+    },
+    "id_variable": {
+     "examples": [
+      "ACC_H_tasa_siniestros_km"
+     ],
+     "pattern": "^(ACC|SEG|INU)_[HEV]_[A-Za-z0-9_]+$",
+     "title": "Id Variable",
+     "type": "string"
+    },
+    "riesgo": {
+     "enum": [
+      "accidentes_viales",
+      "seguridad_urbana",
+      "inundaciones"
+     ],
+     "title": "Riesgo",
+     "type": "string"
+    },
+    "componente": {
+     "enum": [
+      "H",
+      "E",
+      "V"
+     ],
+     "title": "Componente",
+     "type": "string"
+    },
+    "valor": {
+     "anyOf": [
+      {
+       "type": "number"
+      },
+      {
+       "type": "null"
+      }
+     ],
+     "default": null,
+     "title": "Valor"
+    },
+    "unidad": {
+     "title": "Unidad",
+     "type": "string"
+    },
+    "tipo_dato": {
+     "enum": [
+      "real",
+      "derivado_real",
+      "proxy",
+      "sintetico",
+      "pendiente"
+     ],
+     "title": "Tipo Dato",
+     "type": "string"
+    },
+    "fuente": {
+     "title": "Fuente",
+     "type": "string"
+    }
+   },
+   "required": [
+    "id_zona",
+    "periodo",
+    "id_variable",
+    "riesgo",
+    "componente",
+    "unidad",
+    "tipo_dato",
+    "fuente"
+   ],
+   "title": "Observacion",
+   "type": "object"
+  },
+  "IndicadorZona": {
+   "additionalProperties": false,
+   "properties": {
+    "id_zona": {
+     "pattern": "^(PER|IND)-Z\\d{2}$",
+     "title": "Id Zona",
+     "type": "string"
+    },
+    "periodo": {
+     "title": "Periodo",
+     "type": "string"
+    },
+    "riesgo": {
+     "enum": [
+      "accidentes_viales",
+      "seguridad_urbana",
+      "inundaciones",
+      "global"
+     ],
+     "title": "Riesgo",
+     "type": "string"
+    },
+    "H": {
+     "anyOf": [
+      {
+       "maximum": 1,
+       "minimum": 0,
+       "type": "number"
+      },
+      {
+       "type": "null"
+      }
+     ],
+     "default": null,
+     "title": "H"
+    },
+    "E": {
+     "anyOf": [
+      {
+       "maximum": 1,
+       "minimum": 0,
+       "type": "number"
+      },
+      {
+       "type": "null"
+      }
+     ],
+     "default": null,
+     "title": "E"
+    },
+    "V": {
+     "anyOf": [
+      {
+       "maximum": 1,
+       "minimum": 0,
+       "type": "number"
+      },
+      {
+       "type": "null"
+      }
+     ],
+     "default": null,
+     "title": "V"
+    },
+    "indice_criticidad": {
+     "maximum": 1,
+     "minimum": 0,
+     "title": "Indice Criticidad",
+     "type": "number"
+    },
+    "metodo_agregacion": {
+     "enum": [
+      "aditiva",
+      "multiplicativa"
+     ],
+     "title": "Metodo Agregacion",
+     "type": "string"
+    },
+    "nivel": {
+     "enum": [
+      "bajo",
+      "medio",
+      "alto",
+      "critico"
+     ],
+     "title": "Nivel",
+     "type": "string"
+    },
+    "tipo_dato": {
+     "enum": [
+      "real",
+      "derivado_real",
+      "sintetico",
+      "mixto"
+     ],
+     "title": "Tipo Dato",
+     "type": "string"
+    }
+   },
+   "required": [
+    "id_zona",
+    "periodo",
+    "riesgo",
+    "indice_criticidad",
+    "metodo_agregacion",
+    "nivel",
+    "tipo_dato"
+   ],
+   "title": "IndicadorZona",
+   "type": "object"
+  },
+  "SolicitudIndicadores": {
+   "$defs": {
+    "Observacion": {
+     "additionalProperties": false,
+     "description": "Valor de una variable H–E–V para una zona y un periodo (URB-01 produce, URB-03 agrega, la API expone).",
+     "properties": {
+      "id_zona": {
+       "pattern": "^(PER|IND)-Z\\d{2}$",
+       "title": "Id Zona",
+       "type": "string"
+      },
+      "periodo": {
+       "examples": [
+        "2024-01/2026-05",
+        "piloto"
+       ],
+       "minLength": 1,
+       "title": "Periodo",
+       "type": "string"
+      },
+      "id_variable": {
+       "examples": [
+        "ACC_H_tasa_siniestros_km"
+       ],
+       "pattern": "^(ACC|SEG|INU)_[HEV]_[A-Za-z0-9_]+$",
+       "title": "Id Variable",
+       "type": "string"
+      },
+      "riesgo": {
+       "enum": [
+        "accidentes_viales",
+        "seguridad_urbana",
+        "inundaciones"
+       ],
+       "title": "Riesgo",
+       "type": "string"
+      },
+      "componente": {
+       "enum": [
+        "H",
+        "E",
+        "V"
+       ],
+       "title": "Componente",
+       "type": "string"
+      },
+      "valor": {
+       "anyOf": [
+        {
+         "type": "number"
+        },
+        {
+         "type": "null"
+        }
+       ],
+       "default": null,
+       "title": "Valor"
+      },
+      "unidad": {
+       "title": "Unidad",
+       "type": "string"
+      },
+      "tipo_dato": {
+       "enum": [
+        "real",
+        "derivado_real",
+        "proxy",
+        "sintetico",
+        "pendiente"
+       ],
+       "title": "Tipo Dato",
+       "type": "string"
+      },
+      "fuente": {
+       "title": "Fuente",
+       "type": "string"
+      }
+     },
+     "required": [
+      "id_zona",
+      "periodo",
+      "id_variable",
+      "riesgo",
+      "componente",
+      "unidad",
+      "tipo_dato",
+      "fuente"
+     ],
+     "title": "Observacion",
+     "type": "object"
+    },
+    "Pesos": {
+     "additionalProperties": false,
+     "properties": {
+      "w_H": {
+       "default": 0.3333333333333333,
+       "exclusiveMinimum": 0,
+       "title": "W H",
+       "type": "number"
+      },
+      "w_E": {
+       "default": 0.3333333333333333,
+       "exclusiveMinimum": 0,
+       "title": "W E",
+       "type": "number"
+      },
+      "w_V": {
+       "default": 0.3333333333333333,
+       "exclusiveMinimum": 0,
+       "title": "W V",
+       "type": "number"
+      },
+      "alpha": {
+       "additionalProperties": {
+        "type": "number"
+       },
+       "propertyNames": {
+        "enum": [
+         "accidentes_viales",
+         "seguridad_urbana",
+         "inundaciones"
+        ]
+       },
+       "title": "Alpha",
+       "type": "object"
+      }
+     },
+     "title": "Pesos",
+     "type": "object"
+    }
+   },
+   "additionalProperties": false,
+   "properties": {
+    "observaciones": {
+     "items": {
+      "$ref": "#/$defs/Observacion"
+     },
+     "minItems": 1,
+     "title": "Observaciones",
+     "type": "array"
+    },
+    "sentido_negativo": {
+     "description": "Variables donde un valor mayor reduce el riesgo",
+     "items": {
+      "type": "string"
+     },
+     "title": "Sentido Negativo",
+     "type": "array"
+    },
+    "agregacion": {
+     "default": "aditiva",
+     "enum": [
+      "aditiva",
+      "multiplicativa"
+     ],
+     "title": "Agregacion",
+     "type": "string"
+    },
+    "pesos": {
+     "$ref": "#/$defs/Pesos"
+    }
+   },
+   "required": [
+    "observaciones"
+   ],
+   "title": "SolicitudIndicadores",
+   "type": "object"
+  },
+  "SolicitudPriorizar": {
+   "$defs": {
+    "IndicadorZona": {
+     "additionalProperties": false,
+     "properties": {
+      "id_zona": {
+       "pattern": "^(PER|IND)-Z\\d{2}$",
+       "title": "Id Zona",
+       "type": "string"
+      },
+      "periodo": {
+       "title": "Periodo",
+       "type": "string"
+      },
+      "riesgo": {
+       "enum": [
+        "accidentes_viales",
+        "seguridad_urbana",
+        "inundaciones",
+        "global"
+       ],
+       "title": "Riesgo",
+       "type": "string"
+      },
+      "H": {
+       "anyOf": [
+        {
+         "maximum": 1,
+         "minimum": 0,
+         "type": "number"
+        },
+        {
+         "type": "null"
+        }
+       ],
+       "default": null,
+       "title": "H"
+      },
+      "E": {
+       "anyOf": [
+        {
+         "maximum": 1,
+         "minimum": 0,
+         "type": "number"
+        },
+        {
+         "type": "null"
+        }
+       ],
+       "default": null,
+       "title": "E"
+      },
+      "V": {
+       "anyOf": [
+        {
+         "maximum": 1,
+         "minimum": 0,
+         "type": "number"
+        },
+        {
+         "type": "null"
+        }
+       ],
+       "default": null,
+       "title": "V"
+      },
+      "indice_criticidad": {
+       "maximum": 1,
+       "minimum": 0,
+       "title": "Indice Criticidad",
+       "type": "number"
+      },
+      "metodo_agregacion": {
+       "enum": [
+        "aditiva",
+        "multiplicativa"
+       ],
+       "title": "Metodo Agregacion",
+       "type": "string"
+      },
+      "nivel": {
+       "enum": [
+        "bajo",
+        "medio",
+        "alto",
+        "critico"
+       ],
+       "title": "Nivel",
+       "type": "string"
+      },
+      "tipo_dato": {
+       "enum": [
+        "real",
+        "derivado_real",
+        "sintetico",
+        "mixto"
+       ],
+       "title": "Tipo Dato",
+       "type": "string"
+      }
+     },
+     "required": [
+      "id_zona",
+      "periodo",
+      "riesgo",
+      "indice_criticidad",
+      "metodo_agregacion",
+      "nivel",
+      "tipo_dato"
+     ],
+     "title": "IndicadorZona",
+     "type": "object"
+    }
+   },
+   "additionalProperties": false,
+   "properties": {
+    "indicadores": {
+     "items": {
+      "$ref": "#/$defs/IndicadorZona"
+     },
+     "minItems": 1,
+     "title": "Indicadores",
+     "type": "array"
+    },
+    "top_k": {
+     "default": 5,
+     "maximum": 100,
+     "minimum": 1,
+     "title": "Top K",
+     "type": "integer"
+    }
+   },
+   "required": [
+    "indicadores"
+   ],
+   "title": "SolicitudPriorizar",
+   "type": "object"
+  },
+  "ResultadoValidacion": {
+   "$defs": {
+    "ErrorFila": {
+     "additionalProperties": false,
+     "properties": {
+      "indice": {
+       "title": "Indice",
+       "type": "integer"
+      },
+      "campo": {
+       "title": "Campo",
+       "type": "string"
+      },
+      "detalle": {
+       "title": "Detalle",
+       "type": "string"
+      }
+     },
+     "required": [
+      "indice",
+      "campo",
+      "detalle"
+     ],
+     "title": "ErrorFila",
+     "type": "object"
+    }
+   },
+   "additionalProperties": false,
+   "properties": {
+    "version_contrato": {
+     "default": "1.0.0",
+     "title": "Version Contrato",
+     "type": "string"
+    },
+    "total": {
+     "title": "Total",
+     "type": "integer"
+    },
+    "validos": {
+     "title": "Validos",
+     "type": "integer"
+    },
+    "invalidos": {
+     "title": "Invalidos",
+     "type": "integer"
+    },
+    "errores": {
+     "items": {
+      "$ref": "#/$defs/ErrorFila"
+     },
+     "title": "Errores",
+     "type": "array"
+    },
+    "tipos_dato": {
+     "additionalProperties": {
+      "type": "integer"
+     },
+     "title": "Tipos Dato",
+     "type": "object"
+    }
+   },
+   "required": [
+    "total",
+    "validos",
+    "invalidos",
+    "errores",
+    "tipos_dato"
+   ],
+   "title": "ResultadoValidacion",
+   "type": "object"
+  },
+  "RespuestaPriorizar": {
+   "$defs": {
+    "ZonaPriorizada": {
+     "additionalProperties": false,
+     "properties": {
+      "posicion": {
+       "title": "Posicion",
+       "type": "integer"
+      },
+      "id_zona": {
+       "title": "Id Zona",
+       "type": "string"
+      },
+      "indice_criticidad": {
+       "title": "Indice Criticidad",
+       "type": "number"
+      },
+      "nivel": {
+       "enum": [
+        "bajo",
+        "medio",
+        "alto",
+        "critico"
+       ],
+       "title": "Nivel",
+       "type": "string"
+      },
+      "riesgo_dominante": {
+       "title": "Riesgo Dominante",
+       "type": "string"
+      }
+     },
+     "required": [
+      "posicion",
+      "id_zona",
+      "indice_criticidad",
+      "nivel",
+      "riesgo_dominante"
+     ],
+     "title": "ZonaPriorizada",
+     "type": "object"
+    }
+   },
+   "additionalProperties": false,
+   "properties": {
+    "version_contrato": {
+     "default": "1.0.0",
+     "title": "Version Contrato",
+     "type": "string"
+    },
+    "metodo_agregacion": {
+     "title": "Metodo Agregacion",
+     "type": "string"
+    },
+    "tipo_dato": {
+     "title": "Tipo Dato",
+     "type": "string"
+    },
+    "ranking": {
+     "items": {
+      "$ref": "#/$defs/ZonaPriorizada"
+     },
+     "title": "Ranking",
+     "type": "array"
+    },
+    "advertencia": {
+     "anyOf": [
+      {
+       "type": "string"
+      },
+      {
+       "type": "null"
+      }
+     ],
+     "default": null,
+     "title": "Advertencia"
+    }
+   },
+   "required": [
+    "metodo_agregacion",
+    "tipo_dato",
+    "ranking"
+   ],
+   "title": "RespuestaPriorizar",
+   "type": "object"
+  }
+ }
+}

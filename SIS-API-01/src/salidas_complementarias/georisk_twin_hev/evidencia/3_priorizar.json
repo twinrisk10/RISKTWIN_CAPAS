@@ -1,0 +1,50 @@
+{
+ "solicitud": {
+  "n_indicadores": 48,
+  "top_k": 5
+ },
+ "status": 200,
+ "respuesta": {
+  "version_contrato": "1.0.0",
+  "metodo_agregacion": "aditiva",
+  "tipo_dato": "mixto",
+  "ranking": [
+   {
+    "posicion": 1,
+    "id_zona": "PER-Z12",
+    "indice_criticidad": 0.6354,
+    "nivel": "alto",
+    "riesgo_dominante": "accidentes_viales"
+   },
+   {
+    "posicion": 2,
+    "id_zona": "PER-Z09",
+    "indice_criticidad": 0.5359,
+    "nivel": "alto",
+    "riesgo_dominante": "seguridad_urbana"
+   },
+   {
+    "posicion": 3,
+    "id_zona": "PER-Z01",
+    "indice_criticidad": 0.509,
+    "nivel": "alto",
+    "riesgo_dominante": "accidentes_viales"
+   },
+   {
+    "posicion": 4,
+    "id_zona": "PER-Z03",
+    "indice_criticidad": 0.4786,
+    "nivel": "medio",
+    "riesgo_dominante": "seguridad_urbana"
+   },
+   {
+    "posicion": 5,
+    "id_zona": "PER-Z02",
+    "indice_criticidad": 0.4706,
+    "nivel": "medio",
+    "riesgo_dominante": "inundaciones"
+   }
+  ],
+  "advertencia": "Ranking calculado con datos sintéticos o mixtos: sirve para probar el flujo, no para decidir intervenciones."
+ }
+}

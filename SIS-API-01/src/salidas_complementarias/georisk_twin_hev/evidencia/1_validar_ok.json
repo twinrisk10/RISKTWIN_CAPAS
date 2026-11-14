@@ -1,0 +1,50 @@
+{
+ "solicitud": [
+  {
+   "id_zona": "PER-Z01",
+   "periodo": "2024-01/2026-05",
+   "id_variable": "ACC_H_tasa_siniestros_km",
+   "riesgo": "accidentes_viales",
+   "componente": "H",
+   "valor": 7.934,
+   "unidad": "siniestros/km/año",
+   "tipo_dato": "derivado_real",
+   "fuente": "F01"
+  },
+  {
+   "id_zona": "PER-Z02",
+   "periodo": "2024-01/2026-05",
+   "id_variable": "ACC_H_tasa_siniestros_km",
+   "riesgo": "accidentes_viales",
+   "componente": "H",
+   "valor": 6.541,
+   "unidad": "siniestros/km/año",
+   "tipo_dato": "derivado_real",
+   "fuente": "F01"
+  },
+  {
+   "id_zona": "PER-Z03",
+   "periodo": "2024-01/2026-05",
+   "id_variable": "ACC_H_tasa_siniestros_km",
+   "riesgo": "accidentes_viales",
+   "componente": "H",
+   "valor": 7.448,
+   "unidad": "siniestros/km/año",
+   "tipo_dato": "derivado_real",
+   "fuente": "F01"
+  }
+ ],
+ "status": 200,
+ "respuesta": {
+  "version_contrato": "1.0.0",
+  "total": 228,
+  "validos": 228,
+  "invalidos": 0,
+  "errores": [],
+  "tipos_dato": {
+   "derivado_real": 72,
+   "real": 12,
+   "sintetico": 144
+  }
+ }
+}

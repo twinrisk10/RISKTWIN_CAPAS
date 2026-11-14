@@ -1,0 +1,16 @@
+[1m============================= test session starts ==============================[0m
+platform linux -- Python 3.13.18, pytest-9.1.1, pluggy-1.6.0 -- /usr/local/bin/python3
+rootdir: /home/claude/gemelos_digitales/GEMELO DIGITAL/SIS-API-01/src/salidas_complementarias/georisk_twin_hev
+configfile: pyproject.toml
+plugins: platformdirs-4.13.5, anyio-4.15.1
+[1mcollecting ... [0mcollected 7 items
+
+tests/test_api.py::test_1_validar_acepta_observaciones_correctas [32mPASSED[0m[32m  [ 14%][0m
+tests/test_api.py::test_1b_validar_rechaza_y_explica_errores [32mPASSED[0m[32m      [ 28%][0m
+tests/test_api.py::test_2_calcular_indicadores[aditiva] [32mPASSED[0m[32m           [ 42%][0m
+tests/test_api.py::test_2_calcular_indicadores[multiplicativa] [32mPASSED[0m[32m    [ 57%][0m
+tests/test_api.py::test_3_priorizar_flujo_completo [32mPASSED[0m[32m                [ 71%][0m
+tests/test_api.py::test_3b_priorizar_sin_global_devuelve_422 [32mPASSED[0m[32m      [ 85%][0m
+tests/test_api.py::test_openapi_documenta_los_tres_endpoints [32mPASSED[0m[32m      [100%][0m
+
+[32m============================== [32m[1m7 passed[0m[32m in 0.56s[0m[32m ===============================[0m

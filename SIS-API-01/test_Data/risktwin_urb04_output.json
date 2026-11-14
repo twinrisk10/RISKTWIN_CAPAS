@@ -1,0 +1,1016 @@
+{
+  "ficha_modelo": {
+    "modelo": "RandomForest",
+    "version": "0.2.0",
+    "modo_datos": "perimetral_atm",
+    "metodo_explicacion": "SHAP",
+    "metricas_test": {
+      "PR_AUC": 0.8884615384615385,
+      "F1_macro": 0.8964624676445211
+    },
+    "mejor_modelo_pr_auc": "RF sin índice (ablación)",
+    "limites": "El 'confidence_interval' es la dispersión entre árboles (no un IC formal); el grafo es un marcador de posición; no apto para decisión operativa sin validación con expertos."
+  },
+  "tramos": [
+    {
+      "seg_id": 0,
+      "version": "0.2.0",
+      "tipo_dato": "real-estimado",
+      "horizonte": 5,
+      "periodo_pronosticado": "2026-S1",
+      "risk_score_global": 0.941,
+      "cluster_id": 1,
+      "categorias": {
+        "accidentes": {
+          "risk_score": 0.941,
+          "confidence_interval": [
+            0.631,
+            1.0
+          ],
+          "clase": "Alto",
+          "top_shap_features": [
+            "n_prev",
+            "lag_prev",
+            "centralidad"
+          ],
+          "crit_urb03_ref": 0.72
+        }
+      }
+    },
+    {
+      "seg_id": 1,
+      "version": "0.2.0",
+      "tipo_dato": "real-estimado",
+      "horizonte": 5,
+      "periodo_pronosticado": "2026-S1",
+      "risk_score_global": 0.972,
+      "cluster_id": 1,
+      "categorias": {
+        "accidentes": {
+          "risk_score": 0.972,
+          "confidence_interval": [
+            0.852,
+            1.0
+          ],
+          "clase": "Alto",
+          "top_shap_features": [
+            "n_prev",
+            "lag_prev",
+            "centralidad"
+          ],
+          "crit_urb03_ref": 0.71
+        }
+      }
+    },
+    {
+      "seg_id": 2,
+      "version": "0.2.0",
+      "tipo_dato": "real-estimado",
+      "horizonte": 5,
+      "periodo_pronosticado": "2026-S1",
+      "risk_score_global": 0.732,
+      "cluster_id": 1,
+      "categorias": {
+        "accidentes": {
+          "risk_score": 0.732,
+          "confidence_interval": [
+            0.0,
+            1.0
+          ],
+          "clase": "Alto",
+          "top_shap_features": [
+            "n_prev",
+            "lag_prev",
+            "centralidad"
+          ],
+          "crit_urb03_ref": 0.425
+        }
+      }
+    },
+    {
+      "seg_id": 3,
+      "version": "0.2.0",
+      "tipo_dato": "real-estimado",
+      "horizonte": 5,
+      "periodo_pronosticado": "2026-S1",
+      "risk_score_global": 0.15,
+      "cluster_id": 0,
+      "categorias": {
+        "accidentes": {
+          "risk_score": 0.15,
+          "confidence_interval": [
+            0.0,
+            0.742
+          ],
+          "clase": "Bajo",
+          "top_shap_features": [
+            "n_prev",
+            "lag_prev",
+            "prop_vulnerable_prev"
+          ],
+          "crit_urb03_ref": 0.198
+        }
+      }
+    },
+    {
+      "seg_id": 4,
+      "version": "0.2.0",
+      "tipo_dato": "real-estimado",
+      "horizonte": 5,
+      "periodo_pronosticado": "2026-S1",
+      "risk_score_global": 0.04,
+      "cluster_id": 0,
+      "categorias": {
+        "accidentes": {
+          "risk_score": 0.04,
+          "confidence_interval": [
+            0.0,
+            0.489
+          ],
+          "clase": "Bajo",
+          "top_shap_features": [
+            "n_prev",
+            "lag_prev",
+            "crit_prev"
+          ],
+          "crit_urb03_ref": 0.392
+        }
+      }
+    },
+    {
+      "seg_id": 5,
+      "version": "0.2.0",
+      "tipo_dato": "real-estimado",
+      "horizonte": 5,
+      "periodo_pronosticado": "2026-S1",
+      "risk_score_global": 0.027,
+      "cluster_id": 0,
+      "categorias": {
+        "accidentes": {
+          "risk_score": 0.027,
+          "confidence_interval": [
+            0.0,
+            0.012
+          ],
+          "clase": "Bajo",
+          "top_shap_features": [
+            "n_prev",
+            "lag_prev",
+            "prop_vulnerable_prev"
+          ],
+          "crit_urb03_ref": 0.213
+        }
+      }
+    },
+    {
+      "seg_id": 6,
+      "version": "0.2.0",
+      "tipo_dato": "real-estimado",
+      "horizonte": 5,
+      "periodo_pronosticado": "2026-S1",
+      "risk_score_global": 0.133,
+      "cluster_id": 0,
+      "categorias": {
+        "accidentes": {
+          "risk_score": 0.133,
+          "confidence_interval": [
+            0.0,
+            0.744
+          ],
+          "clase": "Bajo",
+          "top_shap_features": [
+            "n_prev",
+            "lag_prev",
+            "centralidad"
+          ],
+          "crit_urb03_ref": 0.493
+        }
+      }
+    },
+    {
+      "seg_id": 7,
+      "version": "0.2.0",
+      "tipo_dato": "real-estimado",
+      "horizonte": 5,
+      "periodo_pronosticado": "2026-S1",
+      "risk_score_global": 0.01,
+      "cluster_id": 0,
+      "categorias": {
+        "accidentes": {
+          "risk_score": 0.01,
+          "confidence_interval": [
+            0.0,
+            0.0
+          ],
+          "clase": "Bajo",
+          "top_shap_features": [
+            "n_prev",
+            "lag_prev",
+            "crit_prev"
+          ],
+          "crit_urb03_ref": 0.191
+        }
+      }
+    },
+    {
+      "seg_id": 8,
+      "version": "0.2.0",
+      "tipo_dato": "real-estimado",
+      "horizonte": 5,
+      "periodo_pronosticado": "2026-S1",
+      "risk_score_global": 0.12,
+      "cluster_id": 0,
+      "categorias": {
+        "accidentes": {
+          "risk_score": 0.12,
+          "confidence_interval": [
+            0.0,
+            0.658
+          ],
+          "clase": "Bajo",
+          "top_shap_features": [
+            "n_prev",
+            "lag_prev",
+            "prop_vulnerable_prev"
+          ],
+          "crit_urb03_ref": 0.232
+        }
+      }
+    },
+    {
+      "seg_id": 9,
+      "version": "0.2.0",
+      "tipo_dato": "real-estimado",
+      "horizonte": 5,
+      "periodo_pronosticado": "2026-S1",
+      "risk_score_global": 0.008,
+      "cluster_id": 0,
+      "categorias": {
+        "accidentes": {
+          "risk_score": 0.008,
+          "confidence_interval": [
+            0.0,
+            0.0
+          ],
+          "clase": "Bajo",
+          "top_shap_features": [
+            "n_prev",
+            "lag_prev",
+            "crit_prev"
+          ],
+          "crit_urb03_ref": 0.257
+        }
+      }
+    },
+    {
+      "seg_id": 10,
+      "version": "0.2.0",
+      "tipo_dato": "real-estimado",
+      "horizonte": 5,
+      "periodo_pronosticado": "2026-S1",
+      "risk_score_global": 0.022,
+      "cluster_id": 0,
+      "categorias": {
+        "accidentes": {
+          "risk_score": 0.022,
+          "confidence_interval": [
+            0.0,
+            0.0
+          ],
+          "clase": "Bajo",
+          "top_shap_features": [
+            "n_prev",
+            "lag_prev",
+            "crit_prev"
+          ],
+          "crit_urb03_ref": 0.211
+        }
+      }
+    },
+    {
+      "seg_id": 11,
+      "version": "0.2.0",
+      "tipo_dato": "real-estimado",
+      "horizonte": 5,
+      "periodo_pronosticado": "2026-S1",
+      "risk_score_global": 0.182,
+      "cluster_id": 0,
+      "categorias": {
+        "accidentes": {
+          "risk_score": 0.182,
+          "confidence_interval": [
+            0.0,
+            0.744
+          ],
+          "clase": "Bajo",
+          "top_shap_features": [
+            "n_prev",
+            "lag_prev",
+            "prop_noche_prev"
+          ],
+          "crit_urb03_ref": 0.237
+        }
+      }
+    },
+    {
+      "seg_id": 12,
+      "version": "0.2.0",
+      "tipo_dato": "real-estimado",
+      "horizonte": 5,
+      "periodo_pronosticado": "2026-S1",
+      "risk_score_global": 0.169,
+      "cluster_id": 0,
+      "categorias": {
+        "accidentes": {
+          "risk_score": 0.169,
+          "confidence_interval": [
+            0.0,
+            0.897
+          ],
+          "clase": "Bajo",
+          "top_shap_features": [
+            "n_prev",
+            "lag_prev",
+            "sev_prev"
+          ],
+          "crit_urb03_ref": 0.223
+        }
+      }
+    },
+    {
+      "seg_id": 13,
+      "version": "0.2.0",
+      "tipo_dato": "real-estimado",
+      "horizonte": 5,
+      "periodo_pronosticado": "2026-S1",
+      "risk_score_global": 0.641,
+      "cluster_id": 2,
+      "categorias": {
+        "accidentes": {
+          "risk_score": 0.641,
+          "confidence_interval": [
+            0.0,
+            1.0
+          ],
+          "clase": "Medio",
+          "top_shap_features": [
+            "n_prev",
+            "lag_prev",
+            "crit_prev"
+          ],
+          "crit_urb03_ref": 0.723
+        }
+      }
+    },
+    {
+      "seg_id": 14,
+      "version": "0.2.0",
+      "tipo_dato": "real-estimado",
+      "horizonte": 5,
+      "periodo_pronosticado": "2026-S1",
+      "risk_score_global": 0.144,
+      "cluster_id": 2,
+      "categorias": {
+        "accidentes": {
+          "risk_score": 0.144,
+          "confidence_interval": [
+            0.0,
+            0.854
+          ],
+          "clase": "Bajo",
+          "top_shap_features": [
+            "n_prev",
+            "lag_prev",
+            "crit_prev"
+          ],
+          "crit_urb03_ref": 0.383
+        }
+      }
+    },
+    {
+      "seg_id": 15,
+      "version": "0.2.0",
+      "tipo_dato": "real-estimado",
+      "horizonte": 5,
+      "periodo_pronosticado": "2026-S1",
+      "risk_score_global": 0.132,
+      "cluster_id": 2,
+      "categorias": {
+        "accidentes": {
+          "risk_score": 0.132,
+          "confidence_interval": [
+            0.0,
+            0.742
+          ],
+          "clase": "Bajo",
+          "top_shap_features": [
+            "n_prev",
+            "lag_prev",
+            "prop_noche_prev"
+          ],
+          "crit_urb03_ref": 0.428
+        }
+      }
+    },
+    {
+      "seg_id": 16,
+      "version": "0.2.0",
+      "tipo_dato": "real-estimado",
+      "horizonte": 5,
+      "periodo_pronosticado": "2026-S1",
+      "risk_score_global": 0.105,
+      "cluster_id": 2,
+      "categorias": {
+        "accidentes": {
+          "risk_score": 0.105,
+          "confidence_interval": [
+            0.0,
+            0.745
+          ],
+          "clase": "Bajo",
+          "top_shap_features": [
+            "n_prev",
+            "lag_prev",
+            "centralidad"
+          ],
+          "crit_urb03_ref": 0.45
+        }
+      }
+    },
+    {
+      "seg_id": 17,
+      "version": "0.2.0",
+      "tipo_dato": "real-estimado",
+      "horizonte": 5,
+      "periodo_pronosticado": "2026-S1",
+      "risk_score_global": 0.032,
+      "cluster_id": 2,
+      "categorias": {
+        "accidentes": {
+          "risk_score": 0.032,
+          "confidence_interval": [
+            0.0,
+            0.367
+          ],
+          "clase": "Bajo",
+          "top_shap_features": [
+            "n_prev",
+            "lag_prev",
+            "crit_prev"
+          ],
+          "crit_urb03_ref": 0.291
+        }
+      }
+    },
+    {
+      "seg_id": 18,
+      "version": "0.2.0",
+      "tipo_dato": "real-estimado",
+      "horizonte": 5,
+      "periodo_pronosticado": "2026-S1",
+      "risk_score_global": 0.019,
+      "cluster_id": 2,
+      "categorias": {
+        "accidentes": {
+          "risk_score": 0.019,
+          "confidence_interval": [
+            0.0,
+            0.0
+          ],
+          "clase": "Bajo",
+          "top_shap_features": [
+            "n_prev",
+            "lag_prev",
+            "crit_prev"
+          ],
+          "crit_urb03_ref": 0.375
+        }
+      }
+    },
+    {
+      "seg_id": 19,
+      "version": "0.2.0",
+      "tipo_dato": "real-estimado",
+      "horizonte": 5,
+      "periodo_pronosticado": "2026-S1",
+      "risk_score_global": 0.038,
+      "cluster_id": 2,
+      "categorias": {
+        "accidentes": {
+          "risk_score": 0.038,
+          "confidence_interval": [
+            0.0,
+            0.365
+          ],
+          "clase": "Bajo",
+          "top_shap_features": [
+            "n_prev",
+            "lag_prev",
+            "centralidad"
+          ],
+          "crit_urb03_ref": 0.438
+        }
+      }
+    },
+    {
+      "seg_id": 20,
+      "version": "0.2.0",
+      "tipo_dato": "real-estimado",
+      "horizonte": 5,
+      "periodo_pronosticado": "2026-S1",
+      "risk_score_global": 0.017,
+      "cluster_id": 2,
+      "categorias": {
+        "accidentes": {
+          "risk_score": 0.017,
+          "confidence_interval": [
+            0.0,
+            0.0
+          ],
+          "clase": "Bajo",
+          "top_shap_features": [
+            "n_prev",
+            "lag_prev",
+            "crit_prev"
+          ],
+          "crit_urb03_ref": 0.364
+        }
+      }
+    },
+    {
+      "seg_id": 21,
+      "version": "0.2.0",
+      "tipo_dato": "real-estimado",
+      "horizonte": 5,
+      "periodo_pronosticado": "2026-S1",
+      "risk_score_global": 0.066,
+      "cluster_id": 2,
+      "categorias": {
+        "accidentes": {
+          "risk_score": 0.066,
+          "confidence_interval": [
+            0.0,
+            0.593
+          ],
+          "clase": "Bajo",
+          "top_shap_features": [
+            "n_prev",
+            "lag_prev",
+            "centralidad"
+          ],
+          "crit_urb03_ref": 0.489
+        }
+      }
+    },
+    {
+      "seg_id": 22,
+      "version": "0.2.0",
+      "tipo_dato": "real-estimado",
+      "horizonte": 5,
+      "periodo_pronosticado": "2026-S1",
+      "risk_score_global": 0.077,
+      "cluster_id": 2,
+      "categorias": {
+        "accidentes": {
+          "risk_score": 0.077,
+          "confidence_interval": [
+            0.0,
+            0.634
+          ],
+          "clase": "Bajo",
+          "top_shap_features": [
+            "n_prev",
+            "lag_prev",
+            "centralidad"
+          ],
+          "crit_urb03_ref": 0.493
+        }
+      }
+    },
+    {
+      "seg_id": 23,
+      "version": "0.2.0",
+      "tipo_dato": "real-estimado",
+      "horizonte": 5,
+      "periodo_pronosticado": "2026-S1",
+      "risk_score_global": 0.107,
+      "cluster_id": 2,
+      "categorias": {
+        "accidentes": {
+          "risk_score": 0.107,
+          "confidence_interval": [
+            0.0,
+            0.812
+          ],
+          "clase": "Bajo",
+          "top_shap_features": [
+            "n_prev",
+            "crit_prev",
+            "centralidad"
+          ],
+          "crit_urb03_ref": 0.389
+        }
+      }
+    },
+    {
+      "seg_id": 24,
+      "version": "0.2.0",
+      "tipo_dato": "real-estimado",
+      "horizonte": 5,
+      "periodo_pronosticado": "2026-S1",
+      "risk_score_global": 0.558,
+      "cluster_id": 2,
+      "categorias": {
+        "accidentes": {
+          "risk_score": 0.558,
+          "confidence_interval": [
+            0.0,
+            1.0
+          ],
+          "clase": "Medio",
+          "top_shap_features": [
+            "n_prev",
+            "lag_prev",
+            "crit_prev"
+          ],
+          "crit_urb03_ref": 0.629
+        }
+      }
+    },
+    {
+      "seg_id": 25,
+      "version": "0.2.0",
+      "tipo_dato": "real-estimado",
+      "horizonte": 5,
+      "periodo_pronosticado": "2026-S1",
+      "risk_score_global": 0.124,
+      "cluster_id": 2,
+      "categorias": {
+        "accidentes": {
+          "risk_score": 0.124,
+          "confidence_interval": [
+            0.0,
+            0.742
+          ],
+          "clase": "Bajo",
+          "top_shap_features": [
+            "n_prev",
+            "crit_prev",
+            "lag_prev"
+          ],
+          "crit_urb03_ref": 0.398
+        }
+      }
+    },
+    {
+      "seg_id": 26,
+      "version": "0.2.0",
+      "tipo_dato": "real-estimado",
+      "horizonte": 5,
+      "periodo_pronosticado": "2026-S1",
+      "risk_score_global": 0.209,
+      "cluster_id": 2,
+      "categorias": {
+        "accidentes": {
+          "risk_score": 0.209,
+          "confidence_interval": [
+            0.0,
+            0.935
+          ],
+          "clase": "Bajo",
+          "top_shap_features": [
+            "n_prev",
+            "lag_prev",
+            "centralidad"
+          ],
+          "crit_urb03_ref": 0.439
+        }
+      }
+    },
+    {
+      "seg_id": 27,
+      "version": "0.2.0",
+      "tipo_dato": "real-estimado",
+      "horizonte": 5,
+      "periodo_pronosticado": "2026-S1",
+      "risk_score_global": 0.465,
+      "cluster_id": 2,
+      "categorias": {
+        "accidentes": {
+          "risk_score": 0.465,
+          "confidence_interval": [
+            0.0,
+            1.0
+          ],
+          "clase": "Medio",
+          "top_shap_features": [
+            "n_prev",
+            "crit_prev",
+            "lag_prev"
+          ],
+          "crit_urb03_ref": 0.607
+        }
+      }
+    },
+    {
+      "seg_id": 28,
+      "version": "0.2.0",
+      "tipo_dato": "real-estimado",
+      "horizonte": 5,
+      "periodo_pronosticado": "2026-S1",
+      "risk_score_global": 0.872,
+      "cluster_id": 2,
+      "categorias": {
+        "accidentes": {
+          "risk_score": 0.872,
+          "confidence_interval": [
+            0.418,
+            1.0
+          ],
+          "clase": "Alto",
+          "top_shap_features": [
+            "n_prev",
+            "crit_prev",
+            "lag_prev"
+          ],
+          "crit_urb03_ref": 0.648
+        }
+      }
+    },
+    {
+      "seg_id": 29,
+      "version": "0.2.0",
+      "tipo_dato": "real-estimado",
+      "horizonte": 5,
+      "periodo_pronosticado": "2026-S1",
+      "risk_score_global": 0.708,
+      "cluster_id": 2,
+      "categorias": {
+        "accidentes": {
+          "risk_score": 0.708,
+          "confidence_interval": [
+            0.0,
+            1.0
+          ],
+          "clase": "Alto",
+          "top_shap_features": [
+            "n_prev",
+            "lag_prev",
+            "prop_pesado_prev"
+          ],
+          "crit_urb03_ref": 0.496
+        }
+      }
+    },
+    {
+      "seg_id": 30,
+      "version": "0.2.0",
+      "tipo_dato": "real-estimado",
+      "horizonte": 5,
+      "periodo_pronosticado": "2026-S1",
+      "risk_score_global": 0.85,
+      "cluster_id": 2,
+      "categorias": {
+        "accidentes": {
+          "risk_score": 0.85,
+          "confidence_interval": [
+            0.0,
+            1.0
+          ],
+          "clase": "Alto",
+          "top_shap_features": [
+            "n_prev",
+            "crit_prev",
+            "lag_prev"
+          ],
+          "crit_urb03_ref": 0.686
+        }
+      }
+    },
+    {
+      "seg_id": 31,
+      "version": "0.2.0",
+      "tipo_dato": "real-estimado",
+      "horizonte": 5,
+      "periodo_pronosticado": "2026-S1",
+      "risk_score_global": 0.718,
+      "cluster_id": 2,
+      "categorias": {
+        "accidentes": {
+          "risk_score": 0.718,
+          "confidence_interval": [
+            0.0,
+            1.0
+          ],
+          "clase": "Alto",
+          "top_shap_features": [
+            "n_prev",
+            "lag_prev",
+            "prop_peaton_prev"
+          ],
+          "crit_urb03_ref": 0.551
+        }
+      }
+    },
+    {
+      "seg_id": 32,
+      "version": "0.2.0",
+      "tipo_dato": "real-estimado",
+      "horizonte": 5,
+      "periodo_pronosticado": "2026-S1",
+      "risk_score_global": 0.08,
+      "cluster_id": 0,
+      "categorias": {
+        "accidentes": {
+          "risk_score": 0.08,
+          "confidence_interval": [
+            0.0,
+            0.658
+          ],
+          "clase": "Bajo",
+          "top_shap_features": [
+            "n_prev",
+            "crit_prev",
+            "sev_prev"
+          ],
+          "crit_urb03_ref": 0.31
+        }
+      }
+    },
+    {
+      "seg_id": 33,
+      "version": "0.2.0",
+      "tipo_dato": "real-estimado",
+      "horizonte": 5,
+      "periodo_pronosticado": "2026-S1",
+      "risk_score_global": 0.145,
+      "cluster_id": 0,
+      "categorias": {
+        "accidentes": {
+          "risk_score": 0.145,
+          "confidence_interval": [
+            0.0,
+            0.814
+          ],
+          "clase": "Bajo",
+          "top_shap_features": [
+            "n_prev",
+            "lag_prev",
+            "prop_peaton_prev"
+          ],
+          "crit_urb03_ref": 0.416
+        }
+      }
+    },
+    {
+      "seg_id": 34,
+      "version": "0.2.0",
+      "tipo_dato": "real-estimado",
+      "horizonte": 5,
+      "periodo_pronosticado": "2026-S1",
+      "risk_score_global": 0.023,
+      "cluster_id": 0,
+      "categorias": {
+        "accidentes": {
+          "risk_score": 0.023,
+          "confidence_interval": [
+            0.0,
+            0.0
+          ],
+          "clase": "Bajo",
+          "top_shap_features": [
+            "n_prev",
+            "lag_prev",
+            "sev_prev"
+          ],
+          "crit_urb03_ref": 0.281
+        }
+      }
+    },
+    {
+      "seg_id": 35,
+      "version": "0.2.0",
+      "tipo_dato": "real-estimado",
+      "horizonte": 5,
+      "periodo_pronosticado": "2026-S1",
+      "risk_score_global": 0.086,
+      "cluster_id": 1,
+      "categorias": {
+        "accidentes": {
+          "risk_score": 0.086,
+          "confidence_interval": [
+            0.0,
+            0.744
+          ],
+          "clase": "Bajo",
+          "top_shap_features": [
+            "n_prev",
+            "lag_prev",
+            "prop_vulnerable_prev"
+          ],
+          "crit_urb03_ref": 0.471
+        }
+      }
+    },
+    {
+      "seg_id": 36,
+      "version": "0.2.0",
+      "tipo_dato": "real-estimado",
+      "horizonte": 5,
+      "periodo_pronosticado": "2026-S1",
+      "risk_score_global": 0.097,
+      "cluster_id": 1,
+      "categorias": {
+        "accidentes": {
+          "risk_score": 0.097,
+          "confidence_interval": [
+            0.0,
+            0.793
+          ],
+          "clase": "Bajo",
+          "top_shap_features": [
+            "n_prev",
+            "lag_prev",
+            "sev_prev"
+          ],
+          "crit_urb03_ref": 0.486
+        }
+      }
+    },
+    {
+      "seg_id": 37,
+      "version": "0.2.0",
+      "tipo_dato": "real-estimado",
+      "horizonte": 5,
+      "periodo_pronosticado": "2026-S1",
+      "risk_score_global": 0.316,
+      "cluster_id": 1,
+      "categorias": {
+        "accidentes": {
+          "risk_score": 0.316,
+          "confidence_interval": [
+            0.0,
+            1.0
+          ],
+          "clase": "Bajo",
+          "top_shap_features": [
+            "n_prev",
+            "lag_prev",
+            "centralidad"
+          ],
+          "crit_urb03_ref": 0.301
+        }
+      }
+    },
+    {
+      "seg_id": 38,
+      "version": "0.2.0",
+      "tipo_dato": "real-estimado",
+      "horizonte": 5,
+      "periodo_pronosticado": "2026-S1",
+      "risk_score_global": 0.875,
+      "cluster_id": 1,
+      "categorias": {
+        "accidentes": {
+          "risk_score": 0.875,
+          "confidence_interval": [
+            0.0,
+            1.0
+          ],
+          "clase": "Alto",
+          "top_shap_features": [
+            "n_prev",
+            "centralidad",
+            "lag_prev"
+          ],
+          "crit_urb03_ref": 0.475
+        }
+      }
+    },
+    {
+      "seg_id": 39,
+      "version": "0.2.0",
+      "tipo_dato": "real-estimado",
+      "horizonte": 5,
+      "periodo_pronosticado": "2026-S1",
+      "risk_score_global": 0.823,
+      "cluster_id": 1,
+      "categorias": {
+        "accidentes": {
+          "risk_score": 0.823,
+          "confidence_interval": [
+            0.0,
+            1.0
+          ],
+          "clase": "Alto",
+          "top_shap_features": [
+            "n_prev",
+            "lag_prev",
+            "centralidad"
+          ],
+          "crit_urb03_ref": 0.288
+        }
+      }
+    }
+  ]
+}

@@ -1,0 +1,78 @@
+{
+ "solicitud": [
+  {
+   "id_zona": "Z01",
+   "periodo": "2024-01/2026-05",
+   "id_variable": "ACC_H_tasa_siniestros_km",
+   "riesgo": "accidentes_viales",
+   "componente": "H",
+   "valor": 7.934,
+   "unidad": "siniestros/km/año",
+   "tipo_dato": "derivado_real",
+   "fuente": "F01"
+  },
+  {
+   "id_zona": "PER-Z01",
+   "periodo": "2024-01/2026-05",
+   "id_variable": "ACC_H_tasa_siniestros_km",
+   "riesgo": "accidentes_viales",
+   "componente": "E",
+   "valor": 7.934,
+   "unidad": "siniestros/km/año",
+   "tipo_dato": "derivado_real",
+   "fuente": "F01"
+  },
+  {
+   "id_zona": "PER-Z01",
+   "periodo": "2024-01/2026-05",
+   "id_variable": "ACC_H_tasa_siniestros_km",
+   "riesgo": "accidentes_viales",
+   "componente": "H",
+   "valor": 7.934,
+   "unidad": "siniestros/km/año",
+   "tipo_dato": "inventado",
+   "fuente": "F01"
+  },
+  {
+   "id_zona": "PER-Z01",
+   "periodo": "2024-01/2026-05",
+   "id_variable": "ACC_H_tasa_siniestros_km",
+   "riesgo": "accidentes_viales",
+   "componente": "H",
+   "valor": null,
+   "unidad": "siniestros/km/año",
+   "tipo_dato": "real",
+   "fuente": "F01"
+  }
+ ],
+ "status": 200,
+ "respuesta": {
+  "version_contrato": "1.0.0",
+  "total": 4,
+  "validos": 0,
+  "invalidos": 4,
+  "errores": [
+   {
+    "indice": 0,
+    "campo": "id_zona",
+    "detalle": "String should match pattern '^(PER|IND)-Z\\d{2}$'"
+   },
+   {
+    "indice": 1,
+    "campo": "registro",
+    "detalle": "Value error, id_variable ACC_H_tasa_siniestros_km no corresponde al componente E"
+   },
+   {
+    "indice": 2,
+    "campo": "tipo_dato",
+    "detalle": "Input should be 'real', 'derivado_real', 'proxy', 'sintetico' or 'pendiente'"
+   },
+   {
+    "indice": 3,
+    "campo": "registro",
+    "detalle": "Value error, valor vacío solo se admite con tipo_dato = 'pendiente'"
+   }
+  ],
+  "tipos_dato": {}
+ }
+}
