@@ -1,0 +1,6 @@
+﻿requisito,perfiles,criterios_usabilidad,wireframe_y_elemento
+RF-01,"P1, P2","UX-01, UX-02, UX-05",W1 · plano coloreado + leyenda
+RF-02,"P1, P2","UX-01, UX-02",W1 · lista «Prioridad de atención»
+RF-03,P1,UX-03,W2 · barras H–E–V + tabla de variables
+RF-04,P1,UX-02,W1 y W2 · barra de filtros; W2 · evolución mensual
+RF-05,"P2, P1",UX-05,W1 y W2 · etiqueta de datos de prueba; W2 · recomendación

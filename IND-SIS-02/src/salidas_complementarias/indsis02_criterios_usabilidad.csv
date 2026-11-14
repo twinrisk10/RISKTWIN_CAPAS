@@ -1,0 +1,6 @@
+﻿id,atributo_ISO_9241_11,metrica,umbral,instrumento,perfiles,requisitos
+UX-01,Eficacia,Tasa de éxito en la tarea «identificar la zona más crítica»,≥ 80 % de los participantes,"Tarea T1 cronometrada (prueba A/B del original, Paso 6)","P1, P2","RF-01, RF-02"
+UX-02,Eficiencia,Tiempo para identificar la zona más crítica,≤ 30 s (P2) y ≤ 60 s (P1),Cronómetro o registro de interacción,"P1, P2","RF-01, RF-02"
+UX-03,Comprensión,"Explicar el componente dominante (H, E o V) de una zona",≥ 70 % de respuestas correctas,Pregunta de comprensión después de la tarea T3,P1,RF-03
+UX-04,Satisfacción,Puntaje SUS (System Usability Scale),≥ 68 (promedio de la industria),Cuestionario SUS de 10 ítems al final,"P1, P2",todos
+UX-05,Prevención de errores,Errores de interpretación (p. ej. confundir el nivel o usar datos de prueba como reales),≤ 1 error por participante,Observación + checklist de errores,P2,"RF-05, RF-01"
