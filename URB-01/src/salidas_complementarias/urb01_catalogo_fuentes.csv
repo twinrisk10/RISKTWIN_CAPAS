@@ -1,0 +1,12 @@
+﻿fuente_id,nombre,institucion,riesgos,ubicacion,formato_periodo,estado
+F01,Siniestros de tránsito georreferenciados (ATM),Agencia de Tránsito y Movilidad de Guayaquil,accidentes_viales,URB-04/test_Data/siniestros_via_perimetral_guayaquil.csv,CSV ; (2024-01 a 2026-05),disponible en el repositorio
+F02,Homicidios intencionales georreferenciados,Base homicidios_oeco.csv; procedencia institucional a confirmar por el equipo,seguridad_urbana,URB-04/test_Data/homicidios_via_perimetral.csv,"CSV , (2014 a 2026; se usa 2023+)",disponible en el repositorio
+F03,Eje vial y atributos de la Vía Perimetral,OpenStreetMap (ODbL),accidentes_viales; seguridad_urbana,SIS-API-01/test_Data/geoJsonPerimetral.geojson,GeoJSON (2026-11-09),disponible en el repositorio
+F04,Censo de Población y Vivienda 2022,INEC,los tres riesgos (exposición y vulnerabilidad),https://www.ecuadorencifras.gob.ec,SHP / CSV por sector censal,pendiente de descarga
+F05,Precipitación diaria por estación,INAMHI,inundaciones,https://www.inamhi.gob.ec,CSV / anuarios,pendiente de solicitud
+F06,Drenaje pluvial y puntos de anegamiento,Municipio de Guayaquil / Interagua,inundaciones,solicitud institucional,SHP / tabla,pendiente de solicitud
+F07,Aforos vehiculares y TPDA,ATM,accidentes_viales,solicitud institucional,tabla,pendiente de solicitud
+F08,Inventario de alumbrado público,Municipio de Guayaquil / CNEL EP,seguridad_urbana,solicitud institucional,SHP / tabla,pendiente de solicitud
+F09,Modelo digital de elevación,IGM / SRTM (NASA),inundaciones,https://earthexplorer.usgs.gov,GeoTIFF,pendiente de descarga
+F10,Indicadores agregados de referencia (PRUEBA),"Varias (ATM, Policía, INAMHI vía prensa)","los tres riesgos (contexto de ciudad, no por zona)",URB-04/test_Data/indicador_*_PRUEBA.csv,CSV,disponible; solo referencia
+F99,Generador sintético del piloto,Equipo URB-01 (semilla 42),variables sin fuente disponible,"este notebook, sección C.6",—,"sintético, no usar como evidencia"

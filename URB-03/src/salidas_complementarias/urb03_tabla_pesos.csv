@@ -1,0 +1,26 @@
+﻿peso,nivel,aplica_a,valor_base,justificacion
+w_H,componente,peligrosidad (H),0.3333,neutral provisional (sin ponderación experta aún); ver sensibilidad
+w_E,componente,exposición (E),0.3333,neutral provisional (sin ponderación experta aún); ver sensibilidad
+w_V,componente,vulnerabilidad (V),0.3333,neutral provisional (sin ponderación experta aún); ver sensibilidad
+alpha_accidentes_viales,riesgo,accidentes_viales,0.3333,neutral provisional (sin ponderación experta aún); ver sensibilidad
+alpha_seguridad_urbana,riesgo,seguridad_urbana,0.3333,neutral provisional (sin ponderación experta aún); ver sensibilidad
+alpha_inundaciones,riesgo,inundaciones,0.3333,neutral provisional (sin ponderación experta aún); ver sensibilidad
+peso_interno_ACC_H_tasa_siniestros_km,variable,accidentes_viales/H,0.5,promedio simple dentro del componente
+peso_interno_ACC_H_vel_max_kmh,variable,accidentes_viales/H,0.5,promedio simple dentro del componente
+peso_interno_ACC_E_tpda_veh_dia,variable,accidentes_viales/E,0.5,promedio simple dentro del componente
+peso_interno_ACC_E_poblacion_corredor,variable,accidentes_viales/E,0.5,promedio simple dentro del componente
+peso_interno_ACC_V_pct_atropellos,variable,accidentes_viales/V,0.3333,promedio simple dentro del componente
+peso_interno_ACC_V_pct_motocicleta,variable,accidentes_viales/V,0.3333,promedio simple dentro del componente
+peso_interno_ACC_V_tasa_letalidad,variable,accidentes_viales/V,0.3333,promedio simple dentro del componente
+peso_interno_SEG_H_homicidios_km2_anio,variable,seguridad_urbana/H,0.5,promedio simple dentro del componente
+peso_interno_SEG_H_pct_arma_fuego,variable,seguridad_urbana/H,0.5,promedio simple dentro del componente
+peso_interno_SEG_E_densidad_poblacional,variable,seguridad_urbana/E,0.5,promedio simple dentro del componente
+peso_interno_SEG_E_pois_comerciales,variable,seguridad_urbana/E,0.5,promedio simple dentro del componente
+peso_interno_SEG_V_iluminacion_deficiente_pct,variable,seguridad_urbana/V,0.5,promedio simple dentro del componente
+peso_interno_SEG_V_pobreza_nbi_pct,variable,seguridad_urbana/V,0.5,promedio simple dentro del componente
+peso_interno_INU_H_precip_max_24h_mm,variable,inundaciones/H,0.5,promedio simple dentro del componente
+peso_interno_INU_H_elevacion_media_m,variable,inundaciones/H,0.5,promedio simple dentro del componente
+peso_interno_INU_E_poblacion_cota_baja,variable,inundaciones/E,0.5,promedio simple dentro del componente
+peso_interno_INU_E_via_inundable_km,variable,inundaciones/E,0.5,promedio simple dentro del componente
+peso_interno_INU_V_deficit_drenaje_pct,variable,inundaciones/V,0.5,promedio simple dentro del componente
+peso_interno_INU_V_vivienda_precaria_pct,variable,inundaciones/V,0.5,promedio simple dentro del componente

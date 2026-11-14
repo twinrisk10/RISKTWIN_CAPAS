@@ -1,0 +1,151 @@
+<?xml version='1.0' encoding='utf-8'?>
+<graphml xmlns="http://graphml.graphdrawing.org/xmlns" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://graphml.graphdrawing.org/xmlns http://graphml.graphdrawing.org/xmlns/1.0/graphml.xsd"><key id="d12" for="edge" attr.name="intermediacion" attr.type="double"/>
+<key id="d11" for="edge" attr.name="siniestros" attr.type="double"/>
+<key id="d10" for="edge" attr.name="highway" attr.type="string"/>
+<key id="d9" for="edge" attr.name="longitud_m" attr.type="double"/>
+<key id="d8" for="edge" attr.name="ways" attr.type="string"/>
+<key id="d7" for="edge" attr.name="id_tramo" attr.type="string"/>
+<key id="d6" for="node" attr.name="perdida_eficiencia" attr.type="double"/>
+<key id="d5" for="node" attr.name="intermediacion" attr.type="double"/>
+<key id="d4" for="node" attr.name="id_zona" attr.type="string"/>
+<key id="d3" for="node" attr.name="tipo_nodo" attr.type="string"/>
+<key id="d2" for="node" attr.name="grado" attr.type="long"/>
+<key id="d1" for="node" attr.name="lat" attr.type="double"/>
+<key id="d0" for="node" attr.name="lon" attr.type="double"/>
+<graph edgedefault="undirected"><node id="N001">
+  <data key="d0">-79.948238</data>
+  <data key="d1">-2.114556</data>
+  <data key="d2">1</data>
+  <data key="d3">extremo</data>
+  <data key="d4">PER-Z03</data>
+  <data key="d5">0.0</data>
+  <data key="d6">0.24</data>
+</node>
+<node id="N002">
+  <data key="d0">-79.94831</data>
+  <data key="d1">-2.11608</data>
+  <data key="d2">3</data>
+  <data key="d3">interseccion</data>
+  <data key="d4">PER-Z04</data>
+  <data key="d5">0.0952</data>
+  <data key="d6">0.3205</data>
+</node>
+<node id="N008">
+  <data key="d0">-79.948697</data>
+  <data key="d1">-2.130115</data>
+  <data key="d2">1</data>
+  <data key="d3">extremo</data>
+  <data key="d4">PER-Z05</data>
+  <data key="d5">0.0</data>
+  <data key="d6">0.3816</data>
+</node>
+<node id="N007">
+  <data key="d0">-79.948968</data>
+  <data key="d1">-2.129242</data>
+  <data key="d2">3</data>
+  <data key="d3">interseccion</data>
+  <data key="d4">PER-Z04</data>
+  <data key="d5">0.1429</data>
+  <data key="d6">0.5127</data>
+</node>
+<node id="N005">
+  <data key="d0">-79.949298</data>
+  <data key="d1">-2.123571</data>
+  <data key="d2">3</data>
+  <data key="d3">interseccion</data>
+  <data key="d4">PER-Z04</data>
+  <data key="d5">0.0</data>
+  <data key="d6">0.1126</data>
+</node>
+<node id="N003">
+  <data key="d0">-79.949365</data>
+  <data key="d1">-2.121915</data>
+  <data key="d2">3</data>
+  <data key="d3">interseccion</data>
+  <data key="d4">PER-Z04</data>
+  <data key="d5">0.0952</data>
+  <data key="d6">0.2637</data>
+</node>
+<node id="N004">
+  <data key="d0">-79.94943</data>
+  <data key="d1">-2.123508</data>
+  <data key="d2">3</data>
+  <data key="d3">interseccion</data>
+  <data key="d4">PER-Z04</data>
+  <data key="d5">0.0</data>
+  <data key="d6">0.2318</data>
+</node>
+<node id="N006">
+  <data key="d0">-79.949285</data>
+  <data key="d1">-2.124757</data>
+  <data key="d2">1</data>
+  <data key="d3">extremo</data>
+  <data key="d4">PER-Z04</data>
+  <data key="d5">0.0</data>
+  <data key="d6">0.1335</data>
+</node>
+<edge source="N001" target="N002">
+  <data key="d7">S0001</data>
+  <data key="d8">way/46331088;way/425220053</data>
+  <data key="d9">170.2</data>
+  <data key="d10">secondary</data>
+  <data key="d11">0.0</data>
+  <data key="d12">0.1071</data>
+</edge>
+<edge source="N002" target="N003">
+  <data key="d7">S0002</data>
+  <data key="d8">way/419269302;way/537431130</data>
+  <data key="d9">659.4</data>
+  <data key="d10">secondary</data>
+  <data key="d11">11.0</data>
+  <data key="d12">0.1429</data>
+</edge>
+<edge source="N002" target="N004">
+  <data key="d7">S0003</data>
+  <data key="d8">way/431705586;way/1554558331;way/431705588;way/1213250211;way/419271675</data>
+  <data key="d9">1135.6</data>
+  <data key="d10">trunk</data>
+  <data key="d11">9.0</data>
+  <data key="d12">0.0</data>
+</edge>
+<edge source="N008" target="N007">
+  <data key="d7">S0004</data>
+  <data key="d8">way/186301321</data>
+  <data key="d9">101.6</data>
+  <data key="d10">trunk</data>
+  <data key="d11">3.67</data>
+  <data key="d12">0.1071</data>
+</edge>
+<edge source="N007" target="N005">
+  <data key="d7">S0005</data>
+  <data key="d8">way/186301321</data>
+  <data key="d9">639.2</data>
+  <data key="d10">trunk</data>
+  <data key="d11">3.67</data>
+  <data key="d12">0.1071</data>
+</edge>
+<edge source="N007" target="N006">
+  <data key="d7">S0006</data>
+  <data key="d8">way/537416191;way/1176316421;way/558940688</data>
+  <data key="d9">506.5</data>
+  <data key="d10">residential</data>
+  <data key="d11">2.0</data>
+  <data key="d12">0.1071</data>
+</edge>
+<edge source="N005" target="N005">
+  <data key="d7">S0007</data>
+  <data key="d8">way/419271677;way/1219679940;way/431706478;way/150204998;way/682407077;way/186301321;way/431705587;way/419271679;way/895593890;way/419269295;way/419269309;way/682407078</data>
+  <data key="d9">1924.7</data>
+  <data key="d10">secondary</data>
+  <data key="d11">25.67</data>
+  <data key="d12">0.0</data>
+</edge>
+<edge source="N003" target="N004">
+  <data key="d7">S0008</data>
+  <data key="d8">way/537431129</data>
+  <data key="d9">178.2</data>
+  <data key="d10">secondary</data>
+  <data key="d11">0.0</data>
+  <data key="d12">0.1071</data>
+</edge>
+</graph></graphml>

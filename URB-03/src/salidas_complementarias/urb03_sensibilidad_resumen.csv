@@ -1,0 +1,7 @@
+﻿agregacion,abs_delta,spearman_min,spearman_medio,pct_top3_conservado,max_cambio_posicion
+aditiva,10%,0.965,0.993,100.0,2
+aditiva,20%,0.958,0.984,100.0,2
+aditiva,30%,0.937,0.977,100.0,3
+multiplicativa,10%,0.972,0.987,100.0,2
+multiplicativa,20%,0.951,0.978,100.0,2
+multiplicativa,30%,0.937,0.974,100.0,2

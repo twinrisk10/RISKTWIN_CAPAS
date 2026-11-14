@@ -1,0 +1,9 @@
+﻿id_nodo,lon,lat,grado,id_zona,tipo_nodo,intermediacion,perdida_eficiencia,punto_articulacion
+N001,-79.948238,-2.114556,1,PER-Z03,extremo,0.0,0.24,False
+N002,-79.94831,-2.11608,3,PER-Z04,interseccion,0.0952,0.3205,True
+N008,-79.948697,-2.130115,1,PER-Z05,extremo,0.0,0.3816,False
+N007,-79.948968,-2.129242,3,PER-Z04,interseccion,0.1429,0.5127,True
+N005,-79.949298,-2.123571,3,PER-Z04,interseccion,0.0,0.1126,False
+N003,-79.949365,-2.121915,3,PER-Z04,interseccion,0.0952,0.2637,False
+N004,-79.94943,-2.123508,3,PER-Z04,interseccion,0.0,0.2318,False
+N006,-79.949285,-2.124757,1,PER-Z04,extremo,0.0,0.1335,False

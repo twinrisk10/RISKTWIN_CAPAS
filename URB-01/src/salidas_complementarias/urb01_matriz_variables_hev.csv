@@ -1,0 +1,20 @@
+﻿id_variable,riesgo,componente,nombre,unidad,sentido,fuente_id,tipo_dato_piloto,calculo
+ACC_H_tasa_siniestros_km,accidentes_viales,H,Siniestros por km de eje y año,siniestros/km/año,+,F01,derivado_real,n siniestros ATM en la zona / longitud_eje_km / años observados
+ACC_H_vel_max_kmh,accidentes_viales,H,Velocidad máxima señalizada predominante,km/h,+,F03,real,Moda de maxspeed de las vías OSM de la zona
+ACC_E_tpda_veh_dia,accidentes_viales,E,Tránsito promedio diario anual,veh/día,+,F07,sintetico,Pendiente de aforos ATM; valor sintético por zona
+ACC_E_poblacion_corredor,accidentes_viales,E,Población residente en el corredor,hab,+,F04,sintetico,Pendiente de INEC (Censo 2022) por sector censal
+ACC_V_pct_atropellos,accidentes_viales,V,Proporción de siniestros que son atropellos,%,+,F01,derivado_real,atropellos / siniestros (usuarios vulnerables)
+ACC_V_pct_motocicleta,accidentes_viales,V,Proporción de siniestros con motocicleta,%,+,F01,derivado_real,siniestros con MOTOCICLETA > 0 / siniestros
+ACC_V_tasa_letalidad,accidentes_viales,V,Fallecidos por cada 100 víctimas,%,+,F01,derivado_real,100 · fallecidos / (lesionados + fallecidos)
+SEG_H_homicidios_km2_anio,seguridad_urbana,H,Homicidios por km² y año,homicidios/km²/año,+,F02,derivado_real,n homicidios (2023+) en la zona / area_km2 / años observados
+SEG_H_pct_arma_fuego,seguridad_urbana,H,Proporción de homicidios con arma de fuego,%,+,F02,derivado_real,homicidios con arma de fuego / homicidios
+SEG_E_densidad_poblacional,seguridad_urbana,E,Densidad poblacional,hab/km²,+,F04,sintetico,Pendiente de INEC
+SEG_E_pois_comerciales,seguridad_urbana,E,Puntos de interés comerciales y de transporte,n,+,F03,sintetico,Conteo OSM (amenity/shop) dentro del corredor; en Colab se puede descargar
+SEG_V_iluminacion_deficiente_pct,seguridad_urbana,V,Tramos con alumbrado deficiente,%,+,F08,sintetico,Pendiente de Municipio / CNEL
+SEG_V_pobreza_nbi_pct,seguridad_urbana,V,Pobreza por necesidades básicas insatisfechas,%,+,F04,sintetico,Pendiente de INEC
+INU_H_precip_max_24h_mm,inundaciones,H,Precipitación máxima en 24 h (temporada lluviosa),mm,+,F05,sintetico,Pendiente de INAMHI (estación más cercana / interpolación)
+INU_H_elevacion_media_m,inundaciones,H,Elevación media del terreno,m s. n. m.,-,F09,sintetico,Pendiente de DEM (IGM / SRTM); menor cota = mayor peligro
+INU_E_poblacion_cota_baja,inundaciones,E,Población en cotas inundables,hab,+,F04,sintetico,Población INEC en áreas bajo la cota de anegamiento
+INU_E_via_inundable_km,inundaciones,E,Longitud de vía con antecedentes de anegamiento,km,+,F06,sintetico,Pendiente del catastro municipal de puntos de anegamiento
+INU_V_deficit_drenaje_pct,inundaciones,V,Déficit de cobertura de drenaje pluvial,%,+,F06,sintetico,100 − cobertura de alcantarillado pluvial
+INU_V_vivienda_precaria_pct,inundaciones,V,Viviendas con materiales precarios,%,+,F04,sintetico,Pendiente de INEC

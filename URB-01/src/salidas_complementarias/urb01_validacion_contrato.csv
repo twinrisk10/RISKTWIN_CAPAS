@@ -1,0 +1,11 @@
+﻿chequeo,cumple
+≥ 15 variables en la matriz,True
+"Cada riesgo tiene H, E y V",True
+id_zona cumple el patrón PER-Z##,True
+12 zonas con observaciones,True
+"componente ∈ {H, E, V}",True
+tipo_dato ∈ vocabulario del contrato,True
+Sin valores negativos,True
+"Porcentajes en [0, 100]",True
+"Eventos con severidad en [1, 4]",True
+Inundaciones NO usan datos reales inventados,True
