@@ -6,3 +6,4 @@ Delgado Quiñonez Elian Adonis; Vargas Ordoñez Stalyn Gabriel
 
 
 Notebook v1: Contexto del anteproyecto - Falta hacerlo más puntual
+Notebook vFinal: 
