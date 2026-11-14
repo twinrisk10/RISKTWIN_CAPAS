@@ -1,0 +1,121 @@
+﻿id_evento,fecha,id_zona,tipo_evento,severidad,dias_perdidos,tipo_dato
+INC-0079,2026-01-02,IND-Z01,Exposición química,2,2,sintetico
+INC-0054,2026-01-05,IND-Z01,Golpe,3,9,sintetico
+INC-0040,2026-01-11,IND-Z02,Caída,4,49,sintetico
+INC-0099,2026-01-13,IND-Z01,Golpe,2,1,sintetico
+INC-0032,2026-01-21,IND-Z03,Quemadura,2,3,sintetico
+INC-0020,2026-01-22,IND-Z04,Atrapamiento,2,1,sintetico
+INC-0102,2026-01-23,IND-Z01,Exposición química,4,51,sintetico
+INC-0065,2026-01-23,IND-Z03,Corte,1,0,sintetico
+INC-0002,2026-01-23,IND-Z06,Atrapamiento,3,10,sintetico
+INC-0109,2026-01-24,IND-Z03,Exposición química,1,0,sintetico
+INC-0052,2026-01-26,IND-Z01,Caída,1,0,sintetico
+INC-0041,2026-01-29,IND-Z06,Exposición química,3,7,sintetico
+INC-0106,2026-01-29,IND-Z01,Caída,1,0,sintetico
+INC-0088,2026-01-30,IND-Z04,Exposición química,2,1,sintetico
+INC-0098,2026-01-31,IND-Z03,Exposición química,2,2,sintetico
+INC-0025,2026-02-01,IND-Z01,Quemadura,3,6,sintetico
+INC-0068,2026-02-02,IND-Z03,Corte,2,3,sintetico
+INC-0012,2026-02-03,IND-Z01,Atrapamiento,1,0,sintetico
+INC-0014,2026-02-03,IND-Z01,Exposición química,2,2,sintetico
+INC-0037,2026-02-04,IND-Z01,Exposición química,1,0,sintetico
+INC-0060,2026-02-10,IND-Z02,Quemadura,1,0,sintetico
+INC-0005,2026-02-10,IND-Z05,Atrapamiento,2,3,sintetico
+INC-0030,2026-02-11,IND-Z06,Quemadura,2,2,sintetico
+INC-0085,2026-02-12,IND-Z02,Exposición química,2,3,sintetico
+INC-0003,2026-02-14,IND-Z03,Corte,1,0,sintetico
+INC-0071,2026-02-14,IND-Z02,Atrapamiento,1,0,sintetico
+INC-0094,2026-02-18,IND-Z06,Corte,2,1,sintetico
+INC-0073,2026-02-19,IND-Z05,Atrapamiento,2,2,sintetico
+INC-0120,2026-02-20,IND-Z03,Atrapamiento,1,0,sintetico
+INC-0108,2026-02-22,IND-Z04,Corte,1,0,sintetico
+INC-0113,2026-03-01,IND-Z03,Golpe,3,14,sintetico
+INC-0069,2026-03-02,IND-Z02,Golpe,2,1,sintetico
+INC-0064,2026-03-02,IND-Z04,Golpe,1,0,sintetico
+INC-0057,2026-03-07,IND-Z03,Golpe,1,0,sintetico
+INC-0087,2026-03-07,IND-Z06,Corte,1,0,sintetico
+INC-0018,2026-03-13,IND-Z04,Exposición química,2,3,sintetico
+INC-0047,2026-03-14,IND-Z04,Exposición química,1,0,sintetico
+INC-0090,2026-03-15,IND-Z06,Exposición química,3,8,sintetico
+INC-0104,2026-03-15,IND-Z04,Golpe,2,2,sintetico
+INC-0050,2026-03-15,IND-Z03,Golpe,2,3,sintetico
+INC-0016,2026-03-15,IND-Z01,Corte,1,0,sintetico
+INC-0022,2026-03-15,IND-Z04,Corte,1,0,sintetico
+INC-0026,2026-03-16,IND-Z04,Quemadura,1,0,sintetico
+INC-0027,2026-03-17,IND-Z04,Exposición química,1,0,sintetico
+INC-0084,2026-03-18,IND-Z01,Caída,1,0,sintetico
+INC-0019,2026-03-20,IND-Z02,Golpe,3,4,sintetico
+INC-0009,2026-03-22,IND-Z01,Golpe,2,2,sintetico
+INC-0056,2026-04-11,IND-Z02,Caída,1,0,sintetico
+INC-0031,2026-04-12,IND-Z01,Quemadura,4,18,sintetico
+INC-0053,2026-04-15,IND-Z06,Quemadura,3,13,sintetico
+INC-0001,2026-04-16,IND-Z05,Corte,1,0,sintetico
+INC-0034,2026-04-17,IND-Z01,Caída,3,10,sintetico
+INC-0010,2026-04-17,IND-Z05,Caída,2,1,sintetico
+INC-0077,2026-04-19,IND-Z05,Atrapamiento,2,3,sintetico
+INC-0097,2026-04-19,IND-Z04,Caída,3,6,sintetico
+INC-0103,2026-04-19,IND-Z04,Caída,2,1,sintetico
+INC-0093,2026-04-21,IND-Z01,Caída,1,0,sintetico
+INC-0101,2026-04-22,IND-Z01,Atrapamiento,3,6,sintetico
+INC-0070,2026-04-27,IND-Z02,Quemadura,1,0,sintetico
+INC-0115,2026-04-29,IND-Z02,Golpe,1,0,sintetico
+INC-0063,2026-04-30,IND-Z06,Golpe,1,0,sintetico
+INC-0114,2026-05-01,IND-Z01,Corte,1,0,sintetico
+INC-0023,2026-05-01,IND-Z06,Atrapamiento,3,7,sintetico
+INC-0021,2026-05-01,IND-Z01,Quemadura,2,1,sintetico
+INC-0046,2026-05-02,IND-Z01,Golpe,1,0,sintetico
+INC-0112,2026-05-05,IND-Z04,Caída,3,14,sintetico
+INC-0080,2026-05-07,IND-Z05,Exposición química,3,6,sintetico
+INC-0111,2026-05-09,IND-Z03,Exposición química,1,0,sintetico
+INC-0013,2026-05-16,IND-Z04,Quemadura,3,10,sintetico
+INC-0015,2026-05-18,IND-Z05,Exposición química,2,1,sintetico
+INC-0049,2026-05-18,IND-Z01,Corte,1,0,sintetico
+INC-0048,2026-05-22,IND-Z01,Caída,3,5,sintetico
+INC-0051,2026-05-26,IND-Z06,Exposición química,1,0,sintetico
+INC-0067,2026-06-02,IND-Z05,Exposición química,3,13,sintetico
+INC-0074,2026-06-03,IND-Z02,Caída,2,1,sintetico
+INC-0083,2026-06-04,IND-Z06,Golpe,3,8,sintetico
+INC-0028,2026-06-07,IND-Z01,Atrapamiento,1,0,sintetico
+INC-0082,2026-06-09,IND-Z02,Golpe,3,12,sintetico
+INC-0036,2026-06-10,IND-Z04,Golpe,3,11,sintetico
+INC-0035,2026-06-11,IND-Z04,Atrapamiento,1,0,sintetico
+INC-0117,2026-06-12,IND-Z01,Caída,2,2,sintetico
+INC-0029,2026-06-14,IND-Z02,Caída,1,0,sintetico
+INC-0062,2026-06-15,IND-Z02,Corte,1,0,sintetico
+INC-0105,2026-06-17,IND-Z01,Quemadura,2,3,sintetico
+INC-0110,2026-06-20,IND-Z04,Exposición química,2,1,sintetico
+INC-0100,2026-06-22,IND-Z06,Exposición química,2,1,sintetico
+INC-0076,2026-06-26,IND-Z01,Atrapamiento,4,59,sintetico
+INC-0116,2026-06-30,IND-Z01,Atrapamiento,3,8,sintetico
+INC-0007,2026-06-30,IND-Z01,Atrapamiento,1,0,sintetico
+INC-0042,2026-07-07,IND-Z04,Corte,1,0,sintetico
+INC-0086,2026-07-09,IND-Z03,Exposición química,1,0,sintetico
+INC-0091,2026-07-09,IND-Z06,Corte,1,0,sintetico
+INC-0081,2026-07-10,IND-Z06,Caída,1,0,sintetico
+INC-0058,2026-07-18,IND-Z01,Quemadura,1,0,sintetico
+INC-0004,2026-07-19,IND-Z02,Caída,1,0,sintetico
+INC-0017,2026-07-19,IND-Z06,Caída,1,0,sintetico
+INC-0061,2026-07-21,IND-Z01,Caída,1,0,sintetico
+INC-0038,2026-07-21,IND-Z05,Golpe,1,0,sintetico
+INC-0044,2026-07-21,IND-Z01,Quemadura,1,0,sintetico
+INC-0096,2026-07-26,IND-Z01,Corte,3,5,sintetico
+INC-0011,2026-08-07,IND-Z05,Golpe,1,0,sintetico
+INC-0059,2026-08-13,IND-Z05,Caída,1,0,sintetico
+INC-0119,2026-08-13,IND-Z04,Exposición química,1,0,sintetico
+INC-0066,2026-08-13,IND-Z01,Atrapamiento,3,6,sintetico
+INC-0055,2026-08-15,IND-Z03,Corte,2,3,sintetico
+INC-0078,2026-08-18,IND-Z02,Caída,2,1,sintetico
+INC-0043,2026-08-19,IND-Z02,Golpe,4,19,sintetico
+INC-0072,2026-08-19,IND-Z06,Atrapamiento,2,1,sintetico
+INC-0033,2026-08-20,IND-Z03,Golpe,1,0,sintetico
+INC-0075,2026-08-20,IND-Z06,Exposición química,1,0,sintetico
+INC-0118,2026-08-21,IND-Z06,Quemadura,3,13,sintetico
+INC-0006,2026-08-24,IND-Z06,Atrapamiento,3,8,sintetico
+INC-0089,2026-08-24,IND-Z05,Quemadura,1,0,sintetico
+INC-0024,2026-08-24,IND-Z05,Atrapamiento,2,2,sintetico
+INC-0008,2026-08-24,IND-Z02,Caída,1,0,sintetico
+INC-0107,2026-08-25,IND-Z04,Quemadura,2,1,sintetico
+INC-0095,2026-08-27,IND-Z01,Atrapamiento,2,3,sintetico
+INC-0039,2026-08-29,IND-Z03,Corte,1,0,sintetico
+INC-0045,2026-08-31,IND-Z01,Atrapamiento,1,0,sintetico
+INC-0092,2026-08-31,IND-Z04,Exposición química,2,1,sintetico

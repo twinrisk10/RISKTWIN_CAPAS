@@ -1,0 +1,126 @@
+{
+  "nombre": "Contrato común H–E–V del gemelo digital RISKTWIN",
+  "version": "1.0.0",
+  "fecha": "2026-11-14",
+  "estado": "propuesta para acordar entre equipos (no aprobado aún por el tutor)",
+  "proposito": "Fijar identificadores, campos, tipos y escalas compartidos por URB-01..05, SIS-API-01, IND-SIS-01 e IND-SIS-02 para que sus salidas se puedan unir sin conversiones manuales.",
+
+  "identificador_espacial": {
+    "urbano": {
+      "patron": "^PER-Z\\d{2}$",
+      "valores": ["PER-Z01", "PER-Z02", "PER-Z03", "PER-Z04", "PER-Z05", "PER-Z06", "PER-Z07", "PER-Z08", "PER-Z09", "PER-Z10", "PER-Z11", "PER-Z12"],
+      "definicion": "Corredor de 200 m a cada lado del eje de la Vía Perimetral (OSM, name='Vía Perimetral'), cortado en 12 franjas de igual amplitud en latitud, numeradas de norte (Z01) a sur (Z12).",
+      "archivo_geometria": "COMUN/zonas_perimetral.geojson",
+      "archivo_tabla": "COMUN/zonas_perimetral.csv",
+      "regla_asignacion_evento": "Un evento pertenece a la zona cuya franja contiene su latitud (lat_min < lat <= lat_max), siempre que esté a <= 200 m del eje."
+    },
+    "industrial": {
+      "patron": "^IND-Z\\d{2}$",
+      "definicion": "Zonas de la planta industrial simulada (IND-Z01..IND-Z06). Sustituye los códigos Z01..Z06 de los notebooks originales para que no choquen con las zonas urbanas."
+    },
+    "subunidades": {
+      "nodo_vial": "^N\\d+$ (id de nodo; en URB-02 se deriva de coordenadas OSM)",
+      "segmento_vial": "^S\\d{4,}$ o 'way/<osm_id>' cuando proviene directamente de OSM"
+    }
+  },
+
+  "sistemas_de_referencia": {
+    "almacenamiento_intercambio": "EPSG:4326 (WGS84, grados decimales, lon/lat en GeoJSON)",
+    "calculo_metrico": "EPSG:32717 (UTM 17S, metros)"
+  },
+
+  "tiempo": {
+    "fecha": "ISO 8601 AAAA-MM-DD",
+    "fecha_hora": "ISO 8601 AAAA-MM-DDThh:mm:ss, hora local America/Guayaquil (UTC-05:00)",
+    "periodo_semanal": "AAAA-Www (semana ISO)",
+    "periodo_mensual": "AAAA-MM"
+  },
+
+  "riesgos": {
+    "accidentes_viales": "Siniestros de tránsito (fuente principal: ATM Guayaquil).",
+    "seguridad_urbana": "Delitos contra la vida (homicidios, asesinatos, sicariatos; fuente: Policía Nacional / OECO). Robos quedan pendientes de fuente.",
+    "inundaciones": "Anegamientos e inundaciones urbanas. En noviembre de 2026 NO hay registros de eventos georreferenciados en el repositorio; solo cifras agregadas (indicador_3_inundaciones_PRUEBA.csv). Cualquier valor por zona es sintético o proxy y debe marcarse así."
+  },
+
+  "componentes": {
+    "H": "Peligrosidad: probabilidad o intensidad del fenómeno que causa daño.",
+    "E": "Exposición: personas, vehículos o bienes presentes donde ocurre el fenómeno.",
+    "V": "Vulnerabilidad: susceptibilidad de lo expuesto a sufrir daño (y falta de capacidad para resistirlo).",
+    "escala": "Cada componente se entrega normalizado en [0, 1], donde 1 = peor condición del conjunto analizado.",
+    "indice": "indice_criticidad en [0, 1]. La fórmula de referencia la documenta URB-03 (agregación aditiva ponderada y multiplicativa)."
+  },
+
+  "niveles": {
+    "bajo": "[0.00, 0.25)",
+    "medio": "[0.25, 0.50)",
+    "alto": "[0.50, 0.75)",
+    "critico": "[0.75, 1.00]"
+  },
+
+  "tipo_dato": {
+    "real": "Registro observado proveniente de una fuente identificada (ATM, Policía Nacional, OSM, INEC...).",
+    "derivado_real": "Calculado a partir de datos reales (p. ej. siniestros por km y año).",
+    "proxy": "Variable real que sustituye a otra no disponible; debe declararse a qué sustituye.",
+    "sintetico": "Generado por programa con semilla fija. Nunca se presenta como evidencia empírica.",
+    "pendiente": "Variable definida pero sin dato todavía."
+  },
+
+  "entidades": {
+    "zona": {
+      "id_zona": {"tipo": "string", "obligatorio": true, "formato": "PER-Z## | IND-Z##"},
+      "nombre": {"tipo": "string", "obligatorio": true},
+      "area_km2": {"tipo": "number", "obligatorio": true, "minimo": 0},
+      "longitud_eje_km": {"tipo": "number", "obligatorio": false, "minimo": 0},
+      "centroide_lat": {"tipo": "number", "obligatorio": true, "rango": [-90, 90]},
+      "centroide_lon": {"tipo": "number", "obligatorio": true, "rango": [-180, 180]},
+      "geometry": {"tipo": "Polygon | MultiPolygon (GeoJSON)", "obligatorio": false}
+    },
+    "evento": {
+      "id_evento": {"tipo": "string", "obligatorio": true, "ejemplo": "ATM00001012024"},
+      "riesgo": {"tipo": "enum", "obligatorio": true, "valores": ["accidentes_viales", "seguridad_urbana", "inundaciones", "industrial"]},
+      "id_zona": {"tipo": "string", "obligatorio": true},
+      "fecha_hora": {"tipo": "string (ISO 8601)", "obligatorio": true},
+      "lat": {"tipo": "number", "obligatorio": false},
+      "lon": {"tipo": "number", "obligatorio": false},
+      "subtipo": {"tipo": "string", "obligatorio": false, "ejemplo": "ATROPELLOS"},
+      "severidad": {"tipo": "integer", "obligatorio": true, "rango": [1, 4], "significado": "1 sin víctimas / leve · 2 lesionados / moderada · 3 grave · 4 fallecidos / crítica"},
+      "lesionados": {"tipo": "integer", "obligatorio": false, "minimo": 0},
+      "fallecidos": {"tipo": "integer", "obligatorio": false, "minimo": 0},
+      "fuente": {"tipo": "string", "obligatorio": true},
+      "tipo_dato": {"tipo": "enum", "obligatorio": true, "valores": ["real", "sintetico"]}
+    },
+    "observacion": {
+      "descripcion": "Valor de una variable H–E–V para una zona y un periodo. Es la unidad de intercambio entre URB-01 (produce), URB-03 (agrega) y SIS-API-01 (expone).",
+      "id_zona": {"tipo": "string", "obligatorio": true},
+      "periodo": {"tipo": "string", "obligatorio": true, "ejemplo": "2025"},
+      "id_variable": {"tipo": "string", "obligatorio": true, "formato": "<riesgo abreviado>_<componente>_<nombre>", "ejemplo": "ACC_H_tasa_siniestros_km"},
+      "riesgo": {"tipo": "enum", "obligatorio": true, "valores": ["accidentes_viales", "seguridad_urbana", "inundaciones"]},
+      "componente": {"tipo": "enum", "obligatorio": true, "valores": ["H", "E", "V"]},
+      "valor": {"tipo": "number", "obligatorio": true},
+      "unidad": {"tipo": "string", "obligatorio": true},
+      "tipo_dato": {"tipo": "enum", "obligatorio": true, "valores": ["real", "derivado_real", "proxy", "sintetico", "pendiente"]},
+      "fuente": {"tipo": "string", "obligatorio": true}
+    },
+    "indicador_zona": {
+      "id_zona": {"tipo": "string", "obligatorio": true},
+      "periodo": {"tipo": "string", "obligatorio": true},
+      "riesgo": {"tipo": "enum", "obligatorio": true, "valores": ["accidentes_viales", "seguridad_urbana", "inundaciones", "global"]},
+      "H": {"tipo": "number", "rango": [0, 1]},
+      "E": {"tipo": "number", "rango": [0, 1]},
+      "V": {"tipo": "number", "rango": [0, 1]},
+      "indice_criticidad": {"tipo": "number", "rango": [0, 1]},
+      "metodo_agregacion": {"tipo": "enum", "valores": ["aditiva", "multiplicativa"]},
+      "nivel": {"tipo": "enum", "valores": ["bajo", "medio", "alto", "critico"]},
+      "tipo_dato": {"tipo": "enum", "valores": ["real", "derivado_real", "sintetico", "mixto"]}
+    }
+  },
+
+  "compatibilidad_con_notebooks_originales": {
+    "URB-01": "id_zona 'Z01' (centro de Guayaquil) -> se reemplaza por PER-Z## en el notebook complementario.",
+    "URB-03": "id_celda de cuadrícula 500 m -> se agrega por id_zona PER-Z##.",
+    "URB-04": "cuadrícula 16x16 / seg_id -> se agrega por id_zona PER-Z##.",
+    "SIS-API-01": "Incidente.zona 'Z01' y severidad 1-4 -> se conserva la escala 1-4; zona pasa a PER-Z## o IND-Z##.",
+    "IND-SIS-01": "zona.codigo Z01..Z06 y severidad 1-4 -> IND-Z01..IND-Z06, severidad 1-4 sin cambios.",
+    "IND-SIS-02": "severidad 1-5 (Leve..Crítica) -> se armoniza a 1-4 (ver tabla de equivalencias en su README complementario)."
+  }
+}

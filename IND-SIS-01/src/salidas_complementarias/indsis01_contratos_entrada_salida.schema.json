@@ -1,0 +1,246 @@
+{
+ "EntradaIncidenteSI02": {
+  "additionalProperties": false,
+  "description": "Entrada: fila del CSV de SI-02 ya normalizada por el ETL.",
+  "properties": {
+   "id_evento": {
+    "pattern": "^INC-\\d{4,}$",
+    "title": "Id Evento",
+    "type": "string"
+   },
+   "fecha": {
+    "format": "date",
+    "title": "Fecha",
+    "type": "string"
+   },
+   "id_zona": {
+    "pattern": "^IND-Z\\d{2}$",
+    "title": "Id Zona",
+    "type": "string"
+   },
+   "tipo_evento": {
+    "enum": [
+     "Caída",
+     "Golpe",
+     "Quemadura",
+     "Exposición química",
+     "Atrapamiento",
+     "Corte"
+    ],
+    "title": "Tipo Evento",
+    "type": "string"
+   },
+   "severidad": {
+    "maximum": 4,
+    "minimum": 1,
+    "title": "Severidad",
+    "type": "integer"
+   },
+   "dias_perdidos": {
+    "minimum": 0,
+    "title": "Dias Perdidos",
+    "type": "integer"
+   },
+   "tipo_dato": {
+    "enum": [
+     "real",
+     "sintetico"
+    ],
+    "title": "Tipo Dato",
+    "type": "string"
+   }
+  },
+  "required": [
+   "id_evento",
+   "fecha",
+   "id_zona",
+   "tipo_evento",
+   "severidad",
+   "dias_perdidos",
+   "tipo_dato"
+  ],
+  "title": "EntradaIncidenteSI02",
+  "type": "object"
+ },
+ "EntradaIndicadorSI01": {
+  "additionalProperties": false,
+  "description": "Entrada: registro del JSON de SI-01, aplanado.",
+  "properties": {
+   "id_zona": {
+    "pattern": "^IND-Z\\d{2}$",
+    "title": "Id Zona",
+    "type": "string"
+   },
+   "periodo": {
+    "pattern": "^\\d{4}-\\d{2}$",
+    "title": "Periodo",
+    "type": "string"
+   },
+   "indice_frecuencia": {
+    "minimum": 0,
+    "title": "Indice Frecuencia",
+    "type": "number"
+   },
+   "indice_gravedad": {
+    "minimum": 0,
+    "title": "Indice Gravedad",
+    "type": "number"
+   },
+   "exposicion_horas": {
+    "exclusiveMinimum": 0,
+    "title": "Exposicion Horas",
+    "type": "number"
+   },
+   "nivel_riesgo": {
+    "enum": [
+     "bajo",
+     "medio",
+     "alto",
+     "critico"
+    ],
+    "title": "Nivel Riesgo",
+    "type": "string"
+   }
+  },
+  "required": [
+   "id_zona",
+   "periodo",
+   "indice_frecuencia",
+   "indice_gravedad",
+   "exposicion_horas",
+   "nivel_riesgo"
+  ],
+  "title": "EntradaIndicadorSI01",
+  "type": "object"
+ },
+ "SalidaIndicadoresZona": {
+  "additionalProperties": false,
+  "description": "Salida de GET /indicadores/{id_zona}: lo que consume IND-SIS-02.",
+  "properties": {
+   "id_zona": {
+    "title": "Id Zona",
+    "type": "string"
+   },
+   "nombre": {
+    "title": "Nombre",
+    "type": "string"
+   },
+   "periodo_desde": {
+    "title": "Periodo Desde",
+    "type": "string"
+   },
+   "periodo_hasta": {
+    "title": "Periodo Hasta",
+    "type": "string"
+   },
+   "n_incidentes": {
+    "title": "N Incidentes",
+    "type": "integer"
+   },
+   "severidad_media": {
+    "maximum": 4,
+    "minimum": 1,
+    "title": "Severidad Media",
+    "type": "number"
+   },
+   "indice_frecuencia_medio": {
+    "title": "Indice Frecuencia Medio",
+    "type": "number"
+   },
+   "indice_gravedad_medio": {
+    "title": "Indice Gravedad Medio",
+    "type": "number"
+   },
+   "nivel_mas_reciente": {
+    "enum": [
+     "bajo",
+     "medio",
+     "alto",
+     "critico"
+    ],
+    "title": "Nivel Mas Reciente",
+    "type": "string"
+   }
+  },
+  "required": [
+   "id_zona",
+   "nombre",
+   "periodo_desde",
+   "periodo_hasta",
+   "n_incidentes",
+   "severidad_media",
+   "indice_frecuencia_medio",
+   "indice_gravedad_medio",
+   "nivel_mas_reciente"
+  ],
+  "title": "SalidaIndicadoresZona",
+  "type": "object"
+ },
+ "SalidaEventoComun": {
+  "additionalProperties": false,
+  "description": "Salida hacia SIS-API-01: incidente traducido a 'evento' del contrato común.",
+  "properties": {
+   "id_evento": {
+    "title": "Id Evento",
+    "type": "string"
+   },
+   "riesgo": {
+    "const": "industrial",
+    "default": "industrial",
+    "title": "Riesgo",
+    "type": "string"
+   },
+   "id_zona": {
+    "title": "Id Zona",
+    "type": "string"
+   },
+   "fecha_hora": {
+    "title": "Fecha Hora",
+    "type": "string"
+   },
+   "subtipo": {
+    "title": "Subtipo",
+    "type": "string"
+   },
+   "severidad": {
+    "maximum": 4,
+    "minimum": 1,
+    "title": "Severidad",
+    "type": "integer"
+   },
+   "lesionados": {
+    "default": 0,
+    "title": "Lesionados",
+    "type": "integer"
+   },
+   "fallecidos": {
+    "default": 0,
+    "title": "Fallecidos",
+    "type": "integer"
+   },
+   "fuente": {
+    "title": "Fuente",
+    "type": "string"
+   },
+   "tipo_dato": {
+    "enum": [
+     "real",
+     "sintetico"
+    ],
+    "title": "Tipo Dato",
+    "type": "string"
+   }
+  },
+  "required": [
+   "id_evento",
+   "id_zona",
+   "fecha_hora",
+   "subtipo",
+   "severidad",
+   "fuente",
+   "tipo_dato"
+  ],
+  "title": "SalidaEventoComun",
+  "type": "object"
+ }
+}

@@ -1,0 +1,13 @@
+id_zona,nombre,orden_norte_sur,lat_max,lat_min,centroide_lat,centroide_lon,area_km2,longitud_eje_km,vel_max_osm_kmh,carriles_osm,buffer_m,fuente,tipo_dato
+PER-Z01,Perimetral tramo 01 (extremo norte),1,-2.073,-2.087125,-2.080262,-79.93277,1.491,3.88,90,3,200,OSM 2026-11-09 (geoJsonPerimetral.geojson) + regla COMUN v1,real
+PER-Z02,Perimetral tramo 02,2,-2.087125,-2.10125,-2.094077,-79.947805,0.662,1.59,90,3,200,OSM 2026-11-09 (geoJsonPerimetral.geojson) + regla COMUN v1,real
+PER-Z03,Perimetral tramo 03,3,-2.10125,-2.115375,-2.108339,-79.947903,0.68,2.29,90,3,200,OSM 2026-11-09 (geoJsonPerimetral.geojson) + regla COMUN v1,real
+PER-Z04,Perimetral tramo 04,4,-2.115375,-2.1295,-2.122392,-79.948995,0.713,3.22,60,3,200,OSM 2026-11-09 (geoJsonPerimetral.geojson) + regla COMUN v1,real
+PER-Z05,Perimetral tramo 05,5,-2.1295,-2.143625,-2.136494,-79.94695,0.674,1.62,90,3,200,OSM 2026-11-09 (geoJsonPerimetral.geojson) + regla COMUN v1,real
+PER-Z06,Perimetral tramo 06,6,-2.143625,-2.15775,-2.15081,-79.94666,0.675,1.61,90,3,200,OSM 2026-11-09 (geoJsonPerimetral.geojson) + regla COMUN v1,real
+PER-Z07,Perimetral tramo 07,7,-2.15775,-2.171875,-2.164975,-79.947666,0.688,1.65,90,3,200,OSM 2026-11-09 (geoJsonPerimetral.geojson) + regla COMUN v1,real
+PER-Z08,Perimetral tramo 08,8,-2.171875,-2.186,-2.179743,-79.947688,0.798,1.92,90,3,200,OSM 2026-11-09 (geoJsonPerimetral.geojson) + regla COMUN v1,real
+PER-Z09,Perimetral tramo 09,9,-2.186,-2.200125,-2.192248,-79.957006,0.789,1.87,90,3,200,OSM 2026-11-09 (geoJsonPerimetral.geojson) + regla COMUN v1,real
+PER-Z10,Perimetral tramo 10,10,-2.200125,-2.21425,-2.207136,-79.956081,0.664,1.59,90,3,200,OSM 2026-11-09 (geoJsonPerimetral.geojson) + regla COMUN v1,real
+PER-Z11,Perimetral tramo 11,11,-2.21425,-2.228375,-2.221591,-79.956534,0.691,1.65,90,3,200,OSM 2026-11-09 (geoJsonPerimetral.geojson) + regla COMUN v1,real
+PER-Z12,Perimetral tramo 12 (extremo sur),12,-2.228375,-2.2425,-2.235703,-79.933396,2.147,7.73,90,3,200,OSM 2026-11-09 (geoJsonPerimetral.geojson) + regla COMUN v1,real

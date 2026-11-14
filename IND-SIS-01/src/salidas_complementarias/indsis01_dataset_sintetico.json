@@ -1,0 +1,1505 @@
+{
+ "version_contrato": "1.0.0",
+ "tipo_dato": "sintetico",
+ "semilla": 42,
+ "zonas": [
+  {
+   "id_zona": "IND-Z01",
+   "nombre": "Caldera",
+   "area_m2": 900
+  },
+  {
+   "id_zona": "IND-Z02",
+   "nombre": "Almacén de químicos",
+   "area_m2": 650
+  },
+  {
+   "id_zona": "IND-Z03",
+   "nombre": "Línea de ensamblaje",
+   "area_m2": 1800
+  },
+  {
+   "id_zona": "IND-Z04",
+   "nombre": "Soldadura",
+   "area_m2": 700
+  },
+  {
+   "id_zona": "IND-Z05",
+   "nombre": "Bodega general",
+   "area_m2": 1500
+  },
+  {
+   "id_zona": "IND-Z06",
+   "nombre": "Carga y descarga",
+   "area_m2": 1100
+  }
+ ],
+ "incidentes": [
+  {
+   "id_evento": "INC-0079",
+   "fecha": "2026-01-02",
+   "id_zona": "IND-Z01",
+   "tipo_evento": "Exposición química",
+   "severidad": 2,
+   "dias_perdidos": 2,
+   "tipo_dato": "sintetico"
+  },
+  {
+   "id_evento": "INC-0054",
+   "fecha": "2026-01-05",
+   "id_zona": "IND-Z01",
+   "tipo_evento": "Golpe",
+   "severidad": 3,
+   "dias_perdidos": 9,
+   "tipo_dato": "sintetico"
+  },
+  {
+   "id_evento": "INC-0040",
+   "fecha": "2026-01-11",
+   "id_zona": "IND-Z02",
+   "tipo_evento": "Caída",
+   "severidad": 4,
+   "dias_perdidos": 49,
+   "tipo_dato": "sintetico"
+  },
+  {
+   "id_evento": "INC-0099",
+   "fecha": "2026-01-13",
+   "id_zona": "IND-Z01",
+   "tipo_evento": "Golpe",
+   "severidad": 2,
+   "dias_perdidos": 1,
+   "tipo_dato": "sintetico"
+  },
+  {
+   "id_evento": "INC-0032",
+   "fecha": "2026-01-21",
+   "id_zona": "IND-Z03",
+   "tipo_evento": "Quemadura",
+   "severidad": 2,
+   "dias_perdidos": 3,
+   "tipo_dato": "sintetico"
+  },
+  {
+   "id_evento": "INC-0020",
+   "fecha": "2026-01-22",
+   "id_zona": "IND-Z04",
+   "tipo_evento": "Atrapamiento",
+   "severidad": 2,
+   "dias_perdidos": 1,
+   "tipo_dato": "sintetico"
+  },
+  {
+   "id_evento": "INC-0102",
+   "fecha": "2026-01-23",
+   "id_zona": "IND-Z01",
+   "tipo_evento": "Exposición química",
+   "severidad": 4,
+   "dias_perdidos": 51,
+   "tipo_dato": "sintetico"
+  },
+  {
+   "id_evento": "INC-0065",
+   "fecha": "2026-01-23",
+   "id_zona": "IND-Z03",
+   "tipo_evento": "Corte",
+   "severidad": 1,
+   "dias_perdidos": 0,
+   "tipo_dato": "sintetico"
+  },
+  {
+   "id_evento": "INC-0002",
+   "fecha": "2026-01-23",
+   "id_zona": "IND-Z06",
+   "tipo_evento": "Atrapamiento",
+   "severidad": 3,
+   "dias_perdidos": 10,
+   "tipo_dato": "sintetico"
+  },
+  {
+   "id_evento": "INC-0109",
+   "fecha": "2026-01-24",
+   "id_zona": "IND-Z03",
+   "tipo_evento": "Exposición química",
+   "severidad": 1,
+   "dias_perdidos": 0,
+   "tipo_dato": "sintetico"
+  },
+  {
+   "id_evento": "INC-0052",
+   "fecha": "2026-01-26",
+   "id_zona": "IND-Z01",
+   "tipo_evento": "Caída",
+   "severidad": 1,
+   "dias_perdidos": 0,
+   "tipo_dato": "sintetico"
+  },
+  {
+   "id_evento": "INC-0041",
+   "fecha": "2026-01-29",
+   "id_zona": "IND-Z06",
+   "tipo_evento": "Exposición química",
+   "severidad": 3,
+   "dias_perdidos": 7,
+   "tipo_dato": "sintetico"
+  },
+  {
+   "id_evento": "INC-0106",
+   "fecha": "2026-01-29",
+   "id_zona": "IND-Z01",
+   "tipo_evento": "Caída",
+   "severidad": 1,
+   "dias_perdidos": 0,
+   "tipo_dato": "sintetico"
+  },
+  {
+   "id_evento": "INC-0088",
+   "fecha": "2026-01-30",
+   "id_zona": "IND-Z04",
+   "tipo_evento": "Exposición química",
+   "severidad": 2,
+   "dias_perdidos": 1,
+   "tipo_dato": "sintetico"
+  },
+  {
+   "id_evento": "INC-0098",
+   "fecha": "2026-01-31",
+   "id_zona": "IND-Z03",
+   "tipo_evento": "Exposición química",
+   "severidad": 2,
+   "dias_perdidos": 2,
+   "tipo_dato": "sintetico"
+  },
+  {
+   "id_evento": "INC-0025",
+   "fecha": "2026-02-01",
+   "id_zona": "IND-Z01",
+   "tipo_evento": "Quemadura",
+   "severidad": 3,
+   "dias_perdidos": 6,
+   "tipo_dato": "sintetico"
+  },
+  {
+   "id_evento": "INC-0068",
+   "fecha": "2026-02-02",
+   "id_zona": "IND-Z03",
+   "tipo_evento": "Corte",
+   "severidad": 2,
+   "dias_perdidos": 3,
+   "tipo_dato": "sintetico"
+  },
+  {
+   "id_evento": "INC-0012",
+   "fecha": "2026-02-03",
+   "id_zona": "IND-Z01",
+   "tipo_evento": "Atrapamiento",
+   "severidad": 1,
+   "dias_perdidos": 0,
+   "tipo_dato": "sintetico"
+  },
+  {
+   "id_evento": "INC-0014",
+   "fecha": "2026-02-03",
+   "id_zona": "IND-Z01",
+   "tipo_evento": "Exposición química",
+   "severidad": 2,
+   "dias_perdidos": 2,
+   "tipo_dato": "sintetico"
+  },
+  {
+   "id_evento": "INC-0037",
+   "fecha": "2026-02-04",
+   "id_zona": "IND-Z01",
+   "tipo_evento": "Exposición química",
+   "severidad": 1,
+   "dias_perdidos": 0,
+   "tipo_dato": "sintetico"
+  },
+  {
+   "id_evento": "INC-0060",
+   "fecha": "2026-02-10",
+   "id_zona": "IND-Z02",
+   "tipo_evento": "Quemadura",
+   "severidad": 1,
+   "dias_perdidos": 0,
+   "tipo_dato": "sintetico"
+  },
+  {
+   "id_evento": "INC-0005",
+   "fecha": "2026-02-10",
+   "id_zona": "IND-Z05",
+   "tipo_evento": "Atrapamiento",
+   "severidad": 2,
+   "dias_perdidos": 3,
+   "tipo_dato": "sintetico"
+  },
+  {
+   "id_evento": "INC-0030",
+   "fecha": "2026-02-11",
+   "id_zona": "IND-Z06",
+   "tipo_evento": "Quemadura",
+   "severidad": 2,
+   "dias_perdidos": 2,
+   "tipo_dato": "sintetico"
+  },
+  {
+   "id_evento": "INC-0085",
+   "fecha": "2026-02-12",
+   "id_zona": "IND-Z02",
+   "tipo_evento": "Exposición química",
+   "severidad": 2,
+   "dias_perdidos": 3,
+   "tipo_dato": "sintetico"
+  },
+  {
+   "id_evento": "INC-0003",
+   "fecha": "2026-02-14",
+   "id_zona": "IND-Z03",
+   "tipo_evento": "Corte",
+   "severidad": 1,
+   "dias_perdidos": 0,
+   "tipo_dato": "sintetico"
+  },
+  {
+   "id_evento": "INC-0071",
+   "fecha": "2026-02-14",
+   "id_zona": "IND-Z02",
+   "tipo_evento": "Atrapamiento",
+   "severidad": 1,
+   "dias_perdidos": 0,
+   "tipo_dato": "sintetico"
+  },
+  {
+   "id_evento": "INC-0094",
+   "fecha": "2026-02-18",
+   "id_zona": "IND-Z06",
+   "tipo_evento": "Corte",
+   "severidad": 2,
+   "dias_perdidos": 1,
+   "tipo_dato": "sintetico"
+  },
+  {
+   "id_evento": "INC-0073",
+   "fecha": "2026-02-19",
+   "id_zona": "IND-Z05",
+   "tipo_evento": "Atrapamiento",
+   "severidad": 2,
+   "dias_perdidos": 2,
+   "tipo_dato": "sintetico"
+  },
+  {
+   "id_evento": "INC-0120",
+   "fecha": "2026-02-20",
+   "id_zona": "IND-Z03",
+   "tipo_evento": "Atrapamiento",
+   "severidad": 1,
+   "dias_perdidos": 0,
+   "tipo_dato": "sintetico"
+  },
+  {
+   "id_evento": "INC-0108",
+   "fecha": "2026-02-22",
+   "id_zona": "IND-Z04",
+   "tipo_evento": "Corte",
+   "severidad": 1,
+   "dias_perdidos": 0,
+   "tipo_dato": "sintetico"
+  },
+  {
+   "id_evento": "INC-0113",
+   "fecha": "2026-03-01",
+   "id_zona": "IND-Z03",
+   "tipo_evento": "Golpe",
+   "severidad": 3,
+   "dias_perdidos": 14,
+   "tipo_dato": "sintetico"
+  },
+  {
+   "id_evento": "INC-0069",
+   "fecha": "2026-03-02",
+   "id_zona": "IND-Z02",
+   "tipo_evento": "Golpe",
+   "severidad": 2,
+   "dias_perdidos": 1,
+   "tipo_dato": "sintetico"
+  },
+  {
+   "id_evento": "INC-0064",
+   "fecha": "2026-03-02",
+   "id_zona": "IND-Z04",
+   "tipo_evento": "Golpe",
+   "severidad": 1,
+   "dias_perdidos": 0,
+   "tipo_dato": "sintetico"
+  },
+  {
+   "id_evento": "INC-0057",
+   "fecha": "2026-03-07",
+   "id_zona": "IND-Z03",
+   "tipo_evento": "Golpe",
+   "severidad": 1,
+   "dias_perdidos": 0,
+   "tipo_dato": "sintetico"
+  },
+  {
+   "id_evento": "INC-0087",
+   "fecha": "2026-03-07",
+   "id_zona": "IND-Z06",
+   "tipo_evento": "Corte",
+   "severidad": 1,
+   "dias_perdidos": 0,
+   "tipo_dato": "sintetico"
+  },
+  {
+   "id_evento": "INC-0018",
+   "fecha": "2026-03-13",
+   "id_zona": "IND-Z04",
+   "tipo_evento": "Exposición química",
+   "severidad": 2,
+   "dias_perdidos": 3,
+   "tipo_dato": "sintetico"
+  },
+  {
+   "id_evento": "INC-0047",
+   "fecha": "2026-03-14",
+   "id_zona": "IND-Z04",
+   "tipo_evento": "Exposición química",
+   "severidad": 1,
+   "dias_perdidos": 0,
+   "tipo_dato": "sintetico"
+  },
+  {
+   "id_evento": "INC-0090",
+   "fecha": "2026-03-15",
+   "id_zona": "IND-Z06",
+   "tipo_evento": "Exposición química",
+   "severidad": 3,
+   "dias_perdidos": 8,
+   "tipo_dato": "sintetico"
+  },
+  {
+   "id_evento": "INC-0104",
+   "fecha": "2026-03-15",
+   "id_zona": "IND-Z04",
+   "tipo_evento": "Golpe",
+   "severidad": 2,
+   "dias_perdidos": 2,
+   "tipo_dato": "sintetico"
+  },
+  {
+   "id_evento": "INC-0050",
+   "fecha": "2026-03-15",
+   "id_zona": "IND-Z03",
+   "tipo_evento": "Golpe",
+   "severidad": 2,
+   "dias_perdidos": 3,
+   "tipo_dato": "sintetico"
+  },
+  {
+   "id_evento": "INC-0016",
+   "fecha": "2026-03-15",
+   "id_zona": "IND-Z01",
+   "tipo_evento": "Corte",
+   "severidad": 1,
+   "dias_perdidos": 0,
+   "tipo_dato": "sintetico"
+  },
+  {
+   "id_evento": "INC-0022",
+   "fecha": "2026-03-15",
+   "id_zona": "IND-Z04",
+   "tipo_evento": "Corte",
+   "severidad": 1,
+   "dias_perdidos": 0,
+   "tipo_dato": "sintetico"
+  },
+  {
+   "id_evento": "INC-0026",
+   "fecha": "2026-03-16",
+   "id_zona": "IND-Z04",
+   "tipo_evento": "Quemadura",
+   "severidad": 1,
+   "dias_perdidos": 0,
+   "tipo_dato": "sintetico"
+  },
+  {
+   "id_evento": "INC-0027",
+   "fecha": "2026-03-17",
+   "id_zona": "IND-Z04",
+   "tipo_evento": "Exposición química",
+   "severidad": 1,
+   "dias_perdidos": 0,
+   "tipo_dato": "sintetico"
+  },
+  {
+   "id_evento": "INC-0084",
+   "fecha": "2026-03-18",
+   "id_zona": "IND-Z01",
+   "tipo_evento": "Caída",
+   "severidad": 1,
+   "dias_perdidos": 0,
+   "tipo_dato": "sintetico"
+  },
+  {
+   "id_evento": "INC-0019",
+   "fecha": "2026-03-20",
+   "id_zona": "IND-Z02",
+   "tipo_evento": "Golpe",
+   "severidad": 3,
+   "dias_perdidos": 4,
+   "tipo_dato": "sintetico"
+  },
+  {
+   "id_evento": "INC-0009",
+   "fecha": "2026-03-22",
+   "id_zona": "IND-Z01",
+   "tipo_evento": "Golpe",
+   "severidad": 2,
+   "dias_perdidos": 2,
+   "tipo_dato": "sintetico"
+  },
+  {
+   "id_evento": "INC-0056",
+   "fecha": "2026-04-11",
+   "id_zona": "IND-Z02",
+   "tipo_evento": "Caída",
+   "severidad": 1,
+   "dias_perdidos": 0,
+   "tipo_dato": "sintetico"
+  },
+  {
+   "id_evento": "INC-0031",
+   "fecha": "2026-04-12",
+   "id_zona": "IND-Z01",
+   "tipo_evento": "Quemadura",
+   "severidad": 4,
+   "dias_perdidos": 18,
+   "tipo_dato": "sintetico"
+  },
+  {
+   "id_evento": "INC-0053",
+   "fecha": "2026-04-15",
+   "id_zona": "IND-Z06",
+   "tipo_evento": "Quemadura",
+   "severidad": 3,
+   "dias_perdidos": 13,
+   "tipo_dato": "sintetico"
+  },
+  {
+   "id_evento": "INC-0001",
+   "fecha": "2026-04-16",
+   "id_zona": "IND-Z05",
+   "tipo_evento": "Corte",
+   "severidad": 1,
+   "dias_perdidos": 0,
+   "tipo_dato": "sintetico"
+  },
+  {
+   "id_evento": "INC-0034",
+   "fecha": "2026-04-17",
+   "id_zona": "IND-Z01",
+   "tipo_evento": "Caída",
+   "severidad": 3,
+   "dias_perdidos": 10,
+   "tipo_dato": "sintetico"
+  },
+  {
+   "id_evento": "INC-0010",
+   "fecha": "2026-04-17",
+   "id_zona": "IND-Z05",
+   "tipo_evento": "Caída",
+   "severidad": 2,
+   "dias_perdidos": 1,
+   "tipo_dato": "sintetico"
+  },
+  {
+   "id_evento": "INC-0077",
+   "fecha": "2026-04-19",
+   "id_zona": "IND-Z05",
+   "tipo_evento": "Atrapamiento",
+   "severidad": 2,
+   "dias_perdidos": 3,
+   "tipo_dato": "sintetico"
+  },
+  {
+   "id_evento": "INC-0097",
+   "fecha": "2026-04-19",
+   "id_zona": "IND-Z04",
+   "tipo_evento": "Caída",
+   "severidad": 3,
+   "dias_perdidos": 6,
+   "tipo_dato": "sintetico"
+  },
+  {
+   "id_evento": "INC-0103",
+   "fecha": "2026-04-19",
+   "id_zona": "IND-Z04",
+   "tipo_evento": "Caída",
+   "severidad": 2,
+   "dias_perdidos": 1,
+   "tipo_dato": "sintetico"
+  },
+  {
+   "id_evento": "INC-0093",
+   "fecha": "2026-04-21",
+   "id_zona": "IND-Z01",
+   "tipo_evento": "Caída",
+   "severidad": 1,
+   "dias_perdidos": 0,
+   "tipo_dato": "sintetico"
+  },
+  {
+   "id_evento": "INC-0101",
+   "fecha": "2026-04-22",
+   "id_zona": "IND-Z01",
+   "tipo_evento": "Atrapamiento",
+   "severidad": 3,
+   "dias_perdidos": 6,
+   "tipo_dato": "sintetico"
+  },
+  {
+   "id_evento": "INC-0070",
+   "fecha": "2026-04-27",
+   "id_zona": "IND-Z02",
+   "tipo_evento": "Quemadura",
+   "severidad": 1,
+   "dias_perdidos": 0,
+   "tipo_dato": "sintetico"
+  },
+  {
+   "id_evento": "INC-0115",
+   "fecha": "2026-04-29",
+   "id_zona": "IND-Z02",
+   "tipo_evento": "Golpe",
+   "severidad": 1,
+   "dias_perdidos": 0,
+   "tipo_dato": "sintetico"
+  },
+  {
+   "id_evento": "INC-0063",
+   "fecha": "2026-04-30",
+   "id_zona": "IND-Z06",
+   "tipo_evento": "Golpe",
+   "severidad": 1,
+   "dias_perdidos": 0,
+   "tipo_dato": "sintetico"
+  },
+  {
+   "id_evento": "INC-0114",
+   "fecha": "2026-05-01",
+   "id_zona": "IND-Z01",
+   "tipo_evento": "Corte",
+   "severidad": 1,
+   "dias_perdidos": 0,
+   "tipo_dato": "sintetico"
+  },
+  {
+   "id_evento": "INC-0023",
+   "fecha": "2026-05-01",
+   "id_zona": "IND-Z06",
+   "tipo_evento": "Atrapamiento",
+   "severidad": 3,
+   "dias_perdidos": 7,
+   "tipo_dato": "sintetico"
+  },
+  {
+   "id_evento": "INC-0021",
+   "fecha": "2026-05-01",
+   "id_zona": "IND-Z01",
+   "tipo_evento": "Quemadura",
+   "severidad": 2,
+   "dias_perdidos": 1,
+   "tipo_dato": "sintetico"
+  },
+  {
+   "id_evento": "INC-0046",
+   "fecha": "2026-05-02",
+   "id_zona": "IND-Z01",
+   "tipo_evento": "Golpe",
+   "severidad": 1,
+   "dias_perdidos": 0,
+   "tipo_dato": "sintetico"
+  },
+  {
+   "id_evento": "INC-0112",
+   "fecha": "2026-05-05",
+   "id_zona": "IND-Z04",
+   "tipo_evento": "Caída",
+   "severidad": 3,
+   "dias_perdidos": 14,
+   "tipo_dato": "sintetico"
+  },
+  {
+   "id_evento": "INC-0080",
+   "fecha": "2026-05-07",
+   "id_zona": "IND-Z05",
+   "tipo_evento": "Exposición química",
+   "severidad": 3,
+   "dias_perdidos": 6,
+   "tipo_dato": "sintetico"
+  },
+  {
+   "id_evento": "INC-0111",
+   "fecha": "2026-05-09",
+   "id_zona": "IND-Z03",
+   "tipo_evento": "Exposición química",
+   "severidad": 1,
+   "dias_perdidos": 0,
+   "tipo_dato": "sintetico"
+  },
+  {
+   "id_evento": "INC-0013",
+   "fecha": "2026-05-16",
+   "id_zona": "IND-Z04",
+   "tipo_evento": "Quemadura",
+   "severidad": 3,
+   "dias_perdidos": 10,
+   "tipo_dato": "sintetico"
+  },
+  {
+   "id_evento": "INC-0015",
+   "fecha": "2026-05-18",
+   "id_zona": "IND-Z05",
+   "tipo_evento": "Exposición química",
+   "severidad": 2,
+   "dias_perdidos": 1,
+   "tipo_dato": "sintetico"
+  },
+  {
+   "id_evento": "INC-0049",
+   "fecha": "2026-05-18",
+   "id_zona": "IND-Z01",
+   "tipo_evento": "Corte",
+   "severidad": 1,
+   "dias_perdidos": 0,
+   "tipo_dato": "sintetico"
+  },
+  {
+   "id_evento": "INC-0048",
+   "fecha": "2026-05-22",
+   "id_zona": "IND-Z01",
+   "tipo_evento": "Caída",
+   "severidad": 3,
+   "dias_perdidos": 5,
+   "tipo_dato": "sintetico"
+  },
+  {
+   "id_evento": "INC-0051",
+   "fecha": "2026-05-26",
+   "id_zona": "IND-Z06",
+   "tipo_evento": "Exposición química",
+   "severidad": 1,
+   "dias_perdidos": 0,
+   "tipo_dato": "sintetico"
+  },
+  {
+   "id_evento": "INC-0067",
+   "fecha": "2026-06-02",
+   "id_zona": "IND-Z05",
+   "tipo_evento": "Exposición química",
+   "severidad": 3,
+   "dias_perdidos": 13,
+   "tipo_dato": "sintetico"
+  },
+  {
+   "id_evento": "INC-0074",
+   "fecha": "2026-06-03",
+   "id_zona": "IND-Z02",
+   "tipo_evento": "Caída",
+   "severidad": 2,
+   "dias_perdidos": 1,
+   "tipo_dato": "sintetico"
+  },
+  {
+   "id_evento": "INC-0083",
+   "fecha": "2026-06-04",
+   "id_zona": "IND-Z06",
+   "tipo_evento": "Golpe",
+   "severidad": 3,
+   "dias_perdidos": 8,
+   "tipo_dato": "sintetico"
+  },
+  {
+   "id_evento": "INC-0028",
+   "fecha": "2026-06-07",
+   "id_zona": "IND-Z01",
+   "tipo_evento": "Atrapamiento",
+   "severidad": 1,
+   "dias_perdidos": 0,
+   "tipo_dato": "sintetico"
+  },
+  {
+   "id_evento": "INC-0082",
+   "fecha": "2026-06-09",
+   "id_zona": "IND-Z02",
+   "tipo_evento": "Golpe",
+   "severidad": 3,
+   "dias_perdidos": 12,
+   "tipo_dato": "sintetico"
+  },
+  {
+   "id_evento": "INC-0036",
+   "fecha": "2026-06-10",
+   "id_zona": "IND-Z04",
+   "tipo_evento": "Golpe",
+   "severidad": 3,
+   "dias_perdidos": 11,
+   "tipo_dato": "sintetico"
+  },
+  {
+   "id_evento": "INC-0035",
+   "fecha": "2026-06-11",
+   "id_zona": "IND-Z04",
+   "tipo_evento": "Atrapamiento",
+   "severidad": 1,
+   "dias_perdidos": 0,
+   "tipo_dato": "sintetico"
+  },
+  {
+   "id_evento": "INC-0117",
+   "fecha": "2026-06-12",
+   "id_zona": "IND-Z01",
+   "tipo_evento": "Caída",
+   "severidad": 2,
+   "dias_perdidos": 2,
+   "tipo_dato": "sintetico"
+  },
+  {
+   "id_evento": "INC-0029",
+   "fecha": "2026-06-14",
+   "id_zona": "IND-Z02",
+   "tipo_evento": "Caída",
+   "severidad": 1,
+   "dias_perdidos": 0,
+   "tipo_dato": "sintetico"
+  },
+  {
+   "id_evento": "INC-0062",
+   "fecha": "2026-06-15",
+   "id_zona": "IND-Z02",
+   "tipo_evento": "Corte",
+   "severidad": 1,
+   "dias_perdidos": 0,
+   "tipo_dato": "sintetico"
+  },
+  {
+   "id_evento": "INC-0105",
+   "fecha": "2026-06-17",
+   "id_zona": "IND-Z01",
+   "tipo_evento": "Quemadura",
+   "severidad": 2,
+   "dias_perdidos": 3,
+   "tipo_dato": "sintetico"
+  },
+  {
+   "id_evento": "INC-0110",
+   "fecha": "2026-06-20",
+   "id_zona": "IND-Z04",
+   "tipo_evento": "Exposición química",
+   "severidad": 2,
+   "dias_perdidos": 1,
+   "tipo_dato": "sintetico"
+  },
+  {
+   "id_evento": "INC-0100",
+   "fecha": "2026-06-22",
+   "id_zona": "IND-Z06",
+   "tipo_evento": "Exposición química",
+   "severidad": 2,
+   "dias_perdidos": 1,
+   "tipo_dato": "sintetico"
+  },
+  {
+   "id_evento": "INC-0076",
+   "fecha": "2026-06-26",
+   "id_zona": "IND-Z01",
+   "tipo_evento": "Atrapamiento",
+   "severidad": 4,
+   "dias_perdidos": 59,
+   "tipo_dato": "sintetico"
+  },
+  {
+   "id_evento": "INC-0116",
+   "fecha": "2026-06-30",
+   "id_zona": "IND-Z01",
+   "tipo_evento": "Atrapamiento",
+   "severidad": 3,
+   "dias_perdidos": 8,
+   "tipo_dato": "sintetico"
+  },
+  {
+   "id_evento": "INC-0007",
+   "fecha": "2026-06-30",
+   "id_zona": "IND-Z01",
+   "tipo_evento": "Atrapamiento",
+   "severidad": 1,
+   "dias_perdidos": 0,
+   "tipo_dato": "sintetico"
+  },
+  {
+   "id_evento": "INC-0042",
+   "fecha": "2026-07-07",
+   "id_zona": "IND-Z04",
+   "tipo_evento": "Corte",
+   "severidad": 1,
+   "dias_perdidos": 0,
+   "tipo_dato": "sintetico"
+  },
+  {
+   "id_evento": "INC-0086",
+   "fecha": "2026-07-09",
+   "id_zona": "IND-Z03",
+   "tipo_evento": "Exposición química",
+   "severidad": 1,
+   "dias_perdidos": 0,
+   "tipo_dato": "sintetico"
+  },
+  {
+   "id_evento": "INC-0091",
+   "fecha": "2026-07-09",
+   "id_zona": "IND-Z06",
+   "tipo_evento": "Corte",
+   "severidad": 1,
+   "dias_perdidos": 0,
+   "tipo_dato": "sintetico"
+  },
+  {
+   "id_evento": "INC-0081",
+   "fecha": "2026-07-10",
+   "id_zona": "IND-Z06",
+   "tipo_evento": "Caída",
+   "severidad": 1,
+   "dias_perdidos": 0,
+   "tipo_dato": "sintetico"
+  },
+  {
+   "id_evento": "INC-0058",
+   "fecha": "2026-07-18",
+   "id_zona": "IND-Z01",
+   "tipo_evento": "Quemadura",
+   "severidad": 1,
+   "dias_perdidos": 0,
+   "tipo_dato": "sintetico"
+  },
+  {
+   "id_evento": "INC-0004",
+   "fecha": "2026-07-19",
+   "id_zona": "IND-Z02",
+   "tipo_evento": "Caída",
+   "severidad": 1,
+   "dias_perdidos": 0,
+   "tipo_dato": "sintetico"
+  },
+  {
+   "id_evento": "INC-0017",
+   "fecha": "2026-07-19",
+   "id_zona": "IND-Z06",
+   "tipo_evento": "Caída",
+   "severidad": 1,
+   "dias_perdidos": 0,
+   "tipo_dato": "sintetico"
+  },
+  {
+   "id_evento": "INC-0061",
+   "fecha": "2026-07-21",
+   "id_zona": "IND-Z01",
+   "tipo_evento": "Caída",
+   "severidad": 1,
+   "dias_perdidos": 0,
+   "tipo_dato": "sintetico"
+  },
+  {
+   "id_evento": "INC-0038",
+   "fecha": "2026-07-21",
+   "id_zona": "IND-Z05",
+   "tipo_evento": "Golpe",
+   "severidad": 1,
+   "dias_perdidos": 0,
+   "tipo_dato": "sintetico"
+  },
+  {
+   "id_evento": "INC-0044",
+   "fecha": "2026-07-21",
+   "id_zona": "IND-Z01",
+   "tipo_evento": "Quemadura",
+   "severidad": 1,
+   "dias_perdidos": 0,
+   "tipo_dato": "sintetico"
+  },
+  {
+   "id_evento": "INC-0096",
+   "fecha": "2026-07-26",
+   "id_zona": "IND-Z01",
+   "tipo_evento": "Corte",
+   "severidad": 3,
+   "dias_perdidos": 5,
+   "tipo_dato": "sintetico"
+  },
+  {
+   "id_evento": "INC-0011",
+   "fecha": "2026-08-07",
+   "id_zona": "IND-Z05",
+   "tipo_evento": "Golpe",
+   "severidad": 1,
+   "dias_perdidos": 0,
+   "tipo_dato": "sintetico"
+  },
+  {
+   "id_evento": "INC-0059",
+   "fecha": "2026-08-13",
+   "id_zona": "IND-Z05",
+   "tipo_evento": "Caída",
+   "severidad": 1,
+   "dias_perdidos": 0,
+   "tipo_dato": "sintetico"
+  },
+  {
+   "id_evento": "INC-0119",
+   "fecha": "2026-08-13",
+   "id_zona": "IND-Z04",
+   "tipo_evento": "Exposición química",
+   "severidad": 1,
+   "dias_perdidos": 0,
+   "tipo_dato": "sintetico"
+  },
+  {
+   "id_evento": "INC-0066",
+   "fecha": "2026-08-13",
+   "id_zona": "IND-Z01",
+   "tipo_evento": "Atrapamiento",
+   "severidad": 3,
+   "dias_perdidos": 6,
+   "tipo_dato": "sintetico"
+  },
+  {
+   "id_evento": "INC-0055",
+   "fecha": "2026-08-15",
+   "id_zona": "IND-Z03",
+   "tipo_evento": "Corte",
+   "severidad": 2,
+   "dias_perdidos": 3,
+   "tipo_dato": "sintetico"
+  },
+  {
+   "id_evento": "INC-0078",
+   "fecha": "2026-08-18",
+   "id_zona": "IND-Z02",
+   "tipo_evento": "Caída",
+   "severidad": 2,
+   "dias_perdidos": 1,
+   "tipo_dato": "sintetico"
+  },
+  {
+   "id_evento": "INC-0043",
+   "fecha": "2026-08-19",
+   "id_zona": "IND-Z02",
+   "tipo_evento": "Golpe",
+   "severidad": 4,
+   "dias_perdidos": 19,
+   "tipo_dato": "sintetico"
+  },
+  {
+   "id_evento": "INC-0072",
+   "fecha": "2026-08-19",
+   "id_zona": "IND-Z06",
+   "tipo_evento": "Atrapamiento",
+   "severidad": 2,
+   "dias_perdidos": 1,
+   "tipo_dato": "sintetico"
+  },
+  {
+   "id_evento": "INC-0033",
+   "fecha": "2026-08-20",
+   "id_zona": "IND-Z03",
+   "tipo_evento": "Golpe",
+   "severidad": 1,
+   "dias_perdidos": 0,
+   "tipo_dato": "sintetico"
+  },
+  {
+   "id_evento": "INC-0075",
+   "fecha": "2026-08-20",
+   "id_zona": "IND-Z06",
+   "tipo_evento": "Exposición química",
+   "severidad": 1,
+   "dias_perdidos": 0,
+   "tipo_dato": "sintetico"
+  },
+  {
+   "id_evento": "INC-0118",
+   "fecha": "2026-08-21",
+   "id_zona": "IND-Z06",
+   "tipo_evento": "Quemadura",
+   "severidad": 3,
+   "dias_perdidos": 13,
+   "tipo_dato": "sintetico"
+  },
+  {
+   "id_evento": "INC-0006",
+   "fecha": "2026-08-24",
+   "id_zona": "IND-Z06",
+   "tipo_evento": "Atrapamiento",
+   "severidad": 3,
+   "dias_perdidos": 8,
+   "tipo_dato": "sintetico"
+  },
+  {
+   "id_evento": "INC-0089",
+   "fecha": "2026-08-24",
+   "id_zona": "IND-Z05",
+   "tipo_evento": "Quemadura",
+   "severidad": 1,
+   "dias_perdidos": 0,
+   "tipo_dato": "sintetico"
+  },
+  {
+   "id_evento": "INC-0024",
+   "fecha": "2026-08-24",
+   "id_zona": "IND-Z05",
+   "tipo_evento": "Atrapamiento",
+   "severidad": 2,
+   "dias_perdidos": 2,
+   "tipo_dato": "sintetico"
+  },
+  {
+   "id_evento": "INC-0008",
+   "fecha": "2026-08-24",
+   "id_zona": "IND-Z02",
+   "tipo_evento": "Caída",
+   "severidad": 1,
+   "dias_perdidos": 0,
+   "tipo_dato": "sintetico"
+  },
+  {
+   "id_evento": "INC-0107",
+   "fecha": "2026-08-25",
+   "id_zona": "IND-Z04",
+   "tipo_evento": "Quemadura",
+   "severidad": 2,
+   "dias_perdidos": 1,
+   "tipo_dato": "sintetico"
+  },
+  {
+   "id_evento": "INC-0095",
+   "fecha": "2026-08-27",
+   "id_zona": "IND-Z01",
+   "tipo_evento": "Atrapamiento",
+   "severidad": 2,
+   "dias_perdidos": 3,
+   "tipo_dato": "sintetico"
+  },
+  {
+   "id_evento": "INC-0039",
+   "fecha": "2026-08-29",
+   "id_zona": "IND-Z03",
+   "tipo_evento": "Corte",
+   "severidad": 1,
+   "dias_perdidos": 0,
+   "tipo_dato": "sintetico"
+  },
+  {
+   "id_evento": "INC-0045",
+   "fecha": "2026-08-31",
+   "id_zona": "IND-Z01",
+   "tipo_evento": "Atrapamiento",
+   "severidad": 1,
+   "dias_perdidos": 0,
+   "tipo_dato": "sintetico"
+  },
+  {
+   "id_evento": "INC-0092",
+   "fecha": "2026-08-31",
+   "id_zona": "IND-Z04",
+   "tipo_evento": "Exposición química",
+   "severidad": 2,
+   "dias_perdidos": 1,
+   "tipo_dato": "sintetico"
+  }
+ ],
+ "indicadores": [
+  {
+   "id_zona": "IND-Z01",
+   "periodo": "2026-01",
+   "indice_frecuencia": 14.44,
+   "indice_gravedad": 26.12,
+   "exposicion_horas": 2481.0,
+   "nivel_riesgo": "alto"
+  },
+  {
+   "id_zona": "IND-Z01",
+   "periodo": "2026-02",
+   "indice_frecuencia": 14.0,
+   "indice_gravedad": 29.23,
+   "exposicion_horas": 4652.0,
+   "nivel_riesgo": "alto"
+  },
+  {
+   "id_zona": "IND-Z01",
+   "periodo": "2026-03",
+   "indice_frecuencia": 14.11,
+   "indice_gravedad": 28.23,
+   "exposicion_horas": 2917.0,
+   "nivel_riesgo": "alto"
+  },
+  {
+   "id_zona": "IND-Z01",
+   "periodo": "2026-04",
+   "indice_frecuencia": 12.2,
+   "indice_gravedad": 31.03,
+   "exposicion_horas": 2072.0,
+   "nivel_riesgo": "alto"
+  },
+  {
+   "id_zona": "IND-Z01",
+   "periodo": "2026-05",
+   "indice_frecuencia": 14.35,
+   "indice_gravedad": 28.55,
+   "exposicion_horas": 2841.0,
+   "nivel_riesgo": "alto"
+  },
+  {
+   "id_zona": "IND-Z01",
+   "periodo": "2026-06",
+   "indice_frecuencia": 11.33,
+   "indice_gravedad": 31.81,
+   "exposicion_horas": 2415.0,
+   "nivel_riesgo": "alto"
+  },
+  {
+   "id_zona": "IND-Z01",
+   "periodo": "2026-07",
+   "indice_frecuencia": 9.65,
+   "indice_gravedad": 32.55,
+   "exposicion_horas": 2460.0,
+   "nivel_riesgo": "medio"
+  },
+  {
+   "id_zona": "IND-Z01",
+   "periodo": "2026-08",
+   "indice_frecuencia": 13.72,
+   "indice_gravedad": 20.42,
+   "exposicion_horas": 3466.0,
+   "nivel_riesgo": "medio"
+  },
+  {
+   "id_zona": "IND-Z02",
+   "periodo": "2026-01",
+   "indice_frecuencia": 7.82,
+   "indice_gravedad": 35.25,
+   "exposicion_horas": 4657.0,
+   "nivel_riesgo": "medio"
+  },
+  {
+   "id_zona": "IND-Z02",
+   "periodo": "2026-02",
+   "indice_frecuencia": 9.37,
+   "indice_gravedad": 41.28,
+   "exposicion_horas": 4668.0,
+   "nivel_riesgo": "alto"
+  },
+  {
+   "id_zona": "IND-Z02",
+   "periodo": "2026-03",
+   "indice_frecuencia": 8.62,
+   "indice_gravedad": 41.36,
+   "exposicion_horas": 3887.0,
+   "nivel_riesgo": "medio"
+  },
+  {
+   "id_zona": "IND-Z02",
+   "periodo": "2026-04",
+   "indice_frecuencia": 7.49,
+   "indice_gravedad": 44.83,
+   "exposicion_horas": 1997.0,
+   "nivel_riesgo": "medio"
+  },
+  {
+   "id_zona": "IND-Z02",
+   "periodo": "2026-05",
+   "indice_frecuencia": 9.99,
+   "indice_gravedad": 43.54,
+   "exposicion_horas": 2925.0,
+   "nivel_riesgo": "alto"
+  },
+  {
+   "id_zona": "IND-Z02",
+   "periodo": "2026-06",
+   "indice_frecuencia": 9.44,
+   "indice_gravedad": 50.14,
+   "exposicion_horas": 3440.0,
+   "nivel_riesgo": "alto"
+  },
+  {
+   "id_zona": "IND-Z02",
+   "periodo": "2026-07",
+   "indice_frecuencia": 8.87,
+   "indice_gravedad": 40.77,
+   "exposicion_horas": 2836.0,
+   "nivel_riesgo": "alto"
+  },
+  {
+   "id_zona": "IND-Z02",
+   "periodo": "2026-08",
+   "indice_frecuencia": 7.45,
+   "indice_gravedad": 37.02,
+   "exposicion_horas": 3796.0,
+   "nivel_riesgo": "medio"
+  },
+  {
+   "id_zona": "IND-Z03",
+   "periodo": "2026-01",
+   "indice_frecuencia": 3.67,
+   "indice_gravedad": 9.72,
+   "exposicion_horas": 5193.0,
+   "nivel_riesgo": "bajo"
+  },
+  {
+   "id_zona": "IND-Z03",
+   "periodo": "2026-02",
+   "indice_frecuencia": 5.08,
+   "indice_gravedad": 6.94,
+   "exposicion_horas": 4918.0,
+   "nivel_riesgo": "bajo"
+  },
+  {
+   "id_zona": "IND-Z03",
+   "periodo": "2026-03",
+   "indice_frecuencia": 6.35,
+   "indice_gravedad": 12.96,
+   "exposicion_horas": 2681.0,
+   "nivel_riesgo": "bajo"
+  },
+  {
+   "id_zona": "IND-Z03",
+   "periodo": "2026-04",
+   "indice_frecuencia": 4.02,
+   "indice_gravedad": 12.19,
+   "exposicion_horas": 1884.0,
+   "nivel_riesgo": "bajo"
+  },
+  {
+   "id_zona": "IND-Z03",
+   "periodo": "2026-05",
+   "indice_frecuencia": 5.28,
+   "indice_gravedad": 4.21,
+   "exposicion_horas": 3726.0,
+   "nivel_riesgo": "bajo"
+  },
+  {
+   "id_zona": "IND-Z03",
+   "periodo": "2026-06",
+   "indice_frecuencia": 5.39,
+   "indice_gravedad": 6.4,
+   "exposicion_horas": 1824.0,
+   "nivel_riesgo": "bajo"
+  },
+  {
+   "id_zona": "IND-Z03",
+   "periodo": "2026-07",
+   "indice_frecuencia": 5.28,
+   "indice_gravedad": 4.18,
+   "exposicion_horas": 4529.0,
+   "nivel_riesgo": "bajo"
+  },
+  {
+   "id_zona": "IND-Z03",
+   "periodo": "2026-08",
+   "indice_frecuencia": 6.87,
+   "indice_gravedad": 8.99,
+   "exposicion_horas": 3909.0,
+   "nivel_riesgo": "bajo"
+  },
+  {
+   "id_zona": "IND-Z04",
+   "periodo": "2026-01",
+   "indice_frecuencia": 11.55,
+   "indice_gravedad": 18.36,
+   "exposicion_horas": 2768.0,
+   "nivel_riesgo": "medio"
+  },
+  {
+   "id_zona": "IND-Z04",
+   "periodo": "2026-02",
+   "indice_frecuencia": 10.56,
+   "indice_gravedad": 23.71,
+   "exposicion_horas": 5074.0,
+   "nivel_riesgo": "medio"
+  },
+  {
+   "id_zona": "IND-Z04",
+   "periodo": "2026-03",
+   "indice_frecuencia": 12.07,
+   "indice_gravedad": 35.99,
+   "exposicion_horas": 4551.0,
+   "nivel_riesgo": "alto"
+  },
+  {
+   "id_zona": "IND-Z04",
+   "periodo": "2026-04",
+   "indice_frecuencia": 9.74,
+   "indice_gravedad": 28.94,
+   "exposicion_horas": 3296.0,
+   "nivel_riesgo": "medio"
+  },
+  {
+   "id_zona": "IND-Z04",
+   "periodo": "2026-05",
+   "indice_frecuencia": 13.42,
+   "indice_gravedad": 23.11,
+   "exposicion_horas": 2323.0,
+   "nivel_riesgo": "medio"
+  },
+  {
+   "id_zona": "IND-Z04",
+   "periodo": "2026-06",
+   "indice_frecuencia": 13.73,
+   "indice_gravedad": 21.39,
+   "exposicion_horas": 2779.0,
+   "nivel_riesgo": "medio"
+  },
+  {
+   "id_zona": "IND-Z04",
+   "periodo": "2026-07",
+   "indice_frecuencia": 9.08,
+   "indice_gravedad": 26.31,
+   "exposicion_horas": 5075.0,
+   "nivel_riesgo": "medio"
+  },
+  {
+   "id_zona": "IND-Z04",
+   "periodo": "2026-08",
+   "indice_frecuencia": 12.22,
+   "indice_gravedad": 28.97,
+   "exposicion_horas": 3464.0,
+   "nivel_riesgo": "medio"
+  },
+  {
+   "id_zona": "IND-Z05",
+   "periodo": "2026-01",
+   "indice_frecuencia": 1.34,
+   "indice_gravedad": 10.06,
+   "exposicion_horas": 2051.0,
+   "nivel_riesgo": "bajo"
+  },
+  {
+   "id_zona": "IND-Z05",
+   "periodo": "2026-02",
+   "indice_frecuencia": 5.91,
+   "indice_gravedad": 5.49,
+   "exposicion_horas": 4498.0,
+   "nivel_riesgo": "bajo"
+  },
+  {
+   "id_zona": "IND-Z05",
+   "periodo": "2026-03",
+   "indice_frecuencia": 3.05,
+   "indice_gravedad": 10.16,
+   "exposicion_horas": 3311.0,
+   "nivel_riesgo": "bajo"
+  },
+  {
+   "id_zona": "IND-Z05",
+   "periodo": "2026-04",
+   "indice_frecuencia": 4.67,
+   "indice_gravedad": 1.26,
+   "exposicion_horas": 4596.0,
+   "nivel_riesgo": "bajo"
+  },
+  {
+   "id_zona": "IND-Z05",
+   "periodo": "2026-05",
+   "indice_frecuencia": 4.81,
+   "indice_gravedad": 3.86,
+   "exposicion_horas": 4967.0,
+   "nivel_riesgo": "bajo"
+  },
+  {
+   "id_zona": "IND-Z05",
+   "periodo": "2026-06",
+   "indice_frecuencia": 1.86,
+   "indice_gravedad": 9.79,
+   "exposicion_horas": 4096.0,
+   "nivel_riesgo": "bajo"
+  },
+  {
+   "id_zona": "IND-Z05",
+   "periodo": "2026-07",
+   "indice_frecuencia": 2.79,
+   "indice_gravedad": 2.87,
+   "exposicion_horas": 3137.0,
+   "nivel_riesgo": "bajo"
+  },
+  {
+   "id_zona": "IND-Z05",
+   "periodo": "2026-08",
+   "indice_frecuencia": 4.36,
+   "indice_gravedad": 5.54,
+   "exposicion_horas": 4522.0,
+   "nivel_riesgo": "bajo"
+  },
+  {
+   "id_zona": "IND-Z06",
+   "periodo": "2026-01",
+   "indice_frecuencia": 9.18,
+   "indice_gravedad": 13.24,
+   "exposicion_horas": 3308.0,
+   "nivel_riesgo": "bajo"
+  },
+  {
+   "id_zona": "IND-Z06",
+   "periodo": "2026-02",
+   "indice_frecuencia": 7.4,
+   "indice_gravedad": 12.52,
+   "exposicion_horas": 1815.0,
+   "nivel_riesgo": "bajo"
+  },
+  {
+   "id_zona": "IND-Z06",
+   "periodo": "2026-03",
+   "indice_frecuencia": 7.71,
+   "indice_gravedad": 12.87,
+   "exposicion_horas": 4179.0,
+   "nivel_riesgo": "bajo"
+  },
+  {
+   "id_zona": "IND-Z06",
+   "periodo": "2026-04",
+   "indice_frecuencia": 9.04,
+   "indice_gravedad": 10.84,
+   "exposicion_horas": 4845.0,
+   "nivel_riesgo": "bajo"
+  },
+  {
+   "id_zona": "IND-Z06",
+   "periodo": "2026-05",
+   "indice_frecuencia": 3.38,
+   "indice_gravedad": 21.44,
+   "exposicion_horas": 4450.0,
+   "nivel_riesgo": "bajo"
+  },
+  {
+   "id_zona": "IND-Z06",
+   "periodo": "2026-06",
+   "indice_frecuencia": 6.39,
+   "indice_gravedad": 7.25,
+   "exposicion_horas": 4701.0,
+   "nivel_riesgo": "bajo"
+  },
+  {
+   "id_zona": "IND-Z06",
+   "periodo": "2026-07",
+   "indice_frecuencia": 6.53,
+   "indice_gravedad": 13.86,
+   "exposicion_horas": 3668.0,
+   "nivel_riesgo": "bajo"
+  },
+  {
+   "id_zona": "IND-Z06",
+   "periodo": "2026-08",
+   "indice_frecuencia": 5.33,
+   "indice_gravedad": 17.32,
+   "exposicion_horas": 4814.0,
+   "nivel_riesgo": "bajo"
+  }
+ ]
+}

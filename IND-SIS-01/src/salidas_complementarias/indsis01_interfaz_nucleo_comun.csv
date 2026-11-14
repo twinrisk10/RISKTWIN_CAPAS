@@ -1,0 +1,12 @@
+﻿origen IND-SIS-01,destino contrato común,regla
+INCIDENTE.id_evento,evento.id_evento,igual
+—,evento.riesgo,constante 'industrial'
+INCIDENTE.id_zona (IND-Z##),evento.id_zona,igual; patrón ^(PER|IND)-Z\d{2}$
+INCIDENTE.fecha,evento.fecha_hora,fecha + 'T00:00:00' (SI-02 no registra hora)
+INCIDENTE.tipo_evento,evento.subtipo,igual
+INCIDENTE.severidad (1-4),evento.severidad (1-4),igual (misma escala)
+INCIDENTE.severidad = 4,evento.fallecidos,SI-02 no informa fallecidos: queda 0 y se documenta
+INCIDENTE.tipo_dato,evento.tipo_dato,igual
+INDICADOR_RIESGO.indice_frecuencia,"observacion(id_variable='IND_H_indice_frecuencia', componente='H')",peligrosidad
+INDICADOR_RIESGO.exposicion_horas,"observacion(id_variable='IND_E_exposicion_horas', componente='E')",exposición
+INDICADOR_RIESGO.indice_gravedad,"observacion(id_variable='IND_V_indice_gravedad', componente='V')",proxy de vulnerabilidad (daño por evento)
