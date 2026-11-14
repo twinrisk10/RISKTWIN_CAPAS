@@ -1,0 +1,4 @@
+﻿escenario,intervencion,n_tramos,parametros,descripcion
+Base,ninguna,0,{},Sin intervención
+Reducción de velocidad,reduccion_velocidad,12,"{'vel_objetivo_kmh': 60.0, 'exponente_potencia': 2.0, 'efecto_capacidad': 0.0}","Límite de 60 km/h con control (radar, reductores) en los 12 tramos más críticos, todo el día."
+Separación de flujos,separacion_flujos,12,"{'reduccion_conflicto': 0.6, 'reduccion_exposicion': 0.3, 'reduccion_capacidad': 0.1, 'elasticidad_demanda': 1.0}","Segregación física de motos/buses y peatones en los 12 tramos más críticos, todo el día."

@@ -1,0 +1,4 @@
+﻿escenario,n_rep,crit_media,reduccion_obj_pct,reduccion_infl_pct,ic95_inf,ic95_sup,reduccion_ciudad_pct,prob_mejora,desplazamiento_max,segmentos_empeorados
+Reducción de velocidad,200,31.635,30.73,12.126,11.683,12.57,3.12,1.0,0.44,0.105
+Separación de flujos,200,32.083,21.526,6.792,6.702,6.883,1.747,1.0,2.368,10.48
+Base,200,32.653,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0

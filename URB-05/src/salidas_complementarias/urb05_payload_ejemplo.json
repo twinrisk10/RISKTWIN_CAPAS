@@ -1,0 +1,35 @@
+{
+  "cfg": {
+    "incertidumbre_parametros": 0.2
+  },
+  "n_rep": 30,
+  "semilla0": 1000,
+  "escenarios": [
+    {
+      "nombre": "Reducción de velocidad",
+      "intervenciones": [
+        {
+          "tipo": "reduccion_velocidad",
+          "objetivo": {
+            "k": 12
+          },
+          "params": {
+            "vel_objetivo_kmh": 60,
+            "exponente_potencia": 2.0
+          }
+        }
+      ]
+    },
+    {
+      "nombre": "Separación de flujos",
+      "intervenciones": [
+        {
+          "tipo": "separacion_flujos",
+          "objetivo": {
+            "k": 12
+          }
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,3403 @@
+{
+ "esquema": "risktwin.urb05.resultados/1.0",
+ "version_modulo": "0.2.0",
+ "generado": "2026-11-14T17:08:05",
+ "configuracion": {
+  "horizonte_h": 24,
+  "sigma_demanda": 0.25,
+  "tasa_incidentes_dia": 6.0,
+  "duracion_incidente_h": 0.75,
+  "factor_cap_incidente": 0.5,
+  "derrame_incidente": 0.15,
+  "umbral_critico": 60.0,
+  "incertidumbre_parametros": 0.2,
+  "pesos": {
+   "flujo": 0.3,
+   "peatonal": 0.25,
+   "infra": 0.2,
+   "conflicto": 0.25
+  }
+ },
+ "escenarios": [
+  {
+   "escenario": "Reducción de velocidad",
+   "n_rep": 30,
+   "crit_media": 31.6407,
+   "reduccion_obj_pct": 30.6686,
+   "reduccion_infl_pct": 12.1087,
+   "ic95_inf": 10.948,
+   "ic95_sup": 13.2694,
+   "reduccion_ciudad_pct": 3.109,
+   "prob_mejora": 1.0,
+   "desplazamiento_max": 0.5664,
+   "segmentos_empeorados": 0.2
+  },
+  {
+   "escenario": "Separación de flujos",
+   "n_rep": 30,
+   "crit_media": 32.0978,
+   "reduccion_obj_pct": 21.3159,
+   "reduccion_infl_pct": 6.6669,
+   "ic95_inf": 6.4305,
+   "ic95_sup": 6.9033,
+   "reduccion_ciudad_pct": 1.7092,
+   "prob_mejora": 1.0,
+   "desplazamiento_max": 2.4133,
+   "segmentos_empeorados": 11.1333
+  },
+  {
+   "escenario": "Base",
+   "n_rep": 30,
+   "crit_media": 32.656,
+   "reduccion_obj_pct": 0.0,
+   "reduccion_infl_pct": 0.0,
+   "ic95_inf": 0.0,
+   "ic95_sup": 0.0,
+   "reduccion_ciudad_pct": 0.0,
+   "prob_mejora": 0.0,
+   "desplazamiento_max": 0.0,
+   "segmentos_empeorados": 0.0
+  }
+ ],
+ "resultados_segmento": [
+  {
+   "id_segmento": "S0001",
+   "id_zona": "PER-Z12",
+   "escenario": "Base",
+   "criticidad_media": 40.007,
+   "delta_vs_base": 0.0
+  },
+  {
+   "id_segmento": "S0002",
+   "id_zona": "PER-Z12",
+   "escenario": "Base",
+   "criticidad_media": 32.263,
+   "delta_vs_base": 0.0
+  },
+  {
+   "id_segmento": "S0003",
+   "id_zona": "PER-Z12",
+   "escenario": "Base",
+   "criticidad_media": 33.797,
+   "delta_vs_base": 0.0
+  },
+  {
+   "id_segmento": "S0004",
+   "id_zona": "PER-Z12",
+   "escenario": "Base",
+   "criticidad_media": 43.397,
+   "delta_vs_base": 0.0
+  },
+  {
+   "id_segmento": "S0005",
+   "id_zona": "PER-Z12",
+   "escenario": "Base",
+   "criticidad_media": 39.116,
+   "delta_vs_base": 0.0
+  },
+  {
+   "id_segmento": "S0006",
+   "id_zona": "PER-Z12",
+   "escenario": "Base",
+   "criticidad_media": 38.967,
+   "delta_vs_base": 0.0
+  },
+  {
+   "id_segmento": "S0007",
+   "id_zona": "PER-Z12",
+   "escenario": "Base",
+   "criticidad_media": 34.067,
+   "delta_vs_base": 0.0
+  },
+  {
+   "id_segmento": "S0008",
+   "id_zona": "PER-Z12",
+   "escenario": "Base",
+   "criticidad_media": 40.497,
+   "delta_vs_base": 0.0
+  },
+  {
+   "id_segmento": "S0009",
+   "id_zona": "PER-Z09",
+   "escenario": "Base",
+   "criticidad_media": 28.112,
+   "delta_vs_base": 0.0
+  },
+  {
+   "id_segmento": "S0010",
+   "id_zona": "PER-Z09",
+   "escenario": "Base",
+   "criticidad_media": 27.088,
+   "delta_vs_base": 0.0
+  },
+  {
+   "id_segmento": "S0011",
+   "id_zona": "PER-Z01",
+   "escenario": "Base",
+   "criticidad_media": 29.853,
+   "delta_vs_base": 0.0
+  },
+  {
+   "id_segmento": "S0012",
+   "id_zona": "PER-Z01",
+   "escenario": "Base",
+   "criticidad_media": 28.836,
+   "delta_vs_base": 0.0
+  },
+  {
+   "id_segmento": "S0013",
+   "id_zona": "PER-Z01",
+   "escenario": "Base",
+   "criticidad_media": 31.826,
+   "delta_vs_base": 0.0
+  },
+  {
+   "id_segmento": "S0014",
+   "id_zona": "PER-Z06",
+   "escenario": "Base",
+   "criticidad_media": 17.757,
+   "delta_vs_base": 0.0
+  },
+  {
+   "id_segmento": "S0015",
+   "id_zona": "PER-Z06",
+   "escenario": "Base",
+   "criticidad_media": 26.336,
+   "delta_vs_base": 0.0
+  },
+  {
+   "id_segmento": "S0016",
+   "id_zona": "PER-Z06",
+   "escenario": "Base",
+   "criticidad_media": 18.682,
+   "delta_vs_base": 0.0
+  },
+  {
+   "id_segmento": "S0017",
+   "id_zona": "PER-Z07",
+   "escenario": "Base",
+   "criticidad_media": 23.066,
+   "delta_vs_base": 0.0
+  },
+  {
+   "id_segmento": "S0018",
+   "id_zona": "PER-Z02",
+   "escenario": "Base",
+   "criticidad_media": 27.303,
+   "delta_vs_base": 0.0
+  },
+  {
+   "id_segmento": "S0019",
+   "id_zona": "PER-Z01",
+   "escenario": "Base",
+   "criticidad_media": 23.076,
+   "delta_vs_base": 0.0
+  },
+  {
+   "id_segmento": "S0020",
+   "id_zona": "PER-Z01",
+   "escenario": "Base",
+   "criticidad_media": 27.332,
+   "delta_vs_base": 0.0
+  },
+  {
+   "id_segmento": "S0021",
+   "id_zona": "PER-Z04",
+   "escenario": "Base",
+   "criticidad_media": 40.441,
+   "delta_vs_base": 0.0
+  },
+  {
+   "id_segmento": "S0022",
+   "id_zona": "PER-Z09",
+   "escenario": "Base",
+   "criticidad_media": 31.216,
+   "delta_vs_base": 0.0
+  },
+  {
+   "id_segmento": "S0023",
+   "id_zona": "PER-Z01",
+   "escenario": "Base",
+   "criticidad_media": 39.267,
+   "delta_vs_base": 0.0
+  },
+  {
+   "id_segmento": "S0024",
+   "id_zona": "PER-Z01",
+   "escenario": "Base",
+   "criticidad_media": 28.415,
+   "delta_vs_base": 0.0
+  },
+  {
+   "id_segmento": "S0025",
+   "id_zona": "PER-Z04",
+   "escenario": "Base",
+   "criticidad_media": 43.988,
+   "delta_vs_base": 0.0
+  },
+  {
+   "id_segmento": "S0026",
+   "id_zona": "PER-Z03",
+   "escenario": "Base",
+   "criticidad_media": 30.23,
+   "delta_vs_base": 0.0
+  },
+  {
+   "id_segmento": "S0027",
+   "id_zona": "PER-Z01",
+   "escenario": "Base",
+   "criticidad_media": 24.168,
+   "delta_vs_base": 0.0
+  },
+  {
+   "id_segmento": "S0028",
+   "id_zona": "PER-Z12",
+   "escenario": "Base",
+   "criticidad_media": 36.661,
+   "delta_vs_base": 0.0
+  },
+  {
+   "id_segmento": "S0029",
+   "id_zona": "PER-Z12",
+   "escenario": "Base",
+   "criticidad_media": 31.236,
+   "delta_vs_base": 0.0
+  },
+  {
+   "id_segmento": "S0030",
+   "id_zona": "PER-Z12",
+   "escenario": "Base",
+   "criticidad_media": 37.466,
+   "delta_vs_base": 0.0
+  },
+  {
+   "id_segmento": "S0031",
+   "id_zona": "PER-Z12",
+   "escenario": "Base",
+   "criticidad_media": 35.787,
+   "delta_vs_base": 0.0
+  },
+  {
+   "id_segmento": "S0032",
+   "id_zona": "PER-Z12",
+   "escenario": "Base",
+   "criticidad_media": 32.284,
+   "delta_vs_base": 0.0
+  },
+  {
+   "id_segmento": "S0033",
+   "id_zona": "PER-Z09",
+   "escenario": "Base",
+   "criticidad_media": 28.856,
+   "delta_vs_base": 0.0
+  },
+  {
+   "id_segmento": "S0034",
+   "id_zona": "PER-Z09",
+   "escenario": "Base",
+   "criticidad_media": 20.04,
+   "delta_vs_base": 0.0
+  },
+  {
+   "id_segmento": "S0035",
+   "id_zona": "PER-Z09",
+   "escenario": "Base",
+   "criticidad_media": 25.92,
+   "delta_vs_base": 0.0
+  },
+  {
+   "id_segmento": "S0036",
+   "id_zona": "PER-Z12",
+   "escenario": "Base",
+   "criticidad_media": 39.219,
+   "delta_vs_base": 0.0
+  },
+  {
+   "id_segmento": "S0037",
+   "id_zona": "PER-Z04",
+   "escenario": "Base",
+   "criticidad_media": 31.155,
+   "delta_vs_base": 0.0
+  },
+  {
+   "id_segmento": "S0038",
+   "id_zona": "PER-Z04",
+   "escenario": "Base",
+   "criticidad_media": 40.744,
+   "delta_vs_base": 0.0
+  },
+  {
+   "id_segmento": "S0039",
+   "id_zona": "PER-Z04",
+   "escenario": "Base",
+   "criticidad_media": 37.082,
+   "delta_vs_base": 0.0
+  },
+  {
+   "id_segmento": "S0040",
+   "id_zona": "PER-Z12",
+   "escenario": "Base",
+   "criticidad_media": 28.181,
+   "delta_vs_base": 0.0
+  },
+  {
+   "id_segmento": "S0041",
+   "id_zona": "PER-Z12",
+   "escenario": "Base",
+   "criticidad_media": 39.42,
+   "delta_vs_base": 0.0
+  },
+  {
+   "id_segmento": "S0042",
+   "id_zona": "PER-Z12",
+   "escenario": "Base",
+   "criticidad_media": 38.917,
+   "delta_vs_base": 0.0
+  },
+  {
+   "id_segmento": "S0043",
+   "id_zona": "PER-Z12",
+   "escenario": "Base",
+   "criticidad_media": 30.433,
+   "delta_vs_base": 0.0
+  },
+  {
+   "id_segmento": "S0044",
+   "id_zona": "PER-Z12",
+   "escenario": "Base",
+   "criticidad_media": 29.994,
+   "delta_vs_base": 0.0
+  },
+  {
+   "id_segmento": "S0045",
+   "id_zona": "PER-Z12",
+   "escenario": "Base",
+   "criticidad_media": 32.789,
+   "delta_vs_base": 0.0
+  },
+  {
+   "id_segmento": "S0046",
+   "id_zona": "PER-Z12",
+   "escenario": "Base",
+   "criticidad_media": 36.817,
+   "delta_vs_base": 0.0
+  },
+  {
+   "id_segmento": "S0047",
+   "id_zona": "PER-Z12",
+   "escenario": "Base",
+   "criticidad_media": 35.407,
+   "delta_vs_base": 0.0
+  },
+  {
+   "id_segmento": "S0048",
+   "id_zona": "PER-Z12",
+   "escenario": "Base",
+   "criticidad_media": 40.639,
+   "delta_vs_base": 0.0
+  },
+  {
+   "id_segmento": "S0049",
+   "id_zona": "PER-Z12",
+   "escenario": "Base",
+   "criticidad_media": 42.96,
+   "delta_vs_base": 0.0
+  },
+  {
+   "id_segmento": "S0050",
+   "id_zona": "PER-Z01",
+   "escenario": "Base",
+   "criticidad_media": 35.241,
+   "delta_vs_base": 0.0
+  },
+  {
+   "id_segmento": "S0051",
+   "id_zona": "PER-Z01",
+   "escenario": "Base",
+   "criticidad_media": 21.628,
+   "delta_vs_base": 0.0
+  },
+  {
+   "id_segmento": "S0052",
+   "id_zona": "PER-Z09",
+   "escenario": "Base",
+   "criticidad_media": 25.733,
+   "delta_vs_base": 0.0
+  },
+  {
+   "id_segmento": "S0053",
+   "id_zona": "PER-Z09",
+   "escenario": "Base",
+   "criticidad_media": 35.651,
+   "delta_vs_base": 0.0
+  },
+  {
+   "id_segmento": "S0054",
+   "id_zona": "PER-Z12",
+   "escenario": "Base",
+   "criticidad_media": 38.323,
+   "delta_vs_base": 0.0
+  },
+  {
+   "id_segmento": "S0055",
+   "id_zona": "PER-Z04",
+   "escenario": "Base",
+   "criticidad_media": 38.819,
+   "delta_vs_base": 0.0
+  },
+  {
+   "id_segmento": "S0056",
+   "id_zona": "PER-Z04",
+   "escenario": "Base",
+   "criticidad_media": 37.696,
+   "delta_vs_base": 0.0
+  },
+  {
+   "id_segmento": "S0057",
+   "id_zona": "PER-Z04",
+   "escenario": "Base",
+   "criticidad_media": 39.032,
+   "delta_vs_base": 0.0
+  },
+  {
+   "id_segmento": "S0058",
+   "id_zona": "PER-Z04",
+   "escenario": "Base",
+   "criticidad_media": 34.455,
+   "delta_vs_base": 0.0
+  },
+  {
+   "id_segmento": "S0059",
+   "id_zona": "PER-Z04",
+   "escenario": "Base",
+   "criticidad_media": 41.7,
+   "delta_vs_base": 0.0
+  },
+  {
+   "id_segmento": "S0060",
+   "id_zona": "PER-Z05",
+   "escenario": "Base",
+   "criticidad_media": 26.96,
+   "delta_vs_base": 0.0
+  },
+  {
+   "id_segmento": "S0061",
+   "id_zona": "PER-Z04",
+   "escenario": "Base",
+   "criticidad_media": 30.069,
+   "delta_vs_base": 0.0
+  },
+  {
+   "id_segmento": "S0062",
+   "id_zona": "PER-Z04",
+   "escenario": "Base",
+   "criticidad_media": 41.464,
+   "delta_vs_base": 0.0
+  },
+  {
+   "id_segmento": "S0063",
+   "id_zona": "PER-Z03",
+   "escenario": "Base",
+   "criticidad_media": 31.381,
+   "delta_vs_base": 0.0
+  },
+  {
+   "id_segmento": "S0064",
+   "id_zona": "PER-Z04",
+   "escenario": "Base",
+   "criticidad_media": 35.866,
+   "delta_vs_base": 0.0
+  },
+  {
+   "id_segmento": "S0065",
+   "id_zona": "PER-Z01",
+   "escenario": "Base",
+   "criticidad_media": 23.619,
+   "delta_vs_base": 0.0
+  },
+  {
+   "id_segmento": "S0066",
+   "id_zona": "PER-Z03",
+   "escenario": "Base",
+   "criticidad_media": 33.45,
+   "delta_vs_base": 0.0
+  },
+  {
+   "id_segmento": "S0067",
+   "id_zona": "PER-Z03",
+   "escenario": "Base",
+   "criticidad_media": 33.258,
+   "delta_vs_base": 0.0
+  },
+  {
+   "id_segmento": "S0068",
+   "id_zona": "PER-Z03",
+   "escenario": "Base",
+   "criticidad_media": 26.954,
+   "delta_vs_base": 0.0
+  },
+  {
+   "id_segmento": "S0069",
+   "id_zona": "PER-Z08",
+   "escenario": "Base",
+   "criticidad_media": 25.824,
+   "delta_vs_base": 0.0
+  },
+  {
+   "id_segmento": "S0070",
+   "id_zona": "PER-Z04",
+   "escenario": "Base",
+   "criticidad_media": 41.44,
+   "delta_vs_base": 0.0
+  },
+  {
+   "id_segmento": "S0071",
+   "id_zona": "PER-Z04",
+   "escenario": "Base",
+   "criticidad_media": 46.835,
+   "delta_vs_base": 0.0
+  },
+  {
+   "id_segmento": "S0072",
+   "id_zona": "PER-Z04",
+   "escenario": "Base",
+   "criticidad_media": 34.481,
+   "delta_vs_base": 0.0
+  },
+  {
+   "id_segmento": "S0073",
+   "id_zona": "PER-Z03",
+   "escenario": "Base",
+   "criticidad_media": 28.077,
+   "delta_vs_base": 0.0
+  },
+  {
+   "id_segmento": "S0074",
+   "id_zona": "PER-Z03",
+   "escenario": "Base",
+   "criticidad_media": 20.043,
+   "delta_vs_base": 0.0
+  },
+  {
+   "id_segmento": "S0075",
+   "id_zona": "PER-Z12",
+   "escenario": "Base",
+   "criticidad_media": 45.36,
+   "delta_vs_base": 0.0
+  },
+  {
+   "id_segmento": "S0076",
+   "id_zona": "PER-Z12",
+   "escenario": "Base",
+   "criticidad_media": 40.613,
+   "delta_vs_base": 0.0
+  },
+  {
+   "id_segmento": "S0077",
+   "id_zona": "PER-Z12",
+   "escenario": "Base",
+   "criticidad_media": 33.249,
+   "delta_vs_base": 0.0
+  },
+  {
+   "id_segmento": "S0078",
+   "id_zona": "PER-Z12",
+   "escenario": "Base",
+   "criticidad_media": 40.315,
+   "delta_vs_base": 0.0
+  },
+  {
+   "id_segmento": "S0079",
+   "id_zona": "PER-Z08",
+   "escenario": "Base",
+   "criticidad_media": 27.842,
+   "delta_vs_base": 0.0
+  },
+  {
+   "id_segmento": "S0080",
+   "id_zona": "PER-Z08",
+   "escenario": "Base",
+   "criticidad_media": 28.183,
+   "delta_vs_base": 0.0
+  },
+  {
+   "id_segmento": "S0081",
+   "id_zona": "PER-Z07",
+   "escenario": "Base",
+   "criticidad_media": 26.194,
+   "delta_vs_base": 0.0
+  },
+  {
+   "id_segmento": "S0082",
+   "id_zona": "PER-Z08",
+   "escenario": "Base",
+   "criticidad_media": 28.356,
+   "delta_vs_base": 0.0
+  },
+  {
+   "id_segmento": "S0083",
+   "id_zona": "PER-Z12",
+   "escenario": "Base",
+   "criticidad_media": 38.072,
+   "delta_vs_base": 0.0
+  },
+  {
+   "id_segmento": "S0084",
+   "id_zona": "PER-Z12",
+   "escenario": "Base",
+   "criticidad_media": 37.048,
+   "delta_vs_base": 0.0
+  },
+  {
+   "id_segmento": "S0085",
+   "id_zona": "PER-Z10",
+   "escenario": "Base",
+   "criticidad_media": 35.198,
+   "delta_vs_base": 0.0
+  },
+  {
+   "id_segmento": "S0086",
+   "id_zona": "PER-Z09",
+   "escenario": "Base",
+   "criticidad_media": 37.707,
+   "delta_vs_base": 0.0
+  },
+  {
+   "id_segmento": "S0087",
+   "id_zona": "PER-Z09",
+   "escenario": "Base",
+   "criticidad_media": 25.133,
+   "delta_vs_base": 0.0
+  },
+  {
+   "id_segmento": "S0088",
+   "id_zona": "PER-Z01",
+   "escenario": "Base",
+   "criticidad_media": 34.107,
+   "delta_vs_base": 0.0
+  },
+  {
+   "id_segmento": "S0089",
+   "id_zona": "PER-Z01",
+   "escenario": "Base",
+   "criticidad_media": 26.474,
+   "delta_vs_base": 0.0
+  },
+  {
+   "id_segmento": "S0090",
+   "id_zona": "PER-Z01",
+   "escenario": "Base",
+   "criticidad_media": 25.594,
+   "delta_vs_base": 0.0
+  },
+  {
+   "id_segmento": "S0091",
+   "id_zona": "PER-Z12",
+   "escenario": "Base",
+   "criticidad_media": 37.857,
+   "delta_vs_base": 0.0
+  },
+  {
+   "id_segmento": "S0092",
+   "id_zona": "PER-Z09",
+   "escenario": "Base",
+   "criticidad_media": 31.353,
+   "delta_vs_base": 0.0
+  },
+  {
+   "id_segmento": "S0093",
+   "id_zona": "PER-Z06",
+   "escenario": "Base",
+   "criticidad_media": 27.262,
+   "delta_vs_base": 0.0
+  },
+  {
+   "id_segmento": "S0094",
+   "id_zona": "PER-Z06",
+   "escenario": "Base",
+   "criticidad_media": 30.987,
+   "delta_vs_base": 0.0
+  },
+  {
+   "id_segmento": "S0095",
+   "id_zona": "PER-Z12",
+   "escenario": "Base",
+   "criticidad_media": 32.55,
+   "delta_vs_base": 0.0
+  },
+  {
+   "id_segmento": "S0096",
+   "id_zona": "PER-Z12",
+   "escenario": "Base",
+   "criticidad_media": 36.765,
+   "delta_vs_base": 0.0
+  },
+  {
+   "id_segmento": "S0097",
+   "id_zona": "PER-Z09",
+   "escenario": "Base",
+   "criticidad_media": 24.225,
+   "delta_vs_base": 0.0
+  },
+  {
+   "id_segmento": "S0098",
+   "id_zona": "PER-Z06",
+   "escenario": "Base",
+   "criticidad_media": 37.53,
+   "delta_vs_base": 0.0
+  },
+  {
+   "id_segmento": "S0099",
+   "id_zona": "PER-Z08",
+   "escenario": "Base",
+   "criticidad_media": 25.13,
+   "delta_vs_base": 0.0
+  },
+  {
+   "id_segmento": "S0100",
+   "id_zona": "PER-Z01",
+   "escenario": "Base",
+   "criticidad_media": 35.86,
+   "delta_vs_base": 0.0
+  },
+  {
+   "id_segmento": "S0101",
+   "id_zona": "PER-Z01",
+   "escenario": "Base",
+   "criticidad_media": 38.919,
+   "delta_vs_base": 0.0
+  },
+  {
+   "id_segmento": "S0102",
+   "id_zona": "PER-Z03",
+   "escenario": "Base",
+   "criticidad_media": 32.652,
+   "delta_vs_base": 0.0
+  },
+  {
+   "id_segmento": "S0103",
+   "id_zona": "PER-Z01",
+   "escenario": "Base",
+   "criticidad_media": 22.476,
+   "delta_vs_base": 0.0
+  },
+  {
+   "id_segmento": "S0104",
+   "id_zona": "PER-Z01",
+   "escenario": "Base",
+   "criticidad_media": 27.647,
+   "delta_vs_base": 0.0
+  },
+  {
+   "id_segmento": "S0105",
+   "id_zona": "PER-Z02",
+   "escenario": "Base",
+   "criticidad_media": 33.493,
+   "delta_vs_base": 0.0
+  },
+  {
+   "id_segmento": "S0106",
+   "id_zona": "PER-Z02",
+   "escenario": "Base",
+   "criticidad_media": 39.868,
+   "delta_vs_base": 0.0
+  },
+  {
+   "id_segmento": "S0107",
+   "id_zona": "PER-Z03",
+   "escenario": "Base",
+   "criticidad_media": 27.731,
+   "delta_vs_base": 0.0
+  },
+  {
+   "id_segmento": "S0108",
+   "id_zona": "PER-Z04",
+   "escenario": "Base",
+   "criticidad_media": 33.163,
+   "delta_vs_base": 0.0
+  },
+  {
+   "id_segmento": "S0109",
+   "id_zona": "PER-Z05",
+   "escenario": "Base",
+   "criticidad_media": 27.667,
+   "delta_vs_base": 0.0
+  },
+  {
+   "id_segmento": "S0110",
+   "id_zona": "PER-Z04",
+   "escenario": "Base",
+   "criticidad_media": 46.529,
+   "delta_vs_base": 0.0
+  },
+  {
+   "id_segmento": "S0111",
+   "id_zona": "PER-Z04",
+   "escenario": "Base",
+   "criticidad_media": 29.354,
+   "delta_vs_base": 0.0
+  },
+  {
+   "id_segmento": "S0112",
+   "id_zona": "PER-Z04",
+   "escenario": "Base",
+   "criticidad_media": 40.74,
+   "delta_vs_base": 0.0
+  },
+  {
+   "id_segmento": "S0113",
+   "id_zona": "PER-Z12",
+   "escenario": "Base",
+   "criticidad_media": 44.384,
+   "delta_vs_base": 0.0
+  },
+  {
+   "id_segmento": "S0114",
+   "id_zona": "PER-Z11",
+   "escenario": "Base",
+   "criticidad_media": 27.264,
+   "delta_vs_base": 0.0
+  },
+  {
+   "id_segmento": "S0115",
+   "id_zona": "PER-Z10",
+   "escenario": "Base",
+   "criticidad_media": 23.903,
+   "delta_vs_base": 0.0
+  },
+  {
+   "id_segmento": "S0116",
+   "id_zona": "PER-Z10",
+   "escenario": "Base",
+   "criticidad_media": 25.983,
+   "delta_vs_base": 0.0
+  },
+  {
+   "id_segmento": "S0117",
+   "id_zona": "PER-Z09",
+   "escenario": "Base",
+   "criticidad_media": 23.388,
+   "delta_vs_base": 0.0
+  },
+  {
+   "id_segmento": "S0118",
+   "id_zona": "PER-Z12",
+   "escenario": "Base",
+   "criticidad_media": 28.648,
+   "delta_vs_base": 0.0
+  },
+  {
+   "id_segmento": "S0119",
+   "id_zona": "PER-Z09",
+   "escenario": "Base",
+   "criticidad_media": 24.778,
+   "delta_vs_base": 0.0
+  },
+  {
+   "id_segmento": "S0120",
+   "id_zona": "PER-Z10",
+   "escenario": "Base",
+   "criticidad_media": 23.734,
+   "delta_vs_base": 0.0
+  },
+  {
+   "id_segmento": "S0121",
+   "id_zona": "PER-Z11",
+   "escenario": "Base",
+   "criticidad_media": 26.805,
+   "delta_vs_base": 0.0
+  },
+  {
+   "id_segmento": "S0122",
+   "id_zona": "PER-Z01",
+   "escenario": "Base",
+   "criticidad_media": 19.073,
+   "delta_vs_base": 0.0
+  },
+  {
+   "id_segmento": "S0123",
+   "id_zona": "PER-Z01",
+   "escenario": "Base",
+   "criticidad_media": 29.349,
+   "delta_vs_base": 0.0
+  },
+  {
+   "id_segmento": "S0124",
+   "id_zona": "PER-Z01",
+   "escenario": "Base",
+   "criticidad_media": 25.019,
+   "delta_vs_base": 0.0
+  },
+  {
+   "id_segmento": "S0125",
+   "id_zona": "PER-Z01",
+   "escenario": "Base",
+   "criticidad_media": 41.589,
+   "delta_vs_base": 0.0
+  },
+  {
+   "id_segmento": "S0126",
+   "id_zona": "PER-Z01",
+   "escenario": "Base",
+   "criticidad_media": 40.897,
+   "delta_vs_base": 0.0
+  },
+  {
+   "id_segmento": "S0127",
+   "id_zona": "PER-Z03",
+   "escenario": "Base",
+   "criticidad_media": 33.247,
+   "delta_vs_base": 0.0
+  },
+  {
+   "id_segmento": "S0128",
+   "id_zona": "PER-Z04",
+   "escenario": "Base",
+   "criticidad_media": 40.257,
+   "delta_vs_base": 0.0
+  },
+  {
+   "id_segmento": "S0129",
+   "id_zona": "PER-Z04",
+   "escenario": "Base",
+   "criticidad_media": 31.047,
+   "delta_vs_base": 0.0
+  },
+  {
+   "id_segmento": "S0130",
+   "id_zona": "PER-Z04",
+   "escenario": "Base",
+   "criticidad_media": 37.816,
+   "delta_vs_base": 0.0
+  },
+  {
+   "id_segmento": "S0131",
+   "id_zona": "PER-Z12",
+   "escenario": "Base",
+   "criticidad_media": 28.524,
+   "delta_vs_base": 0.0
+  },
+  {
+   "id_segmento": "S0132",
+   "id_zona": "PER-Z12",
+   "escenario": "Base",
+   "criticidad_media": 38.451,
+   "delta_vs_base": 0.0
+  },
+  {
+   "id_segmento": "S0133",
+   "id_zona": "PER-Z12",
+   "escenario": "Base",
+   "criticidad_media": 28.613,
+   "delta_vs_base": 0.0
+  },
+  {
+   "id_segmento": "S0134",
+   "id_zona": "PER-Z12",
+   "escenario": "Base",
+   "criticidad_media": 34.212,
+   "delta_vs_base": 0.0
+  },
+  {
+   "id_segmento": "S0135",
+   "id_zona": "PER-Z12",
+   "escenario": "Base",
+   "criticidad_media": 36.816,
+   "delta_vs_base": 0.0
+  },
+  {
+   "id_segmento": "S0136",
+   "id_zona": "PER-Z12",
+   "escenario": "Base",
+   "criticidad_media": 43.482,
+   "delta_vs_base": 0.0
+  },
+  {
+   "id_segmento": "S0137",
+   "id_zona": "PER-Z01",
+   "escenario": "Base",
+   "criticidad_media": 27.85,
+   "delta_vs_base": 0.0
+  },
+  {
+   "id_segmento": "S0138",
+   "id_zona": "PER-Z04",
+   "escenario": "Base",
+   "criticidad_media": 44.134,
+   "delta_vs_base": 0.0
+  },
+  {
+   "id_segmento": "S0139",
+   "id_zona": "PER-Z05",
+   "escenario": "Base",
+   "criticidad_media": 23.358,
+   "delta_vs_base": 0.0
+  },
+  {
+   "id_segmento": "S0140",
+   "id_zona": "PER-Z05",
+   "escenario": "Base",
+   "criticidad_media": 36.132,
+   "delta_vs_base": 0.0
+  },
+  {
+   "id_segmento": "S0141",
+   "id_zona": "PER-Z06",
+   "escenario": "Base",
+   "criticidad_media": 34.209,
+   "delta_vs_base": 0.0
+  },
+  {
+   "id_segmento": "S0142",
+   "id_zona": "PER-Z07",
+   "escenario": "Base",
+   "criticidad_media": 23.471,
+   "delta_vs_base": 0.0
+  },
+  {
+   "id_segmento": "S0143",
+   "id_zona": "PER-Z04",
+   "escenario": "Base",
+   "criticidad_media": 40.542,
+   "delta_vs_base": 0.0
+  },
+  {
+   "id_segmento": "S0144",
+   "id_zona": "PER-Z09",
+   "escenario": "Base",
+   "criticidad_media": 25.895,
+   "delta_vs_base": 0.0
+  },
+  {
+   "id_segmento": "S0145",
+   "id_zona": "PER-Z09",
+   "escenario": "Base",
+   "criticidad_media": 26.445,
+   "delta_vs_base": 0.0
+  },
+  {
+   "id_segmento": "S0146",
+   "id_zona": "PER-Z09",
+   "escenario": "Base",
+   "criticidad_media": 20.276,
+   "delta_vs_base": 0.0
+  },
+  {
+   "id_segmento": "S0147",
+   "id_zona": "PER-Z12",
+   "escenario": "Base",
+   "criticidad_media": 42.502,
+   "delta_vs_base": 0.0
+  },
+  {
+   "id_segmento": "S0148",
+   "id_zona": "PER-Z04",
+   "escenario": "Base",
+   "criticidad_media": 31.684,
+   "delta_vs_base": 0.0
+  },
+  {
+   "id_segmento": "S0149",
+   "id_zona": "PER-Z04",
+   "escenario": "Base",
+   "criticidad_media": 41.562,
+   "delta_vs_base": 0.0
+  },
+  {
+   "id_segmento": "S0150",
+   "id_zona": "PER-Z12",
+   "escenario": "Base",
+   "criticidad_media": 37.368,
+   "delta_vs_base": 0.0
+  },
+  {
+   "id_segmento": "S0151",
+   "id_zona": "PER-Z12",
+   "escenario": "Base",
+   "criticidad_media": 39.516,
+   "delta_vs_base": 0.0
+  },
+  {
+   "id_segmento": "S0152",
+   "id_zona": "PER-Z12",
+   "escenario": "Base",
+   "criticidad_media": 40.583,
+   "delta_vs_base": 0.0
+  },
+  {
+   "id_segmento": "S0153",
+   "id_zona": "PER-Z12",
+   "escenario": "Base",
+   "criticidad_media": 27.04,
+   "delta_vs_base": 0.0
+  },
+  {
+   "id_segmento": "S0154",
+   "id_zona": "PER-Z12",
+   "escenario": "Base",
+   "criticidad_media": 40.222,
+   "delta_vs_base": 0.0
+  },
+  {
+   "id_segmento": "S0155",
+   "id_zona": "PER-Z12",
+   "escenario": "Base",
+   "criticidad_media": 28.462,
+   "delta_vs_base": 0.0
+  },
+  {
+   "id_segmento": "S0156",
+   "id_zona": "PER-Z06",
+   "escenario": "Base",
+   "criticidad_media": 29.977,
+   "delta_vs_base": 0.0
+  },
+  {
+   "id_segmento": "S0157",
+   "id_zona": "PER-Z04",
+   "escenario": "Base",
+   "criticidad_media": 34.792,
+   "delta_vs_base": 0.0
+  },
+  {
+   "id_segmento": "S0158",
+   "id_zona": "PER-Z03",
+   "escenario": "Base",
+   "criticidad_media": 27.723,
+   "delta_vs_base": 0.0
+  },
+  {
+   "id_segmento": "S0159",
+   "id_zona": "PER-Z03",
+   "escenario": "Base",
+   "criticidad_media": 32.959,
+   "delta_vs_base": 0.0
+  },
+  {
+   "id_segmento": "S0001",
+   "id_zona": "PER-Z12",
+   "escenario": "Reducción de velocidad",
+   "criticidad_media": 40.007,
+   "delta_vs_base": 0.0
+  },
+  {
+   "id_segmento": "S0002",
+   "id_zona": "PER-Z12",
+   "escenario": "Reducción de velocidad",
+   "criticidad_media": 32.263,
+   "delta_vs_base": 0.0
+  },
+  {
+   "id_segmento": "S0003",
+   "id_zona": "PER-Z12",
+   "escenario": "Reducción de velocidad",
+   "criticidad_media": 33.797,
+   "delta_vs_base": 0.0
+  },
+  {
+   "id_segmento": "S0004",
+   "id_zona": "PER-Z12",
+   "escenario": "Reducción de velocidad",
+   "criticidad_media": 18.923,
+   "delta_vs_base": -24.475
+  },
+  {
+   "id_segmento": "S0005",
+   "id_zona": "PER-Z12",
+   "escenario": "Reducción de velocidad",
+   "criticidad_media": 39.12,
+   "delta_vs_base": 0.004
+  },
+  {
+   "id_segmento": "S0006",
+   "id_zona": "PER-Z12",
+   "escenario": "Reducción de velocidad",
+   "criticidad_media": 38.965,
+   "delta_vs_base": -0.002
+  },
+  {
+   "id_segmento": "S0007",
+   "id_zona": "PER-Z12",
+   "escenario": "Reducción de velocidad",
+   "criticidad_media": 34.062,
+   "delta_vs_base": -0.006
+  },
+  {
+   "id_segmento": "S0008",
+   "id_zona": "PER-Z12",
+   "escenario": "Reducción de velocidad",
+   "criticidad_media": 40.494,
+   "delta_vs_base": -0.004
+  },
+  {
+   "id_segmento": "S0009",
+   "id_zona": "PER-Z09",
+   "escenario": "Reducción de velocidad",
+   "criticidad_media": 28.114,
+   "delta_vs_base": 0.002
+  },
+  {
+   "id_segmento": "S0010",
+   "id_zona": "PER-Z09",
+   "escenario": "Reducción de velocidad",
+   "criticidad_media": 27.085,
+   "delta_vs_base": -0.004
+  },
+  {
+   "id_segmento": "S0011",
+   "id_zona": "PER-Z01",
+   "escenario": "Reducción de velocidad",
+   "criticidad_media": 29.853,
+   "delta_vs_base": 0.0
+  },
+  {
+   "id_segmento": "S0012",
+   "id_zona": "PER-Z01",
+   "escenario": "Reducción de velocidad",
+   "criticidad_media": 28.839,
+   "delta_vs_base": 0.003
+  },
+  {
+   "id_segmento": "S0013",
+   "id_zona": "PER-Z01",
+   "escenario": "Reducción de velocidad",
+   "criticidad_media": 31.826,
+   "delta_vs_base": 0.0
+  },
+  {
+   "id_segmento": "S0014",
+   "id_zona": "PER-Z06",
+   "escenario": "Reducción de velocidad",
+   "criticidad_media": 17.758,
+   "delta_vs_base": 0.0
+  },
+  {
+   "id_segmento": "S0015",
+   "id_zona": "PER-Z06",
+   "escenario": "Reducción de velocidad",
+   "criticidad_media": 26.336,
+   "delta_vs_base": 0.0
+  },
+  {
+   "id_segmento": "S0016",
+   "id_zona": "PER-Z06",
+   "escenario": "Reducción de velocidad",
+   "criticidad_media": 18.681,
+   "delta_vs_base": -0.001
+  },
+  {
+   "id_segmento": "S0017",
+   "id_zona": "PER-Z07",
+   "escenario": "Reducción de velocidad",
+   "criticidad_media": 23.066,
+   "delta_vs_base": 0.0
+  },
+  {
+   "id_segmento": "S0018",
+   "id_zona": "PER-Z02",
+   "escenario": "Reducción de velocidad",
+   "criticidad_media": 27.301,
+   "delta_vs_base": -0.002
+  },
+  {
+   "id_segmento": "S0019",
+   "id_zona": "PER-Z01",
+   "escenario": "Reducción de velocidad",
+   "criticidad_media": 23.077,
+   "delta_vs_base": 0.001
+  },
+  {
+   "id_segmento": "S0020",
+   "id_zona": "PER-Z01",
+   "escenario": "Reducción de velocidad",
+   "criticidad_media": 27.333,
+   "delta_vs_base": 0.001
+  },
+  {
+   "id_segmento": "S0021",
+   "id_zona": "PER-Z04",
+   "escenario": "Reducción de velocidad",
+   "criticidad_media": 40.441,
+   "delta_vs_base": 0.0
+  },
+  {
+   "id_segmento": "S0022",
+   "id_zona": "PER-Z09",
+   "escenario": "Reducción de velocidad",
+   "criticidad_media": 31.149,
+   "delta_vs_base": -0.067
+  },
+  {
+   "id_segmento": "S0023",
+   "id_zona": "PER-Z01",
+   "escenario": "Reducción de velocidad",
+   "criticidad_media": 39.306,
+   "delta_vs_base": 0.039
+  },
+  {
+   "id_segmento": "S0024",
+   "id_zona": "PER-Z01",
+   "escenario": "Reducción de velocidad",
+   "criticidad_media": 28.418,
+   "delta_vs_base": 0.003
+  },
+  {
+   "id_segmento": "S0025",
+   "id_zona": "PER-Z04",
+   "escenario": "Reducción de velocidad",
+   "criticidad_media": 39.179,
+   "delta_vs_base": -4.809
+  },
+  {
+   "id_segmento": "S0026",
+   "id_zona": "PER-Z03",
+   "escenario": "Reducción de velocidad",
+   "criticidad_media": 30.232,
+   "delta_vs_base": 0.002
+  },
+  {
+   "id_segmento": "S0027",
+   "id_zona": "PER-Z01",
+   "escenario": "Reducción de velocidad",
+   "criticidad_media": 24.154,
+   "delta_vs_base": -0.013
+  },
+  {
+   "id_segmento": "S0028",
+   "id_zona": "PER-Z12",
+   "escenario": "Reducción de velocidad",
+   "criticidad_media": 36.677,
+   "delta_vs_base": 0.016
+  },
+  {
+   "id_segmento": "S0029",
+   "id_zona": "PER-Z12",
+   "escenario": "Reducción de velocidad",
+   "criticidad_media": 31.236,
+   "delta_vs_base": 0.0
+  },
+  {
+   "id_segmento": "S0030",
+   "id_zona": "PER-Z12",
+   "escenario": "Reducción de velocidad",
+   "criticidad_media": 37.466,
+   "delta_vs_base": 0.0
+  },
+  {
+   "id_segmento": "S0031",
+   "id_zona": "PER-Z12",
+   "escenario": "Reducción de velocidad",
+   "criticidad_media": 35.787,
+   "delta_vs_base": -0.001
+  },
+  {
+   "id_segmento": "S0032",
+   "id_zona": "PER-Z12",
+   "escenario": "Reducción de velocidad",
+   "criticidad_media": 32.284,
+   "delta_vs_base": 0.0
+  },
+  {
+   "id_segmento": "S0033",
+   "id_zona": "PER-Z09",
+   "escenario": "Reducción de velocidad",
+   "criticidad_media": 28.876,
+   "delta_vs_base": 0.02
+  },
+  {
+   "id_segmento": "S0034",
+   "id_zona": "PER-Z09",
+   "escenario": "Reducción de velocidad",
+   "criticidad_media": 20.033,
+   "delta_vs_base": -0.008
+  },
+  {
+   "id_segmento": "S0035",
+   "id_zona": "PER-Z09",
+   "escenario": "Reducción de velocidad",
+   "criticidad_media": 25.917,
+   "delta_vs_base": -0.003
+  },
+  {
+   "id_segmento": "S0036",
+   "id_zona": "PER-Z12",
+   "escenario": "Reducción de velocidad",
+   "criticidad_media": 39.219,
+   "delta_vs_base": 0.0
+  },
+  {
+   "id_segmento": "S0037",
+   "id_zona": "PER-Z04",
+   "escenario": "Reducción de velocidad",
+   "criticidad_media": 31.156,
+   "delta_vs_base": 0.001
+  },
+  {
+   "id_segmento": "S0038",
+   "id_zona": "PER-Z04",
+   "escenario": "Reducción de velocidad",
+   "criticidad_media": 40.777,
+   "delta_vs_base": 0.033
+  },
+  {
+   "id_segmento": "S0039",
+   "id_zona": "PER-Z04",
+   "escenario": "Reducción de velocidad",
+   "criticidad_media": 37.049,
+   "delta_vs_base": -0.033
+  },
+  {
+   "id_segmento": "S0040",
+   "id_zona": "PER-Z12",
+   "escenario": "Reducción de velocidad",
+   "criticidad_media": 28.181,
+   "delta_vs_base": 0.0
+  },
+  {
+   "id_segmento": "S0041",
+   "id_zona": "PER-Z12",
+   "escenario": "Reducción de velocidad",
+   "criticidad_media": 39.42,
+   "delta_vs_base": -0.0
+  },
+  {
+   "id_segmento": "S0042",
+   "id_zona": "PER-Z12",
+   "escenario": "Reducción de velocidad",
+   "criticidad_media": 38.97,
+   "delta_vs_base": 0.053
+  },
+  {
+   "id_segmento": "S0043",
+   "id_zona": "PER-Z12",
+   "escenario": "Reducción de velocidad",
+   "criticidad_media": 30.374,
+   "delta_vs_base": -0.059
+  },
+  {
+   "id_segmento": "S0044",
+   "id_zona": "PER-Z12",
+   "escenario": "Reducción de velocidad",
+   "criticidad_media": 29.992,
+   "delta_vs_base": -0.003
+  },
+  {
+   "id_segmento": "S0045",
+   "id_zona": "PER-Z12",
+   "escenario": "Reducción de velocidad",
+   "criticidad_media": 32.824,
+   "delta_vs_base": 0.035
+  },
+  {
+   "id_segmento": "S0046",
+   "id_zona": "PER-Z12",
+   "escenario": "Reducción de velocidad",
+   "criticidad_media": 36.813,
+   "delta_vs_base": -0.003
+  },
+  {
+   "id_segmento": "S0047",
+   "id_zona": "PER-Z12",
+   "escenario": "Reducción de velocidad",
+   "criticidad_media": 35.391,
+   "delta_vs_base": -0.016
+  },
+  {
+   "id_segmento": "S0048",
+   "id_zona": "PER-Z12",
+   "escenario": "Reducción de velocidad",
+   "criticidad_media": 40.639,
+   "delta_vs_base": 0.0
+  },
+  {
+   "id_segmento": "S0049",
+   "id_zona": "PER-Z12",
+   "escenario": "Reducción de velocidad",
+   "criticidad_media": 42.959,
+   "delta_vs_base": -0.001
+  },
+  {
+   "id_segmento": "S0050",
+   "id_zona": "PER-Z01",
+   "escenario": "Reducción de velocidad",
+   "criticidad_media": 35.249,
+   "delta_vs_base": 0.008
+  },
+  {
+   "id_segmento": "S0051",
+   "id_zona": "PER-Z01",
+   "escenario": "Reducción de velocidad",
+   "criticidad_media": 21.628,
+   "delta_vs_base": 0.0
+  },
+  {
+   "id_segmento": "S0052",
+   "id_zona": "PER-Z09",
+   "escenario": "Reducción de velocidad",
+   "criticidad_media": 25.726,
+   "delta_vs_base": -0.007
+  },
+  {
+   "id_segmento": "S0053",
+   "id_zona": "PER-Z09",
+   "escenario": "Reducción de velocidad",
+   "criticidad_media": 35.651,
+   "delta_vs_base": 0.0
+  },
+  {
+   "id_segmento": "S0054",
+   "id_zona": "PER-Z12",
+   "escenario": "Reducción de velocidad",
+   "criticidad_media": 38.324,
+   "delta_vs_base": 0.001
+  },
+  {
+   "id_segmento": "S0055",
+   "id_zona": "PER-Z04",
+   "escenario": "Reducción de velocidad",
+   "criticidad_media": 38.821,
+   "delta_vs_base": 0.002
+  },
+  {
+   "id_segmento": "S0056",
+   "id_zona": "PER-Z04",
+   "escenario": "Reducción de velocidad",
+   "criticidad_media": 37.708,
+   "delta_vs_base": 0.013
+  },
+  {
+   "id_segmento": "S0057",
+   "id_zona": "PER-Z04",
+   "escenario": "Reducción de velocidad",
+   "criticidad_media": 39.013,
+   "delta_vs_base": -0.02
+  },
+  {
+   "id_segmento": "S0058",
+   "id_zona": "PER-Z04",
+   "escenario": "Reducción de velocidad",
+   "criticidad_media": 34.474,
+   "delta_vs_base": 0.019
+  },
+  {
+   "id_segmento": "S0059",
+   "id_zona": "PER-Z04",
+   "escenario": "Reducción de velocidad",
+   "criticidad_media": 18.217,
+   "delta_vs_base": -23.483
+  },
+  {
+   "id_segmento": "S0060",
+   "id_zona": "PER-Z05",
+   "escenario": "Reducción de velocidad",
+   "criticidad_media": 26.959,
+   "delta_vs_base": -0.001
+  },
+  {
+   "id_segmento": "S0061",
+   "id_zona": "PER-Z04",
+   "escenario": "Reducción de velocidad",
+   "criticidad_media": 30.069,
+   "delta_vs_base": 0.0
+  },
+  {
+   "id_segmento": "S0062",
+   "id_zona": "PER-Z04",
+   "escenario": "Reducción de velocidad",
+   "criticidad_media": 41.464,
+   "delta_vs_base": 0.0
+  },
+  {
+   "id_segmento": "S0063",
+   "id_zona": "PER-Z03",
+   "escenario": "Reducción de velocidad",
+   "criticidad_media": 31.385,
+   "delta_vs_base": 0.004
+  },
+  {
+   "id_segmento": "S0064",
+   "id_zona": "PER-Z04",
+   "escenario": "Reducción de velocidad",
+   "criticidad_media": 35.866,
+   "delta_vs_base": 0.0
+  },
+  {
+   "id_segmento": "S0065",
+   "id_zona": "PER-Z01",
+   "escenario": "Reducción de velocidad",
+   "criticidad_media": 23.619,
+   "delta_vs_base": 0.0
+  },
+  {
+   "id_segmento": "S0066",
+   "id_zona": "PER-Z03",
+   "escenario": "Reducción de velocidad",
+   "criticidad_media": 33.473,
+   "delta_vs_base": 0.023
+  },
+  {
+   "id_segmento": "S0067",
+   "id_zona": "PER-Z03",
+   "escenario": "Reducción de velocidad",
+   "criticidad_media": 33.234,
+   "delta_vs_base": -0.023
+  },
+  {
+   "id_segmento": "S0068",
+   "id_zona": "PER-Z03",
+   "escenario": "Reducción de velocidad",
+   "criticidad_media": 26.951,
+   "delta_vs_base": -0.003
+  },
+  {
+   "id_segmento": "S0069",
+   "id_zona": "PER-Z08",
+   "escenario": "Reducción de velocidad",
+   "criticidad_media": 25.825,
+   "delta_vs_base": 0.001
+  },
+  {
+   "id_segmento": "S0070",
+   "id_zona": "PER-Z04",
+   "escenario": "Reducción de velocidad",
+   "criticidad_media": 41.436,
+   "delta_vs_base": -0.004
+  },
+  {
+   "id_segmento": "S0071",
+   "id_zona": "PER-Z04",
+   "escenario": "Reducción de velocidad",
+   "criticidad_media": 20.434,
+   "delta_vs_base": -26.4
+  },
+  {
+   "id_segmento": "S0072",
+   "id_zona": "PER-Z04",
+   "escenario": "Reducción de velocidad",
+   "criticidad_media": 34.482,
+   "delta_vs_base": 0.001
+  },
+  {
+   "id_segmento": "S0073",
+   "id_zona": "PER-Z03",
+   "escenario": "Reducción de velocidad",
+   "criticidad_media": 28.077,
+   "delta_vs_base": 0.0
+  },
+  {
+   "id_segmento": "S0074",
+   "id_zona": "PER-Z03",
+   "escenario": "Reducción de velocidad",
+   "criticidad_media": 20.043,
+   "delta_vs_base": 0.0
+  },
+  {
+   "id_segmento": "S0075",
+   "id_zona": "PER-Z12",
+   "escenario": "Reducción de velocidad",
+   "criticidad_media": 45.36,
+   "delta_vs_base": 0.0
+  },
+  {
+   "id_segmento": "S0076",
+   "id_zona": "PER-Z12",
+   "escenario": "Reducción de velocidad",
+   "criticidad_media": 40.613,
+   "delta_vs_base": 0.0
+  },
+  {
+   "id_segmento": "S0077",
+   "id_zona": "PER-Z12",
+   "escenario": "Reducción de velocidad",
+   "criticidad_media": 33.249,
+   "delta_vs_base": 0.0
+  },
+  {
+   "id_segmento": "S0078",
+   "id_zona": "PER-Z12",
+   "escenario": "Reducción de velocidad",
+   "criticidad_media": 40.316,
+   "delta_vs_base": 0.001
+  },
+  {
+   "id_segmento": "S0079",
+   "id_zona": "PER-Z08",
+   "escenario": "Reducción de velocidad",
+   "criticidad_media": 27.843,
+   "delta_vs_base": 0.0
+  },
+  {
+   "id_segmento": "S0080",
+   "id_zona": "PER-Z08",
+   "escenario": "Reducción de velocidad",
+   "criticidad_media": 28.183,
+   "delta_vs_base": 0.0
+  },
+  {
+   "id_segmento": "S0081",
+   "id_zona": "PER-Z07",
+   "escenario": "Reducción de velocidad",
+   "criticidad_media": 26.194,
+   "delta_vs_base": 0.0
+  },
+  {
+   "id_segmento": "S0082",
+   "id_zona": "PER-Z08",
+   "escenario": "Reducción de velocidad",
+   "criticidad_media": 28.356,
+   "delta_vs_base": 0.0
+  },
+  {
+   "id_segmento": "S0083",
+   "id_zona": "PER-Z12",
+   "escenario": "Reducción de velocidad",
+   "criticidad_media": 38.072,
+   "delta_vs_base": 0.0
+  },
+  {
+   "id_segmento": "S0084",
+   "id_zona": "PER-Z12",
+   "escenario": "Reducción de velocidad",
+   "criticidad_media": 37.048,
+   "delta_vs_base": 0.0
+  },
+  {
+   "id_segmento": "S0085",
+   "id_zona": "PER-Z10",
+   "escenario": "Reducción de velocidad",
+   "criticidad_media": 35.198,
+   "delta_vs_base": 0.0
+  },
+  {
+   "id_segmento": "S0086",
+   "id_zona": "PER-Z09",
+   "escenario": "Reducción de velocidad",
+   "criticidad_media": 37.706,
+   "delta_vs_base": -0.001
+  },
+  {
+   "id_segmento": "S0087",
+   "id_zona": "PER-Z09",
+   "escenario": "Reducción de velocidad",
+   "criticidad_media": 25.133,
+   "delta_vs_base": 0.0
+  },
+  {
+   "id_segmento": "S0088",
+   "id_zona": "PER-Z01",
+   "escenario": "Reducción de velocidad",
+   "criticidad_media": 34.112,
+   "delta_vs_base": 0.005
+  },
+  {
+   "id_segmento": "S0089",
+   "id_zona": "PER-Z01",
+   "escenario": "Reducción de velocidad",
+   "criticidad_media": 26.468,
+   "delta_vs_base": -0.007
+  },
+  {
+   "id_segmento": "S0090",
+   "id_zona": "PER-Z01",
+   "escenario": "Reducción de velocidad",
+   "criticidad_media": 25.574,
+   "delta_vs_base": -0.02
+  },
+  {
+   "id_segmento": "S0091",
+   "id_zona": "PER-Z12",
+   "escenario": "Reducción de velocidad",
+   "criticidad_media": 37.857,
+   "delta_vs_base": 0.0
+  },
+  {
+   "id_segmento": "S0092",
+   "id_zona": "PER-Z09",
+   "escenario": "Reducción de velocidad",
+   "criticidad_media": 31.349,
+   "delta_vs_base": -0.003
+  },
+  {
+   "id_segmento": "S0093",
+   "id_zona": "PER-Z06",
+   "escenario": "Reducción de velocidad",
+   "criticidad_media": 27.262,
+   "delta_vs_base": 0.0
+  },
+  {
+   "id_segmento": "S0094",
+   "id_zona": "PER-Z06",
+   "escenario": "Reducción de velocidad",
+   "criticidad_media": 30.991,
+   "delta_vs_base": 0.005
+  },
+  {
+   "id_segmento": "S0095",
+   "id_zona": "PER-Z12",
+   "escenario": "Reducción de velocidad",
+   "criticidad_media": 32.559,
+   "delta_vs_base": 0.009
+  },
+  {
+   "id_segmento": "S0096",
+   "id_zona": "PER-Z12",
+   "escenario": "Reducción de velocidad",
+   "criticidad_media": 36.758,
+   "delta_vs_base": -0.008
+  },
+  {
+   "id_segmento": "S0097",
+   "id_zona": "PER-Z09",
+   "escenario": "Reducción de velocidad",
+   "criticidad_media": 24.232,
+   "delta_vs_base": 0.007
+  },
+  {
+   "id_segmento": "S0098",
+   "id_zona": "PER-Z06",
+   "escenario": "Reducción de velocidad",
+   "criticidad_media": 37.518,
+   "delta_vs_base": -0.013
+  },
+  {
+   "id_segmento": "S0099",
+   "id_zona": "PER-Z08",
+   "escenario": "Reducción de velocidad",
+   "criticidad_media": 25.13,
+   "delta_vs_base": 0.0
+  },
+  {
+   "id_segmento": "S0100",
+   "id_zona": "PER-Z01",
+   "escenario": "Reducción de velocidad",
+   "criticidad_media": 35.868,
+   "delta_vs_base": 0.008
+  },
+  {
+   "id_segmento": "S0101",
+   "id_zona": "PER-Z01",
+   "escenario": "Reducción de velocidad",
+   "criticidad_media": 38.925,
+   "delta_vs_base": 0.006
+  },
+  {
+   "id_segmento": "S0102",
+   "id_zona": "PER-Z03",
+   "escenario": "Reducción de velocidad",
+   "criticidad_media": 32.666,
+   "delta_vs_base": 0.014
+  },
+  {
+   "id_segmento": "S0103",
+   "id_zona": "PER-Z01",
+   "escenario": "Reducción de velocidad",
+   "criticidad_media": 22.459,
+   "delta_vs_base": -0.017
+  },
+  {
+   "id_segmento": "S0104",
+   "id_zona": "PER-Z01",
+   "escenario": "Reducción de velocidad",
+   "criticidad_media": 27.646,
+   "delta_vs_base": -0.001
+  },
+  {
+   "id_segmento": "S0105",
+   "id_zona": "PER-Z02",
+   "escenario": "Reducción de velocidad",
+   "criticidad_media": 33.493,
+   "delta_vs_base": 0.0
+  },
+  {
+   "id_segmento": "S0106",
+   "id_zona": "PER-Z02",
+   "escenario": "Reducción de velocidad",
+   "criticidad_media": 39.87,
+   "delta_vs_base": 0.002
+  },
+  {
+   "id_segmento": "S0107",
+   "id_zona": "PER-Z03",
+   "escenario": "Reducción de velocidad",
+   "criticidad_media": 27.731,
+   "delta_vs_base": 0.0
+  },
+  {
+   "id_segmento": "S0108",
+   "id_zona": "PER-Z04",
+   "escenario": "Reducción de velocidad",
+   "criticidad_media": 33.211,
+   "delta_vs_base": 0.049
+  },
+  {
+   "id_segmento": "S0109",
+   "id_zona": "PER-Z05",
+   "escenario": "Reducción de velocidad",
+   "criticidad_media": 27.673,
+   "delta_vs_base": 0.006
+  },
+  {
+   "id_segmento": "S0110",
+   "id_zona": "PER-Z04",
+   "escenario": "Reducción de velocidad",
+   "criticidad_media": 41.34,
+   "delta_vs_base": -5.189
+  },
+  {
+   "id_segmento": "S0111",
+   "id_zona": "PER-Z04",
+   "escenario": "Reducción de velocidad",
+   "criticidad_media": 29.34,
+   "delta_vs_base": -0.014
+  },
+  {
+   "id_segmento": "S0112",
+   "id_zona": "PER-Z04",
+   "escenario": "Reducción de velocidad",
+   "criticidad_media": 40.718,
+   "delta_vs_base": -0.022
+  },
+  {
+   "id_segmento": "S0113",
+   "id_zona": "PER-Z12",
+   "escenario": "Reducción de velocidad",
+   "criticidad_media": 19.398,
+   "delta_vs_base": -24.986
+  },
+  {
+   "id_segmento": "S0114",
+   "id_zona": "PER-Z11",
+   "escenario": "Reducción de velocidad",
+   "criticidad_media": 27.267,
+   "delta_vs_base": 0.003
+  },
+  {
+   "id_segmento": "S0115",
+   "id_zona": "PER-Z10",
+   "escenario": "Reducción de velocidad",
+   "criticidad_media": 23.919,
+   "delta_vs_base": 0.017
+  },
+  {
+   "id_segmento": "S0116",
+   "id_zona": "PER-Z10",
+   "escenario": "Reducción de velocidad",
+   "criticidad_media": 26.006,
+   "delta_vs_base": 0.023
+  },
+  {
+   "id_segmento": "S0117",
+   "id_zona": "PER-Z09",
+   "escenario": "Reducción de velocidad",
+   "criticidad_media": 23.379,
+   "delta_vs_base": -0.009
+  },
+  {
+   "id_segmento": "S0118",
+   "id_zona": "PER-Z12",
+   "escenario": "Reducción de velocidad",
+   "criticidad_media": 28.678,
+   "delta_vs_base": 0.03
+  },
+  {
+   "id_segmento": "S0119",
+   "id_zona": "PER-Z09",
+   "escenario": "Reducción de velocidad",
+   "criticidad_media": 24.768,
+   "delta_vs_base": -0.01
+  },
+  {
+   "id_segmento": "S0120",
+   "id_zona": "PER-Z10",
+   "escenario": "Reducción de velocidad",
+   "criticidad_media": 23.734,
+   "delta_vs_base": 0.0
+  },
+  {
+   "id_segmento": "S0121",
+   "id_zona": "PER-Z11",
+   "escenario": "Reducción de velocidad",
+   "criticidad_media": 26.805,
+   "delta_vs_base": 0.0
+  },
+  {
+   "id_segmento": "S0122",
+   "id_zona": "PER-Z01",
+   "escenario": "Reducción de velocidad",
+   "criticidad_media": 19.081,
+   "delta_vs_base": 0.007
+  },
+  {
+   "id_segmento": "S0123",
+   "id_zona": "PER-Z01",
+   "escenario": "Reducción de velocidad",
+   "criticidad_media": 29.349,
+   "delta_vs_base": 0.0
+  },
+  {
+   "id_segmento": "S0124",
+   "id_zona": "PER-Z01",
+   "escenario": "Reducción de velocidad",
+   "criticidad_media": 25.013,
+   "delta_vs_base": -0.007
+  },
+  {
+   "id_segmento": "S0125",
+   "id_zona": "PER-Z01",
+   "escenario": "Reducción de velocidad",
+   "criticidad_media": 18.128,
+   "delta_vs_base": -23.461
+  },
+  {
+   "id_segmento": "S0126",
+   "id_zona": "PER-Z01",
+   "escenario": "Reducción de velocidad",
+   "criticidad_media": 40.948,
+   "delta_vs_base": 0.051
+  },
+  {
+   "id_segmento": "S0127",
+   "id_zona": "PER-Z03",
+   "escenario": "Reducción de velocidad",
+   "criticidad_media": 33.247,
+   "delta_vs_base": 0.0
+  },
+  {
+   "id_segmento": "S0128",
+   "id_zona": "PER-Z04",
+   "escenario": "Reducción de velocidad",
+   "criticidad_media": 40.233,
+   "delta_vs_base": -0.024
+  },
+  {
+   "id_segmento": "S0129",
+   "id_zona": "PER-Z04",
+   "escenario": "Reducción de velocidad",
+   "criticidad_media": 31.063,
+   "delta_vs_base": 0.015
+  },
+  {
+   "id_segmento": "S0130",
+   "id_zona": "PER-Z04",
+   "escenario": "Reducción de velocidad",
+   "criticidad_media": 37.83,
+   "delta_vs_base": 0.014
+  },
+  {
+   "id_segmento": "S0131",
+   "id_zona": "PER-Z12",
+   "escenario": "Reducción de velocidad",
+   "criticidad_media": 28.531,
+   "delta_vs_base": 0.007
+  },
+  {
+   "id_segmento": "S0132",
+   "id_zona": "PER-Z12",
+   "escenario": "Reducción de velocidad",
+   "criticidad_media": 38.454,
+   "delta_vs_base": 0.003
+  },
+  {
+   "id_segmento": "S0133",
+   "id_zona": "PER-Z12",
+   "escenario": "Reducción de velocidad",
+   "criticidad_media": 28.609,
+   "delta_vs_base": -0.004
+  },
+  {
+   "id_segmento": "S0134",
+   "id_zona": "PER-Z12",
+   "escenario": "Reducción de velocidad",
+   "criticidad_media": 34.239,
+   "delta_vs_base": 0.027
+  },
+  {
+   "id_segmento": "S0135",
+   "id_zona": "PER-Z12",
+   "escenario": "Reducción de velocidad",
+   "criticidad_media": 36.813,
+   "delta_vs_base": -0.003
+  },
+  {
+   "id_segmento": "S0136",
+   "id_zona": "PER-Z12",
+   "escenario": "Reducción de velocidad",
+   "criticidad_media": 43.482,
+   "delta_vs_base": 0.0
+  },
+  {
+   "id_segmento": "S0137",
+   "id_zona": "PER-Z01",
+   "escenario": "Reducción de velocidad",
+   "criticidad_media": 27.851,
+   "delta_vs_base": 0.0
+  },
+  {
+   "id_segmento": "S0138",
+   "id_zona": "PER-Z04",
+   "escenario": "Reducción de velocidad",
+   "criticidad_media": 39.27,
+   "delta_vs_base": -4.864
+  },
+  {
+   "id_segmento": "S0139",
+   "id_zona": "PER-Z05",
+   "escenario": "Reducción de velocidad",
+   "criticidad_media": 23.36,
+   "delta_vs_base": 0.002
+  },
+  {
+   "id_segmento": "S0140",
+   "id_zona": "PER-Z05",
+   "escenario": "Reducción de velocidad",
+   "criticidad_media": 36.155,
+   "delta_vs_base": 0.023
+  },
+  {
+   "id_segmento": "S0141",
+   "id_zona": "PER-Z06",
+   "escenario": "Reducción de velocidad",
+   "criticidad_media": 34.185,
+   "delta_vs_base": -0.024
+  },
+  {
+   "id_segmento": "S0142",
+   "id_zona": "PER-Z07",
+   "escenario": "Reducción de velocidad",
+   "criticidad_media": 23.468,
+   "delta_vs_base": -0.002
+  },
+  {
+   "id_segmento": "S0143",
+   "id_zona": "PER-Z04",
+   "escenario": "Reducción de velocidad",
+   "criticidad_media": 40.547,
+   "delta_vs_base": 0.005
+  },
+  {
+   "id_segmento": "S0144",
+   "id_zona": "PER-Z09",
+   "escenario": "Reducción de velocidad",
+   "criticidad_media": 25.895,
+   "delta_vs_base": 0.0
+  },
+  {
+   "id_segmento": "S0145",
+   "id_zona": "PER-Z09",
+   "escenario": "Reducción de velocidad",
+   "criticidad_media": 26.445,
+   "delta_vs_base": 0.0
+  },
+  {
+   "id_segmento": "S0146",
+   "id_zona": "PER-Z09",
+   "escenario": "Reducción de velocidad",
+   "criticidad_media": 20.276,
+   "delta_vs_base": -0.0
+  },
+  {
+   "id_segmento": "S0147",
+   "id_zona": "PER-Z12",
+   "escenario": "Reducción de velocidad",
+   "criticidad_media": 18.582,
+   "delta_vs_base": -23.92
+  },
+  {
+   "id_segmento": "S0148",
+   "id_zona": "PER-Z04",
+   "escenario": "Reducción de velocidad",
+   "criticidad_media": 31.69,
+   "delta_vs_base": 0.007
+  },
+  {
+   "id_segmento": "S0149",
+   "id_zona": "PER-Z04",
+   "escenario": "Reducción de velocidad",
+   "criticidad_media": 41.563,
+   "delta_vs_base": 0.001
+  },
+  {
+   "id_segmento": "S0150",
+   "id_zona": "PER-Z12",
+   "escenario": "Reducción de velocidad",
+   "criticidad_media": 37.368,
+   "delta_vs_base": 0.0
+  },
+  {
+   "id_segmento": "S0151",
+   "id_zona": "PER-Z12",
+   "escenario": "Reducción de velocidad",
+   "criticidad_media": 39.516,
+   "delta_vs_base": 0.0
+  },
+  {
+   "id_segmento": "S0152",
+   "id_zona": "PER-Z12",
+   "escenario": "Reducción de velocidad",
+   "criticidad_media": 40.583,
+   "delta_vs_base": 0.0
+  },
+  {
+   "id_segmento": "S0153",
+   "id_zona": "PER-Z12",
+   "escenario": "Reducción de velocidad",
+   "criticidad_media": 27.039,
+   "delta_vs_base": -0.001
+  },
+  {
+   "id_segmento": "S0154",
+   "id_zona": "PER-Z12",
+   "escenario": "Reducción de velocidad",
+   "criticidad_media": 40.173,
+   "delta_vs_base": -0.049
+  },
+  {
+   "id_segmento": "S0155",
+   "id_zona": "PER-Z12",
+   "escenario": "Reducción de velocidad",
+   "criticidad_media": 28.511,
+   "delta_vs_base": 0.049
+  },
+  {
+   "id_segmento": "S0156",
+   "id_zona": "PER-Z06",
+   "escenario": "Reducción de velocidad",
+   "criticidad_media": 29.976,
+   "delta_vs_base": -0.001
+  },
+  {
+   "id_segmento": "S0157",
+   "id_zona": "PER-Z04",
+   "escenario": "Reducción de velocidad",
+   "criticidad_media": 34.792,
+   "delta_vs_base": -0.0
+  },
+  {
+   "id_segmento": "S0158",
+   "id_zona": "PER-Z03",
+   "escenario": "Reducción de velocidad",
+   "criticidad_media": 27.723,
+   "delta_vs_base": 0.0
+  },
+  {
+   "id_segmento": "S0159",
+   "id_zona": "PER-Z03",
+   "escenario": "Reducción de velocidad",
+   "criticidad_media": 32.959,
+   "delta_vs_base": 0.0
+  },
+  {
+   "id_segmento": "S0001",
+   "id_zona": "PER-Z12",
+   "escenario": "Separación de flujos",
+   "criticidad_media": 40.769,
+   "delta_vs_base": 0.762
+  },
+  {
+   "id_segmento": "S0002",
+   "id_zona": "PER-Z12",
+   "escenario": "Separación de flujos",
+   "criticidad_media": 32.263,
+   "delta_vs_base": 0.0
+  },
+  {
+   "id_segmento": "S0003",
+   "id_zona": "PER-Z12",
+   "escenario": "Separación de flujos",
+   "criticidad_media": 34.967,
+   "delta_vs_base": 1.169
+  },
+  {
+   "id_segmento": "S0004",
+   "id_zona": "PER-Z12",
+   "escenario": "Separación de flujos",
+   "criticidad_media": 34.467,
+   "delta_vs_base": -8.931
+  },
+  {
+   "id_segmento": "S0005",
+   "id_zona": "PER-Z12",
+   "escenario": "Separación de flujos",
+   "criticidad_media": 40.213,
+   "delta_vs_base": 1.097
+  },
+  {
+   "id_segmento": "S0006",
+   "id_zona": "PER-Z12",
+   "escenario": "Separación de flujos",
+   "criticidad_media": 40.207,
+   "delta_vs_base": 1.24
+  },
+  {
+   "id_segmento": "S0007",
+   "id_zona": "PER-Z12",
+   "escenario": "Separación de flujos",
+   "criticidad_media": 34.062,
+   "delta_vs_base": -0.006
+  },
+  {
+   "id_segmento": "S0008",
+   "id_zona": "PER-Z12",
+   "escenario": "Separación de flujos",
+   "criticidad_media": 40.497,
+   "delta_vs_base": 0.0
+  },
+  {
+   "id_segmento": "S0009",
+   "id_zona": "PER-Z09",
+   "escenario": "Separación de flujos",
+   "criticidad_media": 28.112,
+   "delta_vs_base": 0.0
+  },
+  {
+   "id_segmento": "S0010",
+   "id_zona": "PER-Z09",
+   "escenario": "Separación de flujos",
+   "criticidad_media": 27.088,
+   "delta_vs_base": 0.0
+  },
+  {
+   "id_segmento": "S0011",
+   "id_zona": "PER-Z01",
+   "escenario": "Separación de flujos",
+   "criticidad_media": 29.853,
+   "delta_vs_base": 0.0
+  },
+  {
+   "id_segmento": "S0012",
+   "id_zona": "PER-Z01",
+   "escenario": "Separación de flujos",
+   "criticidad_media": 28.839,
+   "delta_vs_base": 0.003
+  },
+  {
+   "id_segmento": "S0013",
+   "id_zona": "PER-Z01",
+   "escenario": "Separación de flujos",
+   "criticidad_media": 31.826,
+   "delta_vs_base": 0.0
+  },
+  {
+   "id_segmento": "S0014",
+   "id_zona": "PER-Z06",
+   "escenario": "Separación de flujos",
+   "criticidad_media": 17.757,
+   "delta_vs_base": 0.0
+  },
+  {
+   "id_segmento": "S0015",
+   "id_zona": "PER-Z06",
+   "escenario": "Separación de flujos",
+   "criticidad_media": 26.351,
+   "delta_vs_base": 0.015
+  },
+  {
+   "id_segmento": "S0016",
+   "id_zona": "PER-Z06",
+   "escenario": "Separación de flujos",
+   "criticidad_media": 18.661,
+   "delta_vs_base": -0.021
+  },
+  {
+   "id_segmento": "S0017",
+   "id_zona": "PER-Z07",
+   "escenario": "Separación de flujos",
+   "criticidad_media": 23.064,
+   "delta_vs_base": -0.002
+  },
+  {
+   "id_segmento": "S0018",
+   "id_zona": "PER-Z02",
+   "escenario": "Separación de flujos",
+   "criticidad_media": 27.305,
+   "delta_vs_base": 0.002
+  },
+  {
+   "id_segmento": "S0019",
+   "id_zona": "PER-Z01",
+   "escenario": "Separación de flujos",
+   "criticidad_media": 23.076,
+   "delta_vs_base": 0.0
+  },
+  {
+   "id_segmento": "S0020",
+   "id_zona": "PER-Z01",
+   "escenario": "Separación de flujos",
+   "criticidad_media": 27.33,
+   "delta_vs_base": -0.003
+  },
+  {
+   "id_segmento": "S0021",
+   "id_zona": "PER-Z04",
+   "escenario": "Separación de flujos",
+   "criticidad_media": 40.441,
+   "delta_vs_base": 0.0
+  },
+  {
+   "id_segmento": "S0022",
+   "id_zona": "PER-Z09",
+   "escenario": "Separación de flujos",
+   "criticidad_media": 31.216,
+   "delta_vs_base": 0.0
+  },
+  {
+   "id_segmento": "S0023",
+   "id_zona": "PER-Z01",
+   "escenario": "Separación de flujos",
+   "criticidad_media": 39.267,
+   "delta_vs_base": 0.0
+  },
+  {
+   "id_segmento": "S0024",
+   "id_zona": "PER-Z01",
+   "escenario": "Separación de flujos",
+   "criticidad_media": 28.418,
+   "delta_vs_base": 0.003
+  },
+  {
+   "id_segmento": "S0025",
+   "id_zona": "PER-Z04",
+   "escenario": "Separación de flujos",
+   "criticidad_media": 34.368,
+   "delta_vs_base": -9.62
+  },
+  {
+   "id_segmento": "S0026",
+   "id_zona": "PER-Z03",
+   "escenario": "Separación de flujos",
+   "criticidad_media": 30.232,
+   "delta_vs_base": 0.002
+  },
+  {
+   "id_segmento": "S0027",
+   "id_zona": "PER-Z01",
+   "escenario": "Separación de flujos",
+   "criticidad_media": 24.154,
+   "delta_vs_base": -0.014
+  },
+  {
+   "id_segmento": "S0028",
+   "id_zona": "PER-Z12",
+   "escenario": "Separación de flujos",
+   "criticidad_media": 36.677,
+   "delta_vs_base": 0.016
+  },
+  {
+   "id_segmento": "S0029",
+   "id_zona": "PER-Z12",
+   "escenario": "Separación de flujos",
+   "criticidad_media": 31.236,
+   "delta_vs_base": 0.0
+  },
+  {
+   "id_segmento": "S0030",
+   "id_zona": "PER-Z12",
+   "escenario": "Separación de flujos",
+   "criticidad_media": 37.466,
+   "delta_vs_base": 0.0
+  },
+  {
+   "id_segmento": "S0031",
+   "id_zona": "PER-Z12",
+   "escenario": "Separación de flujos",
+   "criticidad_media": 35.787,
+   "delta_vs_base": 0.0
+  },
+  {
+   "id_segmento": "S0032",
+   "id_zona": "PER-Z12",
+   "escenario": "Separación de flujos",
+   "criticidad_media": 33.25,
+   "delta_vs_base": 0.965
+  },
+  {
+   "id_segmento": "S0033",
+   "id_zona": "PER-Z09",
+   "escenario": "Separación de flujos",
+   "criticidad_media": 28.876,
+   "delta_vs_base": 0.02
+  },
+  {
+   "id_segmento": "S0034",
+   "id_zona": "PER-Z09",
+   "escenario": "Separación de flujos",
+   "criticidad_media": 20.033,
+   "delta_vs_base": -0.008
+  },
+  {
+   "id_segmento": "S0035",
+   "id_zona": "PER-Z09",
+   "escenario": "Separación de flujos",
+   "criticidad_media": 25.917,
+   "delta_vs_base": -0.003
+  },
+  {
+   "id_segmento": "S0036",
+   "id_zona": "PER-Z12",
+   "escenario": "Separación de flujos",
+   "criticidad_media": 39.219,
+   "delta_vs_base": 0.0
+  },
+  {
+   "id_segmento": "S0037",
+   "id_zona": "PER-Z04",
+   "escenario": "Separación de flujos",
+   "criticidad_media": 31.156,
+   "delta_vs_base": 0.001
+  },
+  {
+   "id_segmento": "S0038",
+   "id_zona": "PER-Z04",
+   "escenario": "Separación de flujos",
+   "criticidad_media": 40.777,
+   "delta_vs_base": 0.033
+  },
+  {
+   "id_segmento": "S0039",
+   "id_zona": "PER-Z04",
+   "escenario": "Separación de flujos",
+   "criticidad_media": 38.139,
+   "delta_vs_base": 1.057
+  },
+  {
+   "id_segmento": "S0040",
+   "id_zona": "PER-Z12",
+   "escenario": "Separación de flujos",
+   "criticidad_media": 28.181,
+   "delta_vs_base": 0.0
+  },
+  {
+   "id_segmento": "S0041",
+   "id_zona": "PER-Z12",
+   "escenario": "Separación de flujos",
+   "criticidad_media": 39.42,
+   "delta_vs_base": 0.0
+  },
+  {
+   "id_segmento": "S0042",
+   "id_zona": "PER-Z12",
+   "escenario": "Separación de flujos",
+   "criticidad_media": 38.968,
+   "delta_vs_base": 0.051
+  },
+  {
+   "id_segmento": "S0043",
+   "id_zona": "PER-Z12",
+   "escenario": "Separación de flujos",
+   "criticidad_media": 31.722,
+   "delta_vs_base": 1.289
+  },
+  {
+   "id_segmento": "S0044",
+   "id_zona": "PER-Z12",
+   "escenario": "Separación de flujos",
+   "criticidad_media": 29.992,
+   "delta_vs_base": -0.003
+  },
+  {
+   "id_segmento": "S0045",
+   "id_zona": "PER-Z12",
+   "escenario": "Separación de flujos",
+   "criticidad_media": 32.823,
+   "delta_vs_base": 0.033
+  },
+  {
+   "id_segmento": "S0046",
+   "id_zona": "PER-Z12",
+   "escenario": "Separación de flujos",
+   "criticidad_media": 36.796,
+   "delta_vs_base": -0.021
+  },
+  {
+   "id_segmento": "S0047",
+   "id_zona": "PER-Z12",
+   "escenario": "Separación de flujos",
+   "criticidad_media": 36.278,
+   "delta_vs_base": 0.871
+  },
+  {
+   "id_segmento": "S0048",
+   "id_zona": "PER-Z12",
+   "escenario": "Separación de flujos",
+   "criticidad_media": 41.643,
+   "delta_vs_base": 1.004
+  },
+  {
+   "id_segmento": "S0049",
+   "id_zona": "PER-Z12",
+   "escenario": "Separación de flujos",
+   "criticidad_media": 33.215,
+   "delta_vs_base": -9.745
+  },
+  {
+   "id_segmento": "S0050",
+   "id_zona": "PER-Z01",
+   "escenario": "Separación de flujos",
+   "criticidad_media": 35.243,
+   "delta_vs_base": 0.002
+  },
+  {
+   "id_segmento": "S0051",
+   "id_zona": "PER-Z01",
+   "escenario": "Separación de flujos",
+   "criticidad_media": 21.628,
+   "delta_vs_base": 0.0
+  },
+  {
+   "id_segmento": "S0052",
+   "id_zona": "PER-Z09",
+   "escenario": "Separación de flujos",
+   "criticidad_media": 25.733,
+   "delta_vs_base": 0.0
+  },
+  {
+   "id_segmento": "S0053",
+   "id_zona": "PER-Z09",
+   "escenario": "Separación de flujos",
+   "criticidad_media": 35.651,
+   "delta_vs_base": 0.0
+  },
+  {
+   "id_segmento": "S0054",
+   "id_zona": "PER-Z12",
+   "escenario": "Separación de flujos",
+   "criticidad_media": 38.324,
+   "delta_vs_base": 0.001
+  },
+  {
+   "id_segmento": "S0055",
+   "id_zona": "PER-Z04",
+   "escenario": "Separación de flujos",
+   "criticidad_media": 39.959,
+   "delta_vs_base": 1.14
+  },
+  {
+   "id_segmento": "S0056",
+   "id_zona": "PER-Z04",
+   "escenario": "Separación de flujos",
+   "criticidad_media": 37.71,
+   "delta_vs_base": 0.014
+  },
+  {
+   "id_segmento": "S0057",
+   "id_zona": "PER-Z04",
+   "escenario": "Separación de flujos",
+   "criticidad_media": 39.012,
+   "delta_vs_base": -0.02
+  },
+  {
+   "id_segmento": "S0058",
+   "id_zona": "PER-Z04",
+   "escenario": "Separación de flujos",
+   "criticidad_media": 34.474,
+   "delta_vs_base": 0.02
+  },
+  {
+   "id_segmento": "S0059",
+   "id_zona": "PER-Z04",
+   "escenario": "Separación de flujos",
+   "criticidad_media": 31.463,
+   "delta_vs_base": -10.237
+  },
+  {
+   "id_segmento": "S0060",
+   "id_zona": "PER-Z05",
+   "escenario": "Separación de flujos",
+   "criticidad_media": 27.835,
+   "delta_vs_base": 0.875
+  },
+  {
+   "id_segmento": "S0061",
+   "id_zona": "PER-Z04",
+   "escenario": "Separación de flujos",
+   "criticidad_media": 31.159,
+   "delta_vs_base": 1.09
+  },
+  {
+   "id_segmento": "S0062",
+   "id_zona": "PER-Z04",
+   "escenario": "Separación de flujos",
+   "criticidad_media": 42.686,
+   "delta_vs_base": 1.222
+  },
+  {
+   "id_segmento": "S0063",
+   "id_zona": "PER-Z03",
+   "escenario": "Separación de flujos",
+   "criticidad_media": 31.381,
+   "delta_vs_base": 0.0
+  },
+  {
+   "id_segmento": "S0064",
+   "id_zona": "PER-Z04",
+   "escenario": "Separación de flujos",
+   "criticidad_media": 35.869,
+   "delta_vs_base": 0.003
+  },
+  {
+   "id_segmento": "S0065",
+   "id_zona": "PER-Z01",
+   "escenario": "Separación de flujos",
+   "criticidad_media": 23.619,
+   "delta_vs_base": 0.0
+  },
+  {
+   "id_segmento": "S0066",
+   "id_zona": "PER-Z03",
+   "escenario": "Separación de flujos",
+   "criticidad_media": 33.473,
+   "delta_vs_base": 0.023
+  },
+  {
+   "id_segmento": "S0067",
+   "id_zona": "PER-Z03",
+   "escenario": "Separación de flujos",
+   "criticidad_media": 33.236,
+   "delta_vs_base": -0.022
+  },
+  {
+   "id_segmento": "S0068",
+   "id_zona": "PER-Z03",
+   "escenario": "Separación de flujos",
+   "criticidad_media": 26.971,
+   "delta_vs_base": 0.017
+  },
+  {
+   "id_segmento": "S0069",
+   "id_zona": "PER-Z08",
+   "escenario": "Separación de flujos",
+   "criticidad_media": 25.814,
+   "delta_vs_base": -0.01
+  },
+  {
+   "id_segmento": "S0070",
+   "id_zona": "PER-Z04",
+   "escenario": "Separación de flujos",
+   "criticidad_media": 42.171,
+   "delta_vs_base": 0.732
+  },
+  {
+   "id_segmento": "S0071",
+   "id_zona": "PER-Z04",
+   "escenario": "Separación de flujos",
+   "criticidad_media": 37.208,
+   "delta_vs_base": -9.626
+  },
+  {
+   "id_segmento": "S0072",
+   "id_zona": "PER-Z04",
+   "escenario": "Separación de flujos",
+   "criticidad_media": 34.482,
+   "delta_vs_base": 0.001
+  },
+  {
+   "id_segmento": "S0073",
+   "id_zona": "PER-Z03",
+   "escenario": "Separación de flujos",
+   "criticidad_media": 28.463,
+   "delta_vs_base": 0.386
+  },
+  {
+   "id_segmento": "S0074",
+   "id_zona": "PER-Z03",
+   "escenario": "Separación de flujos",
+   "criticidad_media": 20.037,
+   "delta_vs_base": -0.006
+  },
+  {
+   "id_segmento": "S0075",
+   "id_zona": "PER-Z12",
+   "escenario": "Separación de flujos",
+   "criticidad_media": 36.474,
+   "delta_vs_base": -8.885
+  },
+  {
+   "id_segmento": "S0076",
+   "id_zona": "PER-Z12",
+   "escenario": "Separación de flujos",
+   "criticidad_media": 40.613,
+   "delta_vs_base": 0.0
+  },
+  {
+   "id_segmento": "S0077",
+   "id_zona": "PER-Z12",
+   "escenario": "Separación de flujos",
+   "criticidad_media": 33.249,
+   "delta_vs_base": 0.0
+  },
+  {
+   "id_segmento": "S0078",
+   "id_zona": "PER-Z12",
+   "escenario": "Separación de flujos",
+   "criticidad_media": 40.316,
+   "delta_vs_base": 0.001
+  },
+  {
+   "id_segmento": "S0079",
+   "id_zona": "PER-Z08",
+   "escenario": "Separación de flujos",
+   "criticidad_media": 27.842,
+   "delta_vs_base": 0.0
+  },
+  {
+   "id_segmento": "S0080",
+   "id_zona": "PER-Z08",
+   "escenario": "Separación de flujos",
+   "criticidad_media": 28.183,
+   "delta_vs_base": 0.0
+  },
+  {
+   "id_segmento": "S0081",
+   "id_zona": "PER-Z07",
+   "escenario": "Separación de flujos",
+   "criticidad_media": 26.194,
+   "delta_vs_base": 0.0
+  },
+  {
+   "id_segmento": "S0082",
+   "id_zona": "PER-Z08",
+   "escenario": "Separación de flujos",
+   "criticidad_media": 28.356,
+   "delta_vs_base": -0.001
+  },
+  {
+   "id_segmento": "S0083",
+   "id_zona": "PER-Z12",
+   "escenario": "Separación de flujos",
+   "criticidad_media": 40.486,
+   "delta_vs_base": 2.413
+  },
+  {
+   "id_segmento": "S0084",
+   "id_zona": "PER-Z12",
+   "escenario": "Separación de flujos",
+   "criticidad_media": 37.048,
+   "delta_vs_base": 0.0
+  },
+  {
+   "id_segmento": "S0085",
+   "id_zona": "PER-Z10",
+   "escenario": "Separación de flujos",
+   "criticidad_media": 35.201,
+   "delta_vs_base": 0.003
+  },
+  {
+   "id_segmento": "S0086",
+   "id_zona": "PER-Z09",
+   "escenario": "Separación de flujos",
+   "criticidad_media": 37.706,
+   "delta_vs_base": -0.001
+  },
+  {
+   "id_segmento": "S0087",
+   "id_zona": "PER-Z09",
+   "escenario": "Separación de flujos",
+   "criticidad_media": 25.133,
+   "delta_vs_base": 0.0
+  },
+  {
+   "id_segmento": "S0088",
+   "id_zona": "PER-Z01",
+   "escenario": "Separación de flujos",
+   "criticidad_media": 34.112,
+   "delta_vs_base": 0.005
+  },
+  {
+   "id_segmento": "S0089",
+   "id_zona": "PER-Z01",
+   "escenario": "Separación de flujos",
+   "criticidad_media": 27.431,
+   "delta_vs_base": 0.957
+  },
+  {
+   "id_segmento": "S0090",
+   "id_zona": "PER-Z01",
+   "escenario": "Separación de flujos",
+   "criticidad_media": 25.574,
+   "delta_vs_base": -0.02
+  },
+  {
+   "id_segmento": "S0091",
+   "id_zona": "PER-Z12",
+   "escenario": "Separación de flujos",
+   "criticidad_media": 37.857,
+   "delta_vs_base": 0.0
+  },
+  {
+   "id_segmento": "S0092",
+   "id_zona": "PER-Z09",
+   "escenario": "Separación de flujos",
+   "criticidad_media": 31.352,
+   "delta_vs_base": -0.001
+  },
+  {
+   "id_segmento": "S0093",
+   "id_zona": "PER-Z06",
+   "escenario": "Separación de flujos",
+   "criticidad_media": 27.263,
+   "delta_vs_base": 0.001
+  },
+  {
+   "id_segmento": "S0094",
+   "id_zona": "PER-Z06",
+   "escenario": "Separación de flujos",
+   "criticidad_media": 30.987,
+   "delta_vs_base": 0.0
+  },
+  {
+   "id_segmento": "S0095",
+   "id_zona": "PER-Z12",
+   "escenario": "Separación de flujos",
+   "criticidad_media": 32.564,
+   "delta_vs_base": 0.014
+  },
+  {
+   "id_segmento": "S0096",
+   "id_zona": "PER-Z12",
+   "escenario": "Separación de flujos",
+   "criticidad_media": 36.758,
+   "delta_vs_base": -0.008
+  },
+  {
+   "id_segmento": "S0097",
+   "id_zona": "PER-Z09",
+   "escenario": "Separación de flujos",
+   "criticidad_media": 24.225,
+   "delta_vs_base": -0.0
+  },
+  {
+   "id_segmento": "S0098",
+   "id_zona": "PER-Z06",
+   "escenario": "Separación de flujos",
+   "criticidad_media": 37.528,
+   "delta_vs_base": -0.002
+  },
+  {
+   "id_segmento": "S0099",
+   "id_zona": "PER-Z08",
+   "escenario": "Separación de flujos",
+   "criticidad_media": 25.13,
+   "delta_vs_base": 0.0
+  },
+  {
+   "id_segmento": "S0100",
+   "id_zona": "PER-Z01",
+   "escenario": "Separación de flujos",
+   "criticidad_media": 35.86,
+   "delta_vs_base": 0.0
+  },
+  {
+   "id_segmento": "S0101",
+   "id_zona": "PER-Z01",
+   "escenario": "Separación de flujos",
+   "criticidad_media": 38.919,
+   "delta_vs_base": 0.0
+  },
+  {
+   "id_segmento": "S0102",
+   "id_zona": "PER-Z03",
+   "escenario": "Separación de flujos",
+   "criticidad_media": 32.677,
+   "delta_vs_base": 0.025
+  },
+  {
+   "id_segmento": "S0103",
+   "id_zona": "PER-Z01",
+   "escenario": "Separación de flujos",
+   "criticidad_media": 22.471,
+   "delta_vs_base": -0.004
+  },
+  {
+   "id_segmento": "S0104",
+   "id_zona": "PER-Z01",
+   "escenario": "Separación de flujos",
+   "criticidad_media": 27.63,
+   "delta_vs_base": -0.017
+  },
+  {
+   "id_segmento": "S0105",
+   "id_zona": "PER-Z02",
+   "escenario": "Separación de flujos",
+   "criticidad_media": 33.493,
+   "delta_vs_base": 0.0
+  },
+  {
+   "id_segmento": "S0106",
+   "id_zona": "PER-Z02",
+   "escenario": "Separación de flujos",
+   "criticidad_media": 39.87,
+   "delta_vs_base": 0.002
+  },
+  {
+   "id_segmento": "S0107",
+   "id_zona": "PER-Z03",
+   "escenario": "Separación de flujos",
+   "criticidad_media": 28.061,
+   "delta_vs_base": 0.33
+  },
+  {
+   "id_segmento": "S0108",
+   "id_zona": "PER-Z04",
+   "escenario": "Separación de flujos",
+   "criticidad_media": 33.163,
+   "delta_vs_base": 0.0
+  },
+  {
+   "id_segmento": "S0109",
+   "id_zona": "PER-Z05",
+   "escenario": "Separación de flujos",
+   "criticidad_media": 27.707,
+   "delta_vs_base": 0.04
+  },
+  {
+   "id_segmento": "S0110",
+   "id_zona": "PER-Z04",
+   "escenario": "Separación de flujos",
+   "criticidad_media": 35.665,
+   "delta_vs_base": -10.864
+  },
+  {
+   "id_segmento": "S0111",
+   "id_zona": "PER-Z04",
+   "escenario": "Separación de flujos",
+   "criticidad_media": 30.429,
+   "delta_vs_base": 1.075
+  },
+  {
+   "id_segmento": "S0112",
+   "id_zona": "PER-Z04",
+   "escenario": "Separación de flujos",
+   "criticidad_media": 40.916,
+   "delta_vs_base": 0.176
+  },
+  {
+   "id_segmento": "S0113",
+   "id_zona": "PER-Z12",
+   "escenario": "Separación de flujos",
+   "criticidad_media": 34.952,
+   "delta_vs_base": -9.431
+  },
+  {
+   "id_segmento": "S0114",
+   "id_zona": "PER-Z11",
+   "escenario": "Separación de flujos",
+   "criticidad_media": 27.267,
+   "delta_vs_base": 0.003
+  },
+  {
+   "id_segmento": "S0115",
+   "id_zona": "PER-Z10",
+   "escenario": "Separación de flujos",
+   "criticidad_media": 23.919,
+   "delta_vs_base": 0.016
+  },
+  {
+   "id_segmento": "S0116",
+   "id_zona": "PER-Z10",
+   "escenario": "Separación de flujos",
+   "criticidad_media": 25.981,
+   "delta_vs_base": -0.002
+  },
+  {
+   "id_segmento": "S0117",
+   "id_zona": "PER-Z09",
+   "escenario": "Separación de flujos",
+   "criticidad_media": 23.392,
+   "delta_vs_base": 0.004
+  },
+  {
+   "id_segmento": "S0118",
+   "id_zona": "PER-Z12",
+   "escenario": "Separación de flujos",
+   "criticidad_media": 28.679,
+   "delta_vs_base": 0.031
+  },
+  {
+   "id_segmento": "S0119",
+   "id_zona": "PER-Z09",
+   "escenario": "Separación de flujos",
+   "criticidad_media": 24.768,
+   "delta_vs_base": -0.01
+  },
+  {
+   "id_segmento": "S0120",
+   "id_zona": "PER-Z10",
+   "escenario": "Separación de flujos",
+   "criticidad_media": 23.752,
+   "delta_vs_base": 0.018
+  },
+  {
+   "id_segmento": "S0121",
+   "id_zona": "PER-Z11",
+   "escenario": "Separación de flujos",
+   "criticidad_media": 26.801,
+   "delta_vs_base": -0.004
+  },
+  {
+   "id_segmento": "S0122",
+   "id_zona": "PER-Z01",
+   "escenario": "Separación de flujos",
+   "criticidad_media": 19.073,
+   "delta_vs_base": 0.0
+  },
+  {
+   "id_segmento": "S0123",
+   "id_zona": "PER-Z01",
+   "escenario": "Separación de flujos",
+   "criticidad_media": 29.349,
+   "delta_vs_base": 0.0
+  },
+  {
+   "id_segmento": "S0124",
+   "id_zona": "PER-Z01",
+   "escenario": "Separación de flujos",
+   "criticidad_media": 25.929,
+   "delta_vs_base": 0.91
+  },
+  {
+   "id_segmento": "S0125",
+   "id_zona": "PER-Z01",
+   "escenario": "Separación de flujos",
+   "criticidad_media": 34.723,
+   "delta_vs_base": -6.866
+  },
+  {
+   "id_segmento": "S0126",
+   "id_zona": "PER-Z01",
+   "escenario": "Separación de flujos",
+   "criticidad_media": 40.946,
+   "delta_vs_base": 0.049
+  },
+  {
+   "id_segmento": "S0127",
+   "id_zona": "PER-Z03",
+   "escenario": "Separación de flujos",
+   "criticidad_media": 33.205,
+   "delta_vs_base": -0.042
+  },
+  {
+   "id_segmento": "S0128",
+   "id_zona": "PER-Z04",
+   "escenario": "Separación de flujos",
+   "criticidad_media": 40.257,
+   "delta_vs_base": 0.0
+  },
+  {
+   "id_segmento": "S0129",
+   "id_zona": "PER-Z04",
+   "escenario": "Separación de flujos",
+   "criticidad_media": 31.509,
+   "delta_vs_base": 0.461
+  },
+  {
+   "id_segmento": "S0130",
+   "id_zona": "PER-Z04",
+   "escenario": "Separación de flujos",
+   "criticidad_media": 37.832,
+   "delta_vs_base": 0.016
+  },
+  {
+   "id_segmento": "S0131",
+   "id_zona": "PER-Z12",
+   "escenario": "Separación de flujos",
+   "criticidad_media": 29.501,
+   "delta_vs_base": 0.977
+  },
+  {
+   "id_segmento": "S0132",
+   "id_zona": "PER-Z12",
+   "escenario": "Separación de flujos",
+   "criticidad_media": 38.454,
+   "delta_vs_base": 0.003
+  },
+  {
+   "id_segmento": "S0133",
+   "id_zona": "PER-Z12",
+   "escenario": "Separación de flujos",
+   "criticidad_media": 28.608,
+   "delta_vs_base": -0.005
+  },
+  {
+   "id_segmento": "S0134",
+   "id_zona": "PER-Z12",
+   "escenario": "Separación de flujos",
+   "criticidad_media": 34.24,
+   "delta_vs_base": 0.027
+  },
+  {
+   "id_segmento": "S0135",
+   "id_zona": "PER-Z12",
+   "escenario": "Separación de flujos",
+   "criticidad_media": 36.813,
+   "delta_vs_base": -0.003
+  },
+  {
+   "id_segmento": "S0136",
+   "id_zona": "PER-Z12",
+   "escenario": "Separación de flujos",
+   "criticidad_media": 33.673,
+   "delta_vs_base": -9.809
+  },
+  {
+   "id_segmento": "S0137",
+   "id_zona": "PER-Z01",
+   "escenario": "Separación de flujos",
+   "criticidad_media": 27.85,
+   "delta_vs_base": 0.0
+  },
+  {
+   "id_segmento": "S0138",
+   "id_zona": "PER-Z04",
+   "escenario": "Separación de flujos",
+   "criticidad_media": 34.686,
+   "delta_vs_base": -9.447
+  },
+  {
+   "id_segmento": "S0139",
+   "id_zona": "PER-Z05",
+   "escenario": "Separación de flujos",
+   "criticidad_media": 23.358,
+   "delta_vs_base": 0.0
+  },
+  {
+   "id_segmento": "S0140",
+   "id_zona": "PER-Z05",
+   "escenario": "Separación de flujos",
+   "criticidad_media": 36.135,
+   "delta_vs_base": 0.003
+  },
+  {
+   "id_segmento": "S0141",
+   "id_zona": "PER-Z06",
+   "escenario": "Separación de flujos",
+   "criticidad_media": 34.209,
+   "delta_vs_base": 0.0
+  },
+  {
+   "id_segmento": "S0142",
+   "id_zona": "PER-Z07",
+   "escenario": "Separación de flujos",
+   "criticidad_media": 23.471,
+   "delta_vs_base": 0.0
+  },
+  {
+   "id_segmento": "S0143",
+   "id_zona": "PER-Z04",
+   "escenario": "Separación de flujos",
+   "criticidad_media": 40.551,
+   "delta_vs_base": 0.008
+  },
+  {
+   "id_segmento": "S0144",
+   "id_zona": "PER-Z09",
+   "escenario": "Separación de flujos",
+   "criticidad_media": 25.895,
+   "delta_vs_base": 0.0
+  },
+  {
+   "id_segmento": "S0145",
+   "id_zona": "PER-Z09",
+   "escenario": "Separación de flujos",
+   "criticidad_media": 26.445,
+   "delta_vs_base": 0.0
+  },
+  {
+   "id_segmento": "S0146",
+   "id_zona": "PER-Z09",
+   "escenario": "Separación de flujos",
+   "criticidad_media": 20.276,
+   "delta_vs_base": 0.0
+  },
+  {
+   "id_segmento": "S0147",
+   "id_zona": "PER-Z12",
+   "escenario": "Separación de flujos",
+   "criticidad_media": 33.66,
+   "delta_vs_base": -8.843
+  },
+  {
+   "id_segmento": "S0148",
+   "id_zona": "PER-Z04",
+   "escenario": "Separación de flujos",
+   "criticidad_media": 31.692,
+   "delta_vs_base": 0.008
+  },
+  {
+   "id_segmento": "S0149",
+   "id_zona": "PER-Z04",
+   "escenario": "Separación de flujos",
+   "criticidad_media": 41.562,
+   "delta_vs_base": 0.0
+  },
+  {
+   "id_segmento": "S0150",
+   "id_zona": "PER-Z12",
+   "escenario": "Separación de flujos",
+   "criticidad_media": 37.368,
+   "delta_vs_base": 0.0
+  },
+  {
+   "id_segmento": "S0151",
+   "id_zona": "PER-Z12",
+   "escenario": "Separación de flujos",
+   "criticidad_media": 39.516,
+   "delta_vs_base": 0.0
+  },
+  {
+   "id_segmento": "S0152",
+   "id_zona": "PER-Z12",
+   "escenario": "Separación de flujos",
+   "criticidad_media": 40.583,
+   "delta_vs_base": 0.0
+  },
+  {
+   "id_segmento": "S0153",
+   "id_zona": "PER-Z12",
+   "escenario": "Separación de flujos",
+   "criticidad_media": 28.126,
+   "delta_vs_base": 1.086
+  },
+  {
+   "id_segmento": "S0154",
+   "id_zona": "PER-Z12",
+   "escenario": "Separación de flujos",
+   "criticidad_media": 40.173,
+   "delta_vs_base": -0.049
+  },
+  {
+   "id_segmento": "S0155",
+   "id_zona": "PER-Z12",
+   "escenario": "Separación de flujos",
+   "criticidad_media": 28.511,
+   "delta_vs_base": 0.049
+  },
+  {
+   "id_segmento": "S0156",
+   "id_zona": "PER-Z06",
+   "escenario": "Separación de flujos",
+   "criticidad_media": 29.977,
+   "delta_vs_base": 0.0
+  },
+  {
+   "id_segmento": "S0157",
+   "id_zona": "PER-Z04",
+   "escenario": "Separación de flujos",
+   "criticidad_media": 34.792,
+   "delta_vs_base": 0.0
+  },
+  {
+   "id_segmento": "S0158",
+   "id_zona": "PER-Z03",
+   "escenario": "Separación de flujos",
+   "criticidad_media": 27.723,
+   "delta_vs_base": 0.0
+  },
+  {
+   "id_segmento": "S0159",
+   "id_zona": "PER-Z03",
+   "escenario": "Separación de flujos",
+   "criticidad_media": 32.952,
+   "delta_vs_base": -0.007
+  }
+ ]
+}

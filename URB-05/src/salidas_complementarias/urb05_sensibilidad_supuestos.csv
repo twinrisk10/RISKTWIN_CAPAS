@@ -1,0 +1,8 @@
+﻿parametro,valor_central,min,max,reduccion_en_min,reduccion_en_max,reduccion_central,rango_abs,escenario
+iv0.vel_objetivo_kmh,60.0,50.0,80.0,17.163,4.982,12.431,12.18,Reducción de velocidad
+iv0.exponente_potencia,2.0,1.5,4.0,10.228,17.926,12.431,7.698,Reducción de velocidad
+cfg.sigma_demanda,0.25,0.15,0.4,12.463,12.385,12.431,0.078,Reducción de velocidad
+iv0.reduccion_exposicion,0.3,0.1,0.5,3.856,9.922,6.875,6.066,Separación de flujos
+iv0.reduccion_capacidad,0.1,0.0,0.25,8.546,4.415,6.875,4.131,Separación de flujos
+iv0.reduccion_conflicto,0.6,0.3,0.8,5.439,7.834,6.875,2.395,Separación de flujos
+cfg.sigma_demanda,0.25,0.15,0.4,6.872,6.876,6.875,0.004,Separación de flujos

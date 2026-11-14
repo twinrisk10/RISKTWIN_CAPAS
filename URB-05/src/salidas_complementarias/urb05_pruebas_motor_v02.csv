@@ -1,0 +1,8 @@
+﻿prueba,resultado,detalle
+P1 Compatibilidad con v0.1.0,PASA,
+P2 Determinismo (misma semilla),PASA,
+P3 Velocidad objetivo ≥ actual = base,PASA,
+P4 Separación con parámetros 0 = base,PASA,
+P5 Conservación del flujo (separación),PASA,
+P6 Monotonía de la velocidad,PASA,39.56 > 32.05 > 20.38
+"P7 Criticidad en [0, 100]",PASA,"[2.3, 86.6]"

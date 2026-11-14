@@ -1,0 +1,4 @@
+﻿conjunto,desde,hasta,filas,positivos,prevalencia,uso
+entrenamiento,2024-03-25,2025-06-30,804,182,0.2263681592039801,ajuste de modelos
+validación,2025-07-07,2025-12-29,312,83,0.266025641025641,umbral y comparación
+prueba (reservada),2026-01-05,2026-05-18,240,42,0.175,evaluación final única

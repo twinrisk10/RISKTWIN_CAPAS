@@ -1,0 +1,12 @@
+﻿campo,valor
+pregunta,¿Ocurrirá al menos un siniestro con víctimas en la zona la próxima semana?
+tipo,ocurrencia (clasificación binaria)
+unidad,zona PER-Z## × semana ISO
+objetivo,"Y(z, w+1) = 1 si hay ≥ 1 siniestro ATM con lesionados o fallecidos en la semana w+1"
+horizonte,1 semana
+fuente,"ATM (siniestros_via_perimetral_guayaquil.csv, deduplicado por código)"
+periodo,2024-03-25 a 2026-05-18
+prevalencia,0.226
+n_caracteristicas,14
+EPV_entrenamiento,13.0
+tipo_dato,"real (evaluación retrospectiva exploratoria, no validación operativa)"
