@@ -1,0 +1,8 @@
+﻿capa,tecnologia,motivo
+Ingesta y ETL,"Python 3.11+, pandas","Lectura CSV/JSON, normalización y bitácora de rechazos"
+Contratos de datos,Pydantic 2 → JSON Schema,Una sola fuente de verdad para validación y documentación
+Base de datos,SQLite (piloto) · PostgreSQL/Supabase (producción),Mismo DDL; claves foráneas e índices por zona y fecha
+ORM,SQLAlchemy 2,Ya usado en el notebook original (Parte B)
+API,FastAPI + Uvicorn,OpenAPI/Swagger automático; mismo stack que SIS-API-01
+Pruebas,"pytest, TestClient",Integración y contrato
+Consumidores,"IND-SIS-02 (Plotly), SIS-API-01",Consumen JSON según el contrato común

@@ -1,0 +1,7 @@
+﻿id_zona,nombre,area_m2
+IND-Z01,Caldera,900
+IND-Z02,Almacén de químicos,650
+IND-Z03,Línea de ensamblaje,1800
+IND-Z04,Soldadura,700
+IND-Z05,Bodega general,1500
+IND-Z06,Carga y descarga,1100

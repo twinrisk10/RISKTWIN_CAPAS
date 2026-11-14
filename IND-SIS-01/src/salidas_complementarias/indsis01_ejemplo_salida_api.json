@@ -1,0 +1,108 @@
+{
+ "GET /indicadores": [
+  {
+   "id_zona": "IND-Z01",
+   "nombre": "Caldera",
+   "periodo_desde": "2026-01",
+   "periodo_hasta": "2026-08",
+   "n_incidentes": 35,
+   "severidad_media": 1.94,
+   "indice_frecuencia_medio": 12.97,
+   "indice_gravedad_medio": 28.49,
+   "nivel_mas_reciente": "medio"
+  },
+  {
+   "id_zona": "IND-Z02",
+   "nombre": "Almacén de químicos",
+   "periodo_desde": "2026-01",
+   "periodo_hasta": "2026-08",
+   "n_incidentes": 17,
+   "severidad_media": 1.82,
+   "indice_frecuencia_medio": 8.63,
+   "indice_gravedad_medio": 41.77,
+   "nivel_mas_reciente": "medio"
+  },
+  {
+   "id_zona": "IND-Z03",
+   "nombre": "Línea de ensamblaje",
+   "periodo_desde": "2026-01",
+   "periodo_hasta": "2026-08",
+   "n_incidentes": 15,
+   "severidad_media": 1.47,
+   "indice_frecuencia_medio": 5.24,
+   "indice_gravedad_medio": 8.2,
+   "nivel_mas_reciente": "bajo"
+  },
+  {
+   "id_zona": "IND-Z04",
+   "nombre": "Soldadura",
+   "periodo_desde": "2026-01",
+   "periodo_hasta": "2026-08",
+   "n_incidentes": 21,
+   "severidad_media": 1.76,
+   "indice_frecuencia_medio": 11.55,
+   "indice_gravedad_medio": 25.85,
+   "nivel_mas_reciente": "medio"
+  },
+  {
+   "id_zona": "IND-Z05",
+   "nombre": "Bodega general",
+   "periodo_desde": "2026-01",
+   "periodo_hasta": "2026-08",
+   "n_incidentes": 13,
+   "severidad_media": 1.77,
+   "indice_frecuencia_medio": 3.6,
+   "indice_gravedad_medio": 6.13,
+   "nivel_mas_reciente": "bajo"
+  },
+  {
+   "id_zona": "IND-Z06",
+   "nombre": "Carga y descarga",
+   "periodo_desde": "2026-01",
+   "periodo_hasta": "2026-08",
+   "n_incidentes": 19,
+   "severidad_media": 2.05,
+   "indice_frecuencia_medio": 6.87,
+   "indice_gravedad_medio": 13.67,
+   "nivel_mas_reciente": "bajo"
+  }
+ ],
+ "eventos_contrato_comun": [
+  {
+   "id_evento": "INC-0079",
+   "riesgo": "industrial",
+   "id_zona": "IND-Z01",
+   "fecha_hora": "2026-01-02T00:00:00",
+   "subtipo": "Exposición química",
+   "severidad": 2,
+   "lesionados": 0,
+   "fallecidos": 0,
+   "fuente": "F-SI02",
+   "tipo_dato": "sintetico"
+  },
+  {
+   "id_evento": "INC-0054",
+   "riesgo": "industrial",
+   "id_zona": "IND-Z01",
+   "fecha_hora": "2026-01-05T00:00:00",
+   "subtipo": "Golpe",
+   "severidad": 3,
+   "lesionados": 0,
+   "fallecidos": 0,
+   "fuente": "F-SI02",
+   "tipo_dato": "sintetico"
+  },
+  {
+   "id_evento": "INC-0040",
+   "riesgo": "industrial",
+   "id_zona": "IND-Z02",
+   "fecha_hora": "2026-01-11T00:00:00",
+   "subtipo": "Caída",
+   "severidad": 4,
+   "lesionados": 0,
+   "fallecidos": 0,
+   "fuente": "F-SI02",
+   "tipo_dato": "sintetico"
+  }
+ ]
+}
