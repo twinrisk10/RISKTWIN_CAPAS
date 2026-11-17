@@ -1,22 +1,3 @@
-﻿capa,regla,descripcion,registros_afectados,accion
-segmento_vial,T-01,Atributos con listas convertidos a texto,52,transformado
-segmento_vial,T-02,Aristas duplicadas por sentido inverso y bucles eliminados,48472,eliminado
-segmento_vial,T-04,Longitud recalculada en metros (EPSG:32717),62470,transformado
-nodo_vial,T-03,Nodos sin segmentos asociados descartados,0,eliminado
-nodo_vial,T-05,Grado del nodo calculado,40636,transformado
-incidente,L-01,fuente_id vacía completada a partir del tipo de evento,33,corregido
-incidente,L-02,Coordenadas lat/lon intercambiadas corregidas,24,corregido
-incidente,L-03,Registros con coordenadas fuera de la zona piloto,14,descartado
-incidente,L-04,Registros sin fecha_hora,51,descartado
-incidente,L-05,Registros duplicados (se conserva el primero),2494,descartado
-contexto_precipitacion,L-06,Valores centinela o fuera de rango (0-400 mm) convertidos a nulo,4,corregido
-contexto_precipitacion,L-07,Registros duplicados por estación y fecha,0,descartado
-aforo,L-08,Aforos con id_segmento inexistente (huérfanos),10494,descartado
-incidente,L-01,fuente_id vacía completada a partir del tipo de evento,0,corregido
-incidente,L-02,Coordenadas lat/lon intercambiadas corregidas,0,corregido
-incidente,L-03,Registros con coordenadas fuera de la zona piloto,0,descartado
-incidente,L-04,Registros sin fecha_hora,0,descartado
-incidente,L-05,Registros duplicados (se conserva el primero),2447,descartado
-contexto_precipitacion,L-06,Valores centinela o fuera de rango (0-400 mm) convertidos a nulo,4,corregido
-contexto_precipitacion,L-07,Registros duplicados por estación y fecha,0,descartado
-aforo,L-08,Aforos con id_segmento inexistente (huérfanos),10494,descartado
+version https://git-lfs.github.com/spec/v1
+oid sha256:489097ecc36b11e53a5952e4ab3fc2a98c61247ac992a99a5f347d902f984bf3
+size 1072

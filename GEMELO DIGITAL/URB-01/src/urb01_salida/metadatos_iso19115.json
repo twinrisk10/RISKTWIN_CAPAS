@@ -1,5 +1,5 @@
 {
-  "identificador": "urb01-v0.1-5fa5e1ed0578",
+  "identificador": "urb01-v0.1-db536397f8d0",
   "titulo": "Dataset urbano multimodal para riesgo urbano - zona piloto Guayaquil",
   "version": "v0.1",
   "resumen": "Capas viales, puntos de interés, aforos, incidentes y precipitación para el gemelo digital RISKTWIN (módulo URB-01).",
@@ -30,7 +30,7 @@
   },
   "extension_temporal": {
     "inicio": "2024-01-01 02:01:59",
-    "fin": "2026-05-29 22:31:00"
+    "fin": "2026-12-03 15:10:00"
   },
   "formato_distribucion": "OGC GeoPackage",
   "capas": {
@@ -38,9 +38,9 @@
     "nodo_vial": 40636,
     "segmento_vial": 62470,
     "poi": 1841,
-    "aforo": 1039002,
+    "aforo": 0,
     "incidente": 915,
-    "contexto_precipitacion": 882
+    "contexto_precipitacion": 0
   },
   "linaje": {
     "fuentes": [
@@ -66,23 +66,7 @@
         "tipo": "Institucional",
         "url": "https://www.atm.gob.ec",
         "licencia": "Por verificar",
-        "uso_en_piloto": "Simulado (reemplazar por dato real)"
-      },
-      {
-        "id_fuente": "F05",
-        "nombre": "INAMHI – precipitación diaria",
-        "tipo": "Institucional",
-        "url": "https://www.inamhi.gob.ec",
-        "licencia": "Por verificar",
-        "uso_en_piloto": "Simulado (reemplazar por dato real)"
-      },
-      {
-        "id_fuente": "F06",
-        "nombre": "Aforos vehiculares (levantamiento propio / ATM / Segura EP)",
-        "tipo": "Primaria",
-        "url": "Plantilla de carga CSV",
-        "licencia": "Propia",
-        "uso_en_piloto": "Simulado (reemplazar por levantamiento)"
+        "uso_en_piloto": "Integrado (registros reales ATM - Urb01.csv)"
       }
     ],
     "transformaciones": [
@@ -125,62 +109,6 @@
         "capa": "incidente",
         "regla": "L-01",
         "descripcion": "fuente_id vacía completada a partir del tipo de evento",
-        "registros_afectados": 33,
-        "accion": "corregido"
-      },
-      {
-        "capa": "incidente",
-        "regla": "L-02",
-        "descripcion": "Coordenadas lat/lon intercambiadas corregidas",
-        "registros_afectados": 24,
-        "accion": "corregido"
-      },
-      {
-        "capa": "incidente",
-        "regla": "L-03",
-        "descripcion": "Registros con coordenadas fuera de la zona piloto",
-        "registros_afectados": 14,
-        "accion": "descartado"
-      },
-      {
-        "capa": "incidente",
-        "regla": "L-04",
-        "descripcion": "Registros sin fecha_hora",
-        "registros_afectados": 51,
-        "accion": "descartado"
-      },
-      {
-        "capa": "incidente",
-        "regla": "L-05",
-        "descripcion": "Registros duplicados (se conserva el primero)",
-        "registros_afectados": 2494,
-        "accion": "descartado"
-      },
-      {
-        "capa": "contexto_precipitacion",
-        "regla": "L-06",
-        "descripcion": "Valores centinela o fuera de rango (0-400 mm) convertidos a nulo",
-        "registros_afectados": 4,
-        "accion": "corregido"
-      },
-      {
-        "capa": "contexto_precipitacion",
-        "regla": "L-07",
-        "descripcion": "Registros duplicados por estación y fecha",
-        "registros_afectados": 0,
-        "accion": "descartado"
-      },
-      {
-        "capa": "aforo",
-        "regla": "L-08",
-        "descripcion": "Aforos con id_segmento inexistente (huérfanos)",
-        "registros_afectados": 10494,
-        "accion": "descartado"
-      },
-      {
-        "capa": "incidente",
-        "regla": "L-01",
-        "descripcion": "fuente_id vacía completada a partir del tipo de evento",
         "registros_afectados": 0,
         "accion": "corregido"
       },
@@ -216,7 +144,7 @@
         "capa": "contexto_precipitacion",
         "regla": "L-06",
         "descripcion": "Valores centinela o fuera de rango (0-400 mm) convertidos a nulo",
-        "registros_afectados": 4,
+        "registros_afectados": 0,
         "accion": "corregido"
       },
       {
@@ -230,7 +158,7 @@
         "capa": "aforo",
         "regla": "L-08",
         "descripcion": "Aforos con id_segmento inexistente (huérfanos)",
-        "registros_afectados": 10494,
+        "registros_afectados": 0,
         "accion": "descartado"
       }
     ]
@@ -253,7 +181,7 @@
       "contexto_precipitacion": "CUMPLE"
     }
   },
-  "advertencia": "Incidentes, aforos y precipitación son SIMULADOS (origen_dato = 'simulado'). No usar para decisiones reales.",
+  "alcance_datos": "Red vial y POI de OpenStreetMap; incidentes de tránsito reales (ATM). Capas de contexto preparadas para integración institucional.",
   "licencia": "Por definir. Los datos derivados de OpenStreetMap exigen atribución (ODbL 1.0).",
-  "integridad_sha256": "5fa5e1ed0578c60615197375a2ed0a71207086363ee6e4809aea137212f487e0"
+  "integridad_sha256": "db536397f8d0efeb3ea33f0506b030a24f8dc72ff246f31a0cb93839caf161b9"
 }
