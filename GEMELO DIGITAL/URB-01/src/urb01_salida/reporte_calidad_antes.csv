@@ -4,5 +4,5 @@ nodo_vial,40636,100.0,100.0,0.0,True,100.0,100.0,—,CUMPLE
 segmento_vial,62470,100.0,100.0,0.109,True,100.0,100.0,—,CUMPLE
 poi,1841,100.0,99.891,0.0,True,100.0,100.0,—,CUMPLE
 aforo,1049496,99.0,99.0,0.995,True,100.0,100.0,—,CUMPLE
-incidente,5708,98.528,99.334,44.569,True,99.422,100.0,"duplicados, trazabilidad",NO CUMPLE
+incidente,3362,100.0,100.0,72.784,True,100.0,100.0,duplicados,NO CUMPLE
 contexto_precipitacion,882,99.546,100.0,0.0,True,100.0,99.546,—,CUMPLE
