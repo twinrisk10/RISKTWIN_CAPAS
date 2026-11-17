@@ -1,0 +1,11 @@
+﻿id_fuente,nombre,tipo,url,licencia,uso_en_piloto
+F00,Delimitación de la zona piloto,Propia del proyecto,Parámetros del notebook,Propia,Real (definida por el equipo)
+F01,OpenStreetMap (red vial y POI),Abierta,https://www.openstreetmap.org,ODbL 1.0,Real si hay conexión (vía OSMnx)
+F02,Municipio de Guayaquil – datos abiertos,Municipal,https://www.guayaquil.gob.ec,Por verificar,Pendiente de integración
+F03,ATM – accidentes de tránsito georreferenciados,Institucional,https://www.atm.gob.ec,Por verificar,Simulado (reemplazar por dato real)
+F04,"ECU911 / Policía Nacional – delitos (solo agregados, sin datos personales)",Institucional,https://www.ecu911.gob.ec,Por verificar,Simulado (reemplazar por dato real)
+F05,INAMHI – precipitación diaria,Institucional,https://www.inamhi.gob.ec,Por verificar,Simulado (reemplazar por dato real)
+F06,Aforos vehiculares (levantamiento propio / ATM / Segura EP),Primaria,Plantilla de carga CSV,Propia,Simulado (reemplazar por levantamiento)
+F07,INEC – densidad poblacional por sector,Institucional,https://www.ecuadorencifras.gob.ec,Por verificar,Pendiente de integración
+F08,Registro de inundaciones (municipio / gestión de riesgos),Institucional,Por confirmar,Por verificar,Simulado (reemplazar por dato real)
+F09,Red vial sintética de contingencia (generada por este notebook),Sintética,Función red_sintetica(),Propia,Solo si OpenStreetMap no responde
