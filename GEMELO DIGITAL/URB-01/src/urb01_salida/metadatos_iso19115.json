@@ -1,5 +1,5 @@
 {
-  "identificador": "urb01-v0.1-4ed68d73d170",
+  "identificador": "urb01-v0.1-a60db3444652",
   "titulo": "Dataset urbano multimodal para riesgo urbano - zona piloto Guayaquil",
   "version": "v0.1",
   "resumen": "Capas viales, puntos de interés, aforos, incidentes, precipitación, vulnerabilidad censal (INEC) y extensiones relacionales (URB-03, URB-04, URB-05) para el gemelo digital RISKTWIN (módulo URB-01).",
@@ -83,62 +83,6 @@
         "descripcion": "Grado del nodo calculado",
         "registros_afectados": 40636,
         "accion": "transformado"
-      },
-      {
-        "capa": "incidente",
-        "regla": "L-01",
-        "descripcion": "fuente_id vacía completada a partir del tipo de evento",
-        "registros_afectados": 0,
-        "accion": "corregido"
-      },
-      {
-        "capa": "incidente",
-        "regla": "L-02",
-        "descripcion": "Coordenadas lat/lon intercambiadas corregidas",
-        "registros_afectados": 0,
-        "accion": "corregido"
-      },
-      {
-        "capa": "incidente",
-        "regla": "L-03",
-        "descripcion": "Registros con coordenadas fuera de la zona piloto",
-        "registros_afectados": 0,
-        "accion": "descartado"
-      },
-      {
-        "capa": "incidente",
-        "regla": "L-04",
-        "descripcion": "Registros sin fecha_hora",
-        "registros_afectados": 0,
-        "accion": "descartado"
-      },
-      {
-        "capa": "incidente",
-        "regla": "L-05",
-        "descripcion": "Registros duplicados (se conserva el primero)",
-        "registros_afectados": 2447,
-        "accion": "descartado"
-      },
-      {
-        "capa": "contexto_precipitacion",
-        "regla": "L-06",
-        "descripcion": "Valores centinela o fuera de rango (0-400 mm) convertidos a nulo",
-        "registros_afectados": 0,
-        "accion": "corregido"
-      },
-      {
-        "capa": "contexto_precipitacion",
-        "regla": "L-07",
-        "descripcion": "Registros duplicados por estación y fecha",
-        "registros_afectados": 0,
-        "accion": "descartado"
-      },
-      {
-        "capa": "aforo",
-        "regla": "L-08",
-        "descripcion": "Aforos con id_segmento inexistente (huérfanos)",
-        "registros_afectados": 0,
-        "accion": "descartado"
       },
       {
         "capa": "segmento_vial",
@@ -253,5 +197,5 @@
   },
   "alcance_datos": "Red vial y POI de OpenStreetMap; incidentes de tránsito reales (ATM); vulnerabilidad sociodemográfica por sector censal (INEC). Tablas relacionales para URB-03, URB-04 y URB-05 integradas.",
   "licencia": "Por definir. Los datos derivados de OpenStreetMap exigen atribución (ODbL 1.0).",
-  "integridad_sha256": "4ed68d73d1703f2976ad1d7fe4d5e242764c8ef7e159efdd3560681224a60c52"
+  "integridad_sha256": "a60db3444652fe30a803acacf86582322ab4da75619a52b395ee193bf18bbb6f"
 }
