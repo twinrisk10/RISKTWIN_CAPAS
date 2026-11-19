@@ -1,0 +1,25 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "georisk_twin"
+version = "0.1.0"
+description = "Núcleo compartido (librería + API) para integrar los subproductos del gemelo digital multimodal urbano-industrial (FCI 46)."
+readme = "README.md"
+requires-python = ">=3.11"
+# El núcleo solo necesita Pydantic. La API es opcional ([api]) para mantener separadas librería y servicio.
+dependencies = ["pydantic>=2.5,<3"]
+
+[project.optional-dependencies]
+api = ["fastapi>=0.110", "uvicorn>=0.27"]
+dev = ["pytest>=8", "httpx>=0.27", "ruff", "mypy"]
+
+[tool.setuptools.packages.find]
+where = ["src"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+
+[tool.ruff]
+line-length = 100
